@@ -1,0 +1,18 @@
+﻿@model Trn.Project.TrnSite.Models.Listing
+
+<div>
+    @foreach (var item in Model.cardList)
+    {
+       <div>
+           <a href="@item.url">
+       
+        <div>
+            @item.cardTitle
+        </div>
+        <div>
+            @item.cardImage
+        </div>
+           </a>
+       </div>
+    }
+</div>

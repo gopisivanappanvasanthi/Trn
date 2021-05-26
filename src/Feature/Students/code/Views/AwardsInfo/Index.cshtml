@@ -1,0 +1,22 @@
+﻿@model List<Trn.Feature.Students.Models.Awards>
+
+<h1>Awards Gained : </h1>
+
+@foreach (var eachAward in Model)
+{
+    <br />
+    <div>
+        Award Title : @eachAward.awardTitle
+    </div>
+    <div>
+        Award Description : @eachAward.awardDescription
+    </div>
+    <div>
+        Award Image : @eachAward.awardImage
+    </div>
+    <div>
+        Award Commemoration: @eachAward.awardCommemoration
+    </div>
+    <br />
+
+}

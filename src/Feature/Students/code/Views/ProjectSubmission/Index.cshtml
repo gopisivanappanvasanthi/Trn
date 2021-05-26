@@ -1,0 +1,25 @@
+﻿@model List<Trn.Feature.Students.Models.ProjectSub>
+
+<h1>Projects Submitted: </h1>
+
+@foreach (var eachProject in Model)
+{
+    <br />
+    <div>
+        Project Title : @eachProject.ProjectTitle
+    </div>
+    <div>
+        Project Description : @eachProject.ProjectDescription
+    </div>
+    <div>
+        Project Duration : @eachProject.ProjectDuration
+    </div>
+    <div>
+        Project Cost : @eachProject.ProjectCost
+    </div>
+    <div>
+        Project Submission Date : @eachProject.ProjectSubmissionDate
+    </div>
+    <br />
+
+}
