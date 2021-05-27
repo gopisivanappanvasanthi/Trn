@@ -16,16 +16,17 @@ namespace Trn.Project.TrnSite.Controllers
         {
             var contextItem = Sitecore.Context.Item;
             MultilistField multilistField = contextItem.Fields["awardInfo"];
-            var multilistItemsFromAwardInfoField = multilistField.GetItems();
-            var listofAwards = multilistItemsFromAwardInfoField.Select(item => new Awards
-            {
-                awardTitle = new HtmlString(FieldRenderer.Render(item, "awardTitle")),
-                awardDescription = new HtmlString(FieldRenderer.Render(item, "awardDescription")),
-                awardImage = new HtmlString(FieldRenderer.Render(item, "awardImage")),
-                awardCommemoration = new HtmlString(FieldRenderer.Render(item, "awardCommemoration")),
+            var multilistItemsFromAwardInfoField = multilistField
+                                                     .GetItems()
+                                                      .Select(item => new Awards
+                                                      {
+                                                          awardTitle = new HtmlString(FieldRenderer.Render(item, "awardTitle")),
+                                                          awardDescription = new HtmlString(FieldRenderer.Render(item, "awardDescription")),
+                                                          awardImage = new HtmlString(FieldRenderer.Render(item, "awardImage")),
+                                                          awardCommemoration = new HtmlString(FieldRenderer.Render(item, "awardCommemoration")),
 
-            });
-            return View(listofAwards);
+                                                      });
+            return View(multilistItemsFromAwardInfoField);
         }
     }
 }
