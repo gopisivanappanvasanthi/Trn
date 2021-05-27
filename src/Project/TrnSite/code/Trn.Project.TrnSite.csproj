@@ -450,44 +450,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
-    <Content Include="Views\StudentInformation\Index.cshtml" />
-    <Content Include="Views\SubjectInformation\Index.cshtml" />
-    <Content Include="Views\HobbyInformation\Index.cshtml" />
-    <Content Include="Views\PaperSubmission\Index.cshtml" />
-    <Content Include="Views\ProjectSubmission\Index.cshtml" />
-    <Content Include="Views\GeneralActivity\Index.cshtml" />
-    <Content Include="Views\AwardsInfo\Index.cshtml" />
     <Content Include="Views\_SampleTrnLayout.cshtml" />
     <Content Include="Views\Listing\Index.cshtml" />
     <Content Include="Views\BreadcrumbNav\Index.cshtml" />
-    <Content Include="Views\DepartmentInfo\Index.cshtml" />
-    <Content Include="Views\StaffInfo\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\AwardsInfoController.cs" />
     <Compile Include="Controllers\BreadcrumbNavController.cs" />
-    <Compile Include="Controllers\DepartmentInfoController.cs" />
     <Compile Include="Controllers\ListingController.cs" />
-    <Compile Include="Controllers\StaffInfoController.cs" />
-    <Compile Include="Controllers\SubjectInformationController.cs" />
-    <Compile Include="Controllers\HobbyInformationController.cs" />
-    <Compile Include="Controllers\PaperSubmissionController.cs" />
-    <Compile Include="Controllers\ProjectSubmissionController.cs" />
-    <Compile Include="Controllers\GeneralActivityController.cs" />
-    <Compile Include="Controllers\StudentInformationController.cs" />
-    <Compile Include="Models\Awards.cs" />
     <Compile Include="Models\Card.cs" />
-    <Compile Include="Models\Department.cs" />
-    <Compile Include="Models\General.cs" />
-    <Compile Include="Models\HobbyInfo.cs" />
     <Compile Include="Models\Listing.cs" />
     <Compile Include="Models\NavigationItem.cs" />
-    <Compile Include="Models\PapersSub.cs" />
-    <Compile Include="Models\ProjectSub.cs" />
-    <Compile Include="Models\Staff.cs" />
-    <Compile Include="Models\StudentsInfo.cs" />
-    <Compile Include="Models\SubjectsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
