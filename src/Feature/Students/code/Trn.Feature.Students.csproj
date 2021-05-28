@@ -449,6 +449,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\StudentGallery\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -457,6 +459,7 @@
     <Compile Include="Controllers\HobbyInformationController.cs" />
     <Compile Include="Controllers\PaperSubmissionController.cs" />
     <Compile Include="Controllers\ProjectSubmissionController.cs" />
+    <Compile Include="Controllers\StudentGalleryController.cs" />
     <Compile Include="Controllers\StudentInformationController.cs" />
     <Compile Include="Controllers\SubjectInformationController.cs" />
     <Compile Include="Models\Awards.cs" />
