@@ -1,0 +1,35 @@
+﻿
+@model Trn.Project.TrnSite.Models.StudentsInfo
+
+<h1>Student Information: </h1>
+<br />
+<br />
+ID : @Model.id
+<br />
+<br />
+Name : @Model.name
+<br />
+<br />
+Gender                : @Model.gender
+<br />
+<br />
+Address : @Model.address
+<br />
+<br />
+Email Id : @Model.emailid
+<br />
+<br />
+Phone Number : @Model.phone
+<br />
+<br />
+Student Photo : @Model.studentAvtar
+<br />
+<br />
+Interests :
+<div>
+    @foreach (var interest in Model.interests)
+    {
+        @interest
+    }
+
+</div>

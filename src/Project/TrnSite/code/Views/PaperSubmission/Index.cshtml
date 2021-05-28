@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Trn.Project.TrnSite.Models.PapersSub>
+
+<h1>Papers Submitted: </h1>
+
+@foreach (var eachPaper in Model)
+{
+    <br />
+    <div>
+        Paper Title : @eachPaper.PaperTitle
+    </div>
+    <div>
+        Paper Description : @eachPaper.PaperDescription
+    </div>
+    <div>
+        Paper Image : @eachPaper.PaperImage
+    </div>
+    <br />
+}
