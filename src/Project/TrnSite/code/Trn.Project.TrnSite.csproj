@@ -460,6 +460,7 @@
     <Compile Include="Controllers\ListingController.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\Listing.cs" />
+    <Compile Include="Models\NavigationItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
