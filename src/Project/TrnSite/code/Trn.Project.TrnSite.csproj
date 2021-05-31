@@ -414,9 +414,8 @@
     <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\..\..\..\Lib\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
@@ -450,44 +449,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
-    <Content Include="Views\StudentInformation\Index.cshtml" />
-    <Content Include="Views\SubjectInformation\Index.cshtml" />
-    <Content Include="Views\HobbyInformation\Index.cshtml" />
-    <Content Include="Views\PaperSubmission\Index.cshtml" />
-    <Content Include="Views\ProjectSubmission\Index.cshtml" />
-    <Content Include="Views\GeneralActivity\Index.cshtml" />
-    <Content Include="Views\AwardsInfo\Index.cshtml" />
     <Content Include="Views\_SampleTrnLayout.cshtml" />
     <Content Include="Views\Listing\Index.cshtml" />
     <Content Include="Views\BreadcrumbNav\Index.cshtml" />
-    <Content Include="Views\DepartmentInfo\Index.cshtml" />
-    <Content Include="Views\StaffInfo\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\AwardsInfoController.cs" />
     <Compile Include="Controllers\BreadcrumbNavController.cs" />
-    <Compile Include="Controllers\DepartmentInfoController.cs" />
     <Compile Include="Controllers\ListingController.cs" />
-    <Compile Include="Controllers\StaffInfoController.cs" />
-    <Compile Include="Controllers\SubjectInformationController.cs" />
-    <Compile Include="Controllers\HobbyInformationController.cs" />
-    <Compile Include="Controllers\PaperSubmissionController.cs" />
-    <Compile Include="Controllers\ProjectSubmissionController.cs" />
-    <Compile Include="Controllers\GeneralActivityController.cs" />
-    <Compile Include="Controllers\StudentInformationController.cs" />
-    <Compile Include="Models\Awards.cs" />
     <Compile Include="Models\Card.cs" />
-    <Compile Include="Models\Department.cs" />
-    <Compile Include="Models\General.cs" />
-    <Compile Include="Models\HobbyInfo.cs" />
     <Compile Include="Models\Listing.cs" />
     <Compile Include="Models\NavigationItem.cs" />
-    <Compile Include="Models\PapersSub.cs" />
-    <Compile Include="Models\ProjectSub.cs" />
-    <Compile Include="Models\Staff.cs" />
-    <Compile Include="Models\StudentsInfo.cs" />
-    <Compile Include="Models\SubjectsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
