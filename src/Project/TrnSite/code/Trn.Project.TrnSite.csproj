@@ -452,6 +452,7 @@
     <Content Include="Views\_SampleTrnLayout.cshtml" />
     <Content Include="Views\Listing\Index.cshtml" />
     <Content Include="Views\BreadcrumbNav\Index.cshtml" />
+    <None Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.base.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
