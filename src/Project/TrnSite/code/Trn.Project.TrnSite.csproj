@@ -453,6 +453,8 @@
     <Content Include="Views\Listing\Index.cshtml" />
     <Content Include="Views\BreadcrumbNav\Index.cshtml" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.base.config" />
+    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.AnnaUniversity.Sitedefinition.config" />
+    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.KarunyaUniversity.Sitedefinition.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
