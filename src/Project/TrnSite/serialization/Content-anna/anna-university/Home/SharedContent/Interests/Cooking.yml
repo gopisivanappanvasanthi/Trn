@@ -1,0 +1,21 @@
+﻿---
+ID: "707ed372-b598-4018-a7d4-1b12d6f7ac91"
+Parent: "6f18782b-6791-40e6-933c-3afcd87d761b"
+Template: "913913f6-01a7-493c-a1ba-ae4337055c46"
+Path: "/sitecore/content/anna-university/Home/SharedContent/Interests/Cooking"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210519T055751Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "63373402-0c1b-480c-9030-3499de869380"
+      Hint: value
+      Value: Cooking

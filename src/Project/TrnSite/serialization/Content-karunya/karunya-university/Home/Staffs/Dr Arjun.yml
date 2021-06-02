@@ -1,0 +1,31 @@
+﻿---
+ID: "7ef33579-16e9-4828-b682-1a7fa3d536dc"
+Parent: "d14c7626-8e97-4e67-bde0-2f3ec80f4813"
+Template: "cfeede7b-4c19-4367-a97e-612653bb6e00"
+Path: "/sitecore/content/karunya-university/Home/Staffs/Dr Arjun"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T104606Z
+    - ID: "291ed5f6-a034-4fbb-8451-ad2c8f4feac0"
+      Hint: Avtar
+      Value: |
+        <image mediaid="{BBAA4AD4-BF3D-4C30-9B2F-041465ED1B4C}" alt="" height="216" width="152" hspace="" vspace="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9c5d4690-949b-4bda-bfb6-2b9c6612a441"
+      Hint: staffDesignation
+      Value: Associate Professor
+    - ID: "c812bee2-3ddb-4efe-9470-ee034727cc32"
+      Hint: staffExperience
+      Value: 4 Years
+    - ID: "dc56a468-c463-4e81-8fa0-80095557748b"
+      Hint: name
+      Value: Dr. Arjun

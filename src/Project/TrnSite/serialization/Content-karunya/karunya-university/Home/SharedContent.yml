@@ -1,0 +1,18 @@
+﻿---
+ID: "7c678969-8bb8-4693-bd24-bdef2fc80472"
+Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
+Template: "f259fcf4-8d3e-482f-84cb-f5f2e9ed7689"
+Path: "/sitecore/content/karunya-university/Home/SharedContent"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T075652Z

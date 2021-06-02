@@ -1,0 +1,14 @@
+﻿---
+ID: "e0c42d4f-7de4-439d-b3f1-5801f24f2bbe"
+Parent: "7c678969-8bb8-4693-bd24-bdef2fc80472"
+Template: "c59eab6d-80d9-428e-b61a-eef9fcab39c0"
+Path: "/sitecore/content/karunya-university/Home/SharedContent/Student-Awards"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T165837Z
