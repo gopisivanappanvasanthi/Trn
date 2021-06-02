@@ -1,16 +1,16 @@
 ﻿---
-ID: "63373402-0c1b-480c-9030-3499de869380"
-Parent: "7d0d1c9c-8bdf-4a9d-82ca-e1f540d8e0f5"
+ID: "28147898-47c8-4c49-8979-49e5a67c3a32"
+Parent: "4accd3af-3d6d-4b8a-b15d-44536efb9cca"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Trn/Content/Data/Data/value
+Path: /sitecore/templates/Project/Trn/Content/Gallery/Data/GalleryImage
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Multi-Line Text"
+  Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210519T054920Z
+      Value: 20210602T054635Z
