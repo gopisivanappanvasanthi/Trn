@@ -1,0 +1,14 @@
+﻿---
+ID: "a62e6570-429d-47f7-8baa-8f621928cb2e"
+Parent: "7c678969-8bb8-4693-bd24-bdef2fc80472"
+Template: "9c331927-1bd2-453f-9a3d-c9c41f8d8068"
+Path: "/sitecore/content/karunya-university/Home/SharedContent/Interests"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210519T055638Z

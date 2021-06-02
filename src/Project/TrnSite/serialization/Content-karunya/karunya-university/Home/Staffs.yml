@@ -1,0 +1,14 @@
+﻿---
+ID: "d14c7626-8e97-4e67-bde0-2f3ec80f4813"
+Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
+Template: "3e2d3e69-7677-4094-8fd4-0e4aff2e0fe8"
+Path: "/sitecore/content/karunya-university/Home/Staffs"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T103957Z

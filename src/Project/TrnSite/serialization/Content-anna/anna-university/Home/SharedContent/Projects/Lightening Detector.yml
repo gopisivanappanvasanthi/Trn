@@ -1,0 +1,33 @@
+﻿---
+ID: "44a21b64-115a-4090-a437-b01caacae573"
+Parent: "aa8f7880-c016-4b6f-8b53-9db017651e48"
+Template: "aa1da226-f470-4df7-b312-005ff15b5517"
+Path: "/sitecore/content/anna-university/Home/SharedContent/Projects/Lightening Detector"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ebb7345-ff76-4bef-ab13-e064e17b7c77"
+      Hint: projectSubmissionDate
+      Value: 20210519T060000Z
+    - ID: "1250d3a1-adbe-4c26-94fa-de92bc223bea"
+      Hint: projectDescription
+      Value: This project is based upon the AS3935 lightning sensor IC, with a carrier circuit from DFRobot. It detects electromagnetic radiation that's characteristic of lightning and uses a special algorithm to convert this information to a distance measurement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T075807Z
+    - ID: "57e2ca95-76e4-4797-9bed-22764c3991e3"
+      Hint: projectDuration
+      Value: 8 Days
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "86291c65-a8b2-434c-bb6b-1f2822413a08"
+      Hint: projectTitle
+      Value: Lightening Detector
+    - ID: "89aa578f-e5bb-47f0-b698-22c6b8b7993c"
+      Hint: projectCost
+      Value: 6790

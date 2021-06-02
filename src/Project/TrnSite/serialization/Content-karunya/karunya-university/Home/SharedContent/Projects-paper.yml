@@ -1,0 +1,14 @@
+﻿---
+ID: "6c03b600-1350-4d6d-a852-76e0446cf0cc"
+Parent: "7c678969-8bb8-4693-bd24-bdef2fc80472"
+Template: "72ab6234-cc50-4fb2-8d40-533d29b6ce07"
+Path: "/sitecore/content/karunya-university/Home/SharedContent/Projects-paper"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T155005Z

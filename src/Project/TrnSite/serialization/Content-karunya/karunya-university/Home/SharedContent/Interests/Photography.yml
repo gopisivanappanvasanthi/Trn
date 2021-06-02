@@ -1,0 +1,21 @@
+﻿---
+ID: "bfd43929-5e1a-45e8-b49d-42dd7e1e893d"
+Parent: "a62e6570-429d-47f7-8baa-8f621928cb2e"
+Template: "913913f6-01a7-493c-a1ba-ae4337055c46"
+Path: "/sitecore/content/karunya-university/Home/SharedContent/Interests/Photography"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210519T055653Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "63373402-0c1b-480c-9030-3499de869380"
+      Hint: value
+      Value: Photography
