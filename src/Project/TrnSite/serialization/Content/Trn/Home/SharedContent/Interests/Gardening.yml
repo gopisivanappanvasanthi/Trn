@@ -1,0 +1,21 @@
+﻿---
+ID: "305fd354-8542-46a7-b1d2-ec28de0fe965"
+Parent: "6f18782b-6791-40e6-933c-3afcd87d761b"
+Template: "913913f6-01a7-493c-a1ba-ae4337055c46"
+Path: /sitecore/content/Trn/Home/SharedContent/Interests/Gardening
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210519T055739Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "63373402-0c1b-480c-9030-3499de869380"
+      Hint: value
+      Value: Gardening

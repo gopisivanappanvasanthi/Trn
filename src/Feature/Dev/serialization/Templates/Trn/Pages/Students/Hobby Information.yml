@@ -1,0 +1,18 @@
+﻿---
+ID: "38c91a99-ee5a-48a1-86e8-ad713d5bf509"
+Parent: "b79ebff4-9a36-4eec-bace-2a9d4275589b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Students/Hobby Information
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210511T100009Z

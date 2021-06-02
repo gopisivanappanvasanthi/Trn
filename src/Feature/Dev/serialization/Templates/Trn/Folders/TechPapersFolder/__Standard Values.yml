@@ -1,0 +1,23 @@
+﻿---
+ID: "13734d3a-68bd-4f0e-8c8e-520839bf7b3d"
+Parent: "72ab6234-cc50-4fb2-8d40-533d29b6ce07"
+Template: "72ab6234-cc50-4fb2-8d40-533d29b6ce07"
+Path: /sitecore/templates/Feature/Trn/Folders/TechPapersFolder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{45D081AC-E540-4E2E-BB36-ABDD03E4635C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T154705Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

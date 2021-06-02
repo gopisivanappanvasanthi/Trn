@@ -1,0 +1,70 @@
+﻿---
+ID: "724ec51a-22b5-4bf6-be71-88b53f398ae3"
+Parent: "b79ebff4-9a36-4eec-bace-2a9d4275589b"
+Template: "b79ebff4-9a36-4eec-bace-2a9d4275589b"
+Path: /sitecore/templates/Feature/Trn/Pages/Students/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {AA1DA226-F470-4DF7-B312-005FF15B5517}
+    {45D081AC-E540-4E2E-BB36-ABDD03E4635C}
+    {61072321-D38E-45E2-B50D-CC913FB7264F}
+    {02381944-277B-41B5-8292-07642B36E03B}
+    {CFEEDE7B-4C19-4367-A97E-612653BB6E00}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{5E35ECEB-DD9D-4582-80A1-6A312140019F}"
+          ph="main"
+          uid="{5221327C-A04C-43E8-9E9A-4AE9D0D76124}" />
+        <r
+          id="{C3DB80F8-6C12-40D9-8E7B-9B2D27E3C973}"
+          ph="main"
+          uid="{66A28458-7462-4294-9E71-F767F4AD15B2}" />
+        <r
+          id="{D0580CC4-E14A-4F44-8F89-BCE89603C593}"
+          ph="main"
+          uid="{10B266B7-2A7B-4AD8-8D2A-FA80A2D6917A}" />
+        <r
+          id="{613C6A4D-FB4A-403C-8439-D9EB86C1D030}"
+          ph="main"
+          uid="{4AFB8F0F-0143-43F4-89EE-3EFB8892639D}" />
+        <r
+          id="{D95115AF-18F3-4A3E-B111-DB5E5DF05C37}"
+          ph="main"
+          uid="{240DB20F-70B8-4F32-8D8E-470CD6740185}" />
+        <r
+          id="{CF78BC76-70AF-4D77-ACE7-DDC384C9C2FD}"
+          ph="main"
+          uid="{5C3048EB-D20E-4F7E-AC88-B9C5D928DAA0}" />
+        <r
+          id="{FCB0C767-B825-4C96-B0CF-E18AA805AFAC}"
+          ph="main"
+          uid="{B6616E04-C5C9-42AA-AFA1-B2C5E94CFC42}" />
+        <r
+          id="{A009F1C7-6C24-43FB-B16C-CB569AD1565B}"
+          ph="main"
+          uid="{8A0101AB-5DC9-440D-8084-A4863AC89753}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210513T111225Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
