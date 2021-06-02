@@ -1,0 +1,33 @@
+﻿---
+ID: "dc825258-27ef-41ba-b3e1-9da309b2ac17"
+Parent: "aa8f7880-c016-4b6f-8b53-9db017651e48"
+Template: "aa1da226-f470-4df7-b312-005ff15b5517"
+Path: "/sitecore/content/anna-university/Home/SharedContent/Projects/Watermarking Images"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ebb7345-ff76-4bef-ab13-e064e17b7c77"
+      Hint: projectSubmissionDate
+      Value: 20210519T163000Z
+    - ID: "1250d3a1-adbe-4c26-94fa-de92bc223bea"
+      Hint: projectDescription
+      Value: "Digital watermarking is a process of embedding signature into the media data with just doing few modifications. Adding a visible watermark is a common way of identifying images and protecting them from unauthorized use online. A common practice is to distribute the watermark (or watermarks) across the entire image. We propose more effective content-based sharp point detection watermarking. "
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T075843Z
+    - ID: "57e2ca95-76e4-4797-9bed-22764c3991e3"
+      Hint: projectDuration
+      Value: 8 Days
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "86291c65-a8b2-434c-bb6b-1f2822413a08"
+      Hint: projectTitle
+      Value: Watermarking Images
+    - ID: "89aa578f-e5bb-47f0-b698-22c6b8b7993c"
+      Hint: projectCost
+      Value: 6789

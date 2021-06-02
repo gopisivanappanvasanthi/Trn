@@ -1,0 +1,28 @@
+﻿---
+ID: "7135a1d8-c1d4-41f9-a1b5-286e598528e2"
+Parent: "6c03b600-1350-4d6d-a852-76e0446cf0cc"
+Template: "45d081ac-e540-4e2e-bb36-abdd03e4635c"
+Path: "/sitecore/content/karunya-university/Home/SharedContent/Projects-paper/Network Analysis"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T155300Z
+    - ID: "2c5787d6-bded-4045-bbdf-ceab95969fb8"
+      Hint: paperDescription
+      Value: "The network analysis is a method used to analyze, control and monitoring of business processes and workflows.The network analysis enables project managers to take various factors into account when creating a project plan: Dependencies between activities. Buffer times between activities."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9f6de2c3-5cf3-4fbc-9089-4d314404bc95"
+      Hint: paperTitle
+      Value: Network Analysis
+    - ID: "e39b08c5-c187-4cc5-ac00-ab07d730aab2"
+      Hint: paperImage
+      Value: |
+        <image mediaid="{81A012B8-FDDF-40AE-A40D-E03BCBA4D355}" alt="" height="241" width="180" hspace="" vspace="" />

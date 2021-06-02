@@ -1,0 +1,25 @@
+﻿---
+ID: "5d648e4b-aa15-4e0c-835d-4e0c9b6cb70e"
+Parent: "2d910596-791b-4c8c-9273-9a3e682c348e"
+Template: "02381944-277b-41b5-8292-07642b36e03b"
+Path: "/sitecore/content/karunya-university/Home/Departments/BIOTECH"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0fcbbd01-b760-4c9d-862d-9d0db69723d2"
+      Hint: name
+      Value: BIOTECH
+    - ID: "1c7e98df-885f-48de-8684-84c18807e160"
+      Hint: Avtar
+      Value: |
+        <image mediaid="{F64519CA-7A3F-4061-B27A-30BFC3952825}" alt="" height="200" width="200" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T104445Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

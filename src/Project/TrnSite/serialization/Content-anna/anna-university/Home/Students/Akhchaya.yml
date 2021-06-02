@@ -1,0 +1,92 @@
+﻿---
+ID: "77a41f00-b6d9-49d2-a94b-023b45b57d00"
+Parent: "75f0bd78-bc6b-4f48-8a54-06588f42f025"
+Template: "b79ebff4-9a36-4eec-bace-2a9d4275589b"
+Path: "/sitecore/content/anna-university/Home/Students/Akhchaya"
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{66A28458-7462-4294-9E71-F767F4AD15B2}">
+          <p:d />
+        </r>
+        <r
+          uid="{B3068FA2-A2E9-46D3-A6D9-1423C1F25CB2}"
+          p:after="r[@uid='{5221327C-A04C-43E8-9E9A-4AE9D0D76124}']"
+          s:id="{C3DB80F8-6C12-40D9-8E7B-9B2D27E3C973}"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "022056e2-49a5-4fb9-8cec-bbeee88838cc"
+      Hint: gender
+      Value: "{05488F08-8A97-4788-8AD5-C4EA4B5249B9}"
+    - ID: "036339c6-df30-4830-9121-f83f1527e750"
+      Hint: interests
+      Type: Checklist
+      Value: |
+        {305FD354-8542-46A7-B1D2-EC28DE0FE965}
+        {4CD67996-9155-4C41-8247-68E39BC9B0DD}
+    - ID: "080dcf62-c64d-45f2-ae0b-33a4e5de10db"
+      Hint: alliedsub
+      Value: English
+    - ID: "0ae57d8e-d2ee-4132-a190-412a5bbf98ea"
+      Hint: arts
+      Value: Painting
+    - ID: "15adaa4b-70f1-4c72-8e75-6a31c063463d"
+      Hint: projectInfo
+      Type: Treelist
+      Value: |
+        {D289C3B4-F7DB-44F9-BCA0-F63672F5BFED}
+        {38807BD3-8785-45EE-8CAD-5146FC62596B}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210513T112109Z
+    - ID: "2d5cb528-0041-474a-b012-5d53bbdf8cbd"
+      Hint: name
+      Value: Akhchaya Priya D
+    - ID: "3a6e5948-a539-4c2a-adc6-b303c437ef98"
+      Hint: phone
+      Value: 9876543290
+    - ID: "6a8c72c3-c914-462c-94b5-342c4cbdc3a5"
+      Hint: id
+      Value: VIN IN 120
+    - ID: "855de9d9-9506-41c9-b31a-8b61376524f6"
+      Hint: sports
+      Value: Table Tennis
+    - ID: "a7ddc1f1-7aa3-4155-b089-1801c6bf3b0b"
+      Hint: emailid
+      Value: akhchayapriya.dhanasekaran@verticurl.com
+    - ID: "b3e3905a-5fc7-467e-b984-2ecc54822ddc"
+      Hint: address
+      Value: Coimbatore
+    - ID: "cf259e17-4f83-459d-8daa-0c9d32bebf64"
+      Hint: mainsub
+      Value: Maths
+    - ID: "d0fd294c-b275-4712-ad33-0f7aa27bab2d"
+      Hint: awardInfo
+      Type: Treelist
+      Value: |
+        {85F3371C-3EC1-4060-B220-F9A57B7E23DB}
+        {CA9C369C-2AF9-41B4-BCC0-A24583573245}
+    - ID: "decdaf3a-1cd4-4250-b35b-5afc87540b12"
+      Hint: Avtar
+      Value: |
+        <image mediaid="{D2FABB3D-7BD8-40E9-B865-B34CFDD7EB60}" alt="" height="152" width="152" hspace="" vspace="" />
+    - ID: "f3b99da0-7842-4d5b-bc41-d9a3f46eab01"
+      Hint: paperInfo
+      Type: Treelist
+      Value: |
+        {7E52FEE2-5718-4980-A5C8-60925CDE5873}
+        {EE797ED4-989D-4BAC-AD5B-13A96C523A2B}

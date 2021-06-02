@@ -1,0 +1,31 @@
+﻿---
+ID: "90ea0dc9-fe6f-489a-89ab-083c020f40dd"
+Parent: "ab99194d-e7d5-48f6-bfdd-a003805c9faa"
+Template: "cfeede7b-4c19-4367-a97e-612653bb6e00"
+Path: "/sitecore/content/anna-university/Home/Staffs/Lect Antony"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T104703Z
+    - ID: "291ed5f6-a034-4fbb-8451-ad2c8f4feac0"
+      Hint: Avtar
+      Value: |
+        <image mediaid="{6C40C6E6-906B-471F-997A-7DA69786767D}" alt="" height="215" width="152" hspace="" vspace="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9c5d4690-949b-4bda-bfb6-2b9c6612a441"
+      Hint: staffDesignation
+      Value: Assistant Professor
+    - ID: "c812bee2-3ddb-4efe-9470-ee034727cc32"
+      Hint: staffExperience
+      Value: 2 Years
+    - ID: "dc56a468-c463-4e81-8fa0-80095557748b"
+      Hint: name
+      Value: Lect. Antony

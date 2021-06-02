@@ -1,0 +1,25 @@
+﻿---
+ID: "5f8a873d-75a7-4931-a61b-589fb528ba84"
+Parent: "75e4af7d-1387-417d-abb4-dc7224c43261"
+Template: "02381944-277b-41b5-8292-07642b36e03b"
+Path: "/sitecore/content/anna-university/Home/Departments/IT"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0fcbbd01-b760-4c9d-862d-9d0db69723d2"
+      Hint: name
+      Value: IT
+    - ID: "1c7e98df-885f-48de-8684-84c18807e160"
+      Hint: Avtar
+      Value: |
+        <image mediaid="{B356B0C6-F847-49C3-9DB8-F20A836F15D9}" alt="" height="200" width="200" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T104432Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
