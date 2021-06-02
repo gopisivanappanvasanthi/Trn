@@ -1,0 +1,31 @@
+﻿---
+ID: "85f3371c-3ec1-4060-b220-f9a57b7e23db"
+Parent: "aa87513b-886e-487a-b350-d8f9ac11ea6d"
+Template: "61072321-d38e-45e2-b50d-cc913fb7264f"
+Path: "/sitecore/content/Trn/Home/SharedContent/Student-Awards/Most Dedicated Student Award"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T170146Z
+    - ID: "2b1d94d1-d658-42dd-bae3-0f811670440d"
+      Hint: awardImage
+      Value: |
+        <image mediaid="{B25F74DB-3631-4DB2-B1EB-8373AE8E018A}" alt="" height="200" width="200" hspace="" vspace="" />
+    - ID: "36259376-03b8-4b9f-8359-e9ff8a913bac"
+      Hint: awardCommemoration
+      Value: Martin Luther King
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "92126d11-ee23-476b-8c92-b6998e1a0c79"
+      Hint: awardDescription
+      Value: "Most Dedicated Student Award recognize the contribution of a single individual who has demonstrated a commitment to developing their leadership identity and making contributions to our campuses every day whether it be University-wide or department-specific."
+    - ID: "98fb2193-f4c3-427a-bcbc-6ca5edfcda89"
+      Hint: awardTitle
+      Value: Most Dedicated Student Award

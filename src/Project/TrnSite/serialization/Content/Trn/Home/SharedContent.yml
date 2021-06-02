@@ -1,0 +1,18 @@
+﻿---
+ID: "9272d34f-83b4-479a-845f-781eadbfb5f7"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "f259fcf4-8d3e-482f-84cb-f5f2e9ed7689"
+Path: /sitecore/content/Trn/Home/SharedContent
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T075652Z

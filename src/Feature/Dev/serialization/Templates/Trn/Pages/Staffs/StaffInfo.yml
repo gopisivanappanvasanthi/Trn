@@ -1,0 +1,14 @@
+﻿---
+ID: "b0d568c7-72d2-4401-88ae-1f8f5ecaf6ad"
+Parent: "cfeede7b-4c19-4367-a97e-612653bb6e00"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Staffs/StaffInfo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T102700Z

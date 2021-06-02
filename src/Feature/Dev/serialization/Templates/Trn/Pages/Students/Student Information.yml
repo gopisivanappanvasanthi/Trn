@@ -1,0 +1,14 @@
+﻿---
+ID: "7425761c-6102-4b3c-88e9-d7080db418c5"
+Parent: "b79ebff4-9a36-4eec-bace-2a9d4275589b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Students/Student Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210510T073751Z

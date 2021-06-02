@@ -1,0 +1,14 @@
+﻿---
+ID: "31d5d926-aead-40c1-b749-7d3bcb606f6a"
+Parent: "aa1da226-f470-4df7-b312-005ff15b5517"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Content/CourseProject/Project Info
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T072355Z

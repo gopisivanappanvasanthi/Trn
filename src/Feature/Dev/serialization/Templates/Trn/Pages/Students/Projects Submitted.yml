@@ -1,0 +1,18 @@
+﻿---
+ID: "8214bc1c-5a24-464b-9940-aa0f16c46d68"
+Parent: "b79ebff4-9a36-4eec-bace-2a9d4275589b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Students/Projects Submitted
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210511T100010Z

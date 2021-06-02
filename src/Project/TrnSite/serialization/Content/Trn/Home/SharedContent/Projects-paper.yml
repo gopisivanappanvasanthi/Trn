@@ -1,0 +1,14 @@
+﻿---
+ID: "f7ea51e7-84d5-4ed9-a88e-40e3d6317eb3"
+Parent: "9272d34f-83b4-479a-845f-781eadbfb5f7"
+Template: "72ab6234-cc50-4fb2-8d40-533d29b6ce07"
+Path: "/sitecore/content/Trn/Home/SharedContent/Projects-paper"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T155005Z
