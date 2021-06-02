@@ -1,0 +1,41 @@
+﻿---
+ID: "39103f06-b430-4300-9596-6e4e5ee91b94"
+Parent: "cfeede7b-4c19-4367-a97e-612653bb6e00"
+Template: "cfeede7b-4c19-4367-a97e-612653bb6e00"
+Path: /sitecore/templates/Feature/Trn/Pages/Staffs/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{14F1FA2F-B8D1-4A86-A710-3988B6F0BCAE}"
+          ph="main"
+          uid="{10DC6DD5-1438-4EAF-84CF-34887F31C1DE}" />
+        <r
+          id="{5E35ECEB-DD9D-4582-80A1-6A312140019F}"
+          ph="main"
+          uid="{B45E2BE6-FAB1-46EA-B4C1-643DC4956882}" />
+        <r
+          id="{CCE1DC27-9C45-4291-8F07-8D907BF2722B}"
+          ph="main"
+          uid="{FAF1529F-F228-4719-9426-AE74F63CA1DF}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T111904Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

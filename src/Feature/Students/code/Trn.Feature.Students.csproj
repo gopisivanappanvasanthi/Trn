@@ -451,6 +451,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Views\StudentGallery\Index.cshtml" />
+    <Content Include="App_Config\Include\Trn\Trn.Feature.Students.Serialization.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

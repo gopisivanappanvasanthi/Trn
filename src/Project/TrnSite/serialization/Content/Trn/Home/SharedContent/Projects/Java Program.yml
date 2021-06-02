@@ -1,0 +1,34 @@
+﻿---
+ID: "d289c3b4-f7db-44f9-bca0-f63672f5bfed"
+Parent: "aa8f7880-c016-4b6f-8b53-9db017651e48"
+Template: "aa1da226-f470-4df7-b312-005ff15b5517"
+Path: /sitecore/content/Trn/Home/SharedContent/Projects/Java Program
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ebb7345-ff76-4bef-ab13-e064e17b7c77"
+      Hint: projectSubmissionDate
+      Value: 20210518T083000Z
+    - ID: "1250d3a1-adbe-4c26-94fa-de92bc223bea"
+      Hint: projectDescription
+      Value: |
+        The project consists of Java programs, Javascript documents, and HTML documents.  These programs will illustrate physical concepts and will be available on the world wide web.  The premise of the project is to have a gedanken ("thought experiment") on a computer.  Instead of imagining objects moving, accelerating, colliding, and bouncing, the computer simulates and animates these objects.  The goals of the project are to: Facilitate the understanding of physics through virtual tutoring, experiments, and demonstrations Allow students to do experiments which would be impossible, difficult, costly, or dangerous in real life Give physics teachers material which is freely available on the web to supplement their curricula Create a set of basic objects which allows new Java programs to be written "on the fly", according to the principles of "Just In Time Teaching" (JITT)
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210517T075904Z
+    - ID: "57e2ca95-76e4-4797-9bed-22764c3991e3"
+      Hint: projectDuration
+      Value: 5 Days
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "86291c65-a8b2-434c-bb6b-1f2822413a08"
+      Hint: projectTitle
+      Value: Java Program
+    - ID: "89aa578f-e5bb-47f0-b698-22c6b8b7993c"
+      Hint: projectCost
+      Value: 2000

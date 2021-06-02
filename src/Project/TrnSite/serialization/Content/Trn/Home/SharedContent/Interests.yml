@@ -1,0 +1,14 @@
+﻿---
+ID: "6f18782b-6791-40e6-933c-3afcd87d761b"
+Parent: "9272d34f-83b4-479a-845f-781eadbfb5f7"
+Template: "9c331927-1bd2-453f-9a3d-c9c41f8d8068"
+Path: /sitecore/content/Trn/Home/SharedContent/Interests
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210519T055638Z

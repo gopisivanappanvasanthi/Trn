@@ -1,0 +1,18 @@
+﻿---
+ID: "75f0bd78-bc6b-4f48-8a54-06588f42f025"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "3e2d3e69-7677-4094-8fd4-0e4aff2e0fe8"
+Path: /sitecore/content/Trn/Home/Students
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210519T071301Z
