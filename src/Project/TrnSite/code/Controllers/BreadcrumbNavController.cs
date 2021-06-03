@@ -14,6 +14,8 @@ namespace Trn.Project.TrnSite.Controllers
         // GET: Breadcrumb
         public ActionResult Index()
         {
+            var siteStartPath = Sitecore.Context.Site.StartPath;
+            var siteStartItem = Sitecore.Context.Database.GetItem(siteStartPath);
             List<NavigationItem> navItems = new List<NavigationItem>();
             var currentItem = Sitecore.Context.Item;
             ItemUrlBuilderOptions itemUrlBuilderOptions = new ItemUrlBuilderOptions
@@ -22,6 +24,7 @@ namespace Trn.Project.TrnSite.Controllers
             };
             var ancestorList = currentItem
                                     .Axes.GetAncestors()
+                                    .Where(i => i.Axes.IsDescendantOf(siteStartItem))
                                     .Concat(new List<Sitecore.Data.Items.Item> { currentItem })
                                     .Select(sitecoreitem => new NavigationItem
                                     {
