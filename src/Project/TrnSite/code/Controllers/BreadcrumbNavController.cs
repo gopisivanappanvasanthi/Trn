@@ -14,8 +14,8 @@ namespace Trn.Project.TrnSite.Controllers
         // GET: Breadcrumb
         public ActionResult Index()
         {
-            var siteStartPath = Sitecore.Context.Site.StartPath;
-            var siteStartItem = Sitecore.Context.Database.GetItem(siteStartPath);
+        
+            var siteStartItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
             List<NavigationItem> navItems = new List<NavigationItem>();
             var currentItem = Sitecore.Context.Item;
             ItemUrlBuilderOptions itemUrlBuilderOptions = new ItemUrlBuilderOptions
