@@ -30,7 +30,7 @@ namespace Trn.Project.TrnSite.Controllers
                                     {
                                       navTitle = sitecoreitem.DisplayName,
                                       navUrl = LinkManager.GetItemUrl(sitecoreitem,itemUrlBuilderOptions)
-            });
+                                    });
             return View(ancestorList);
         }
     }
