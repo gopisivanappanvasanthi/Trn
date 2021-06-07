@@ -1,14 +1,14 @@
 ﻿---
-ID: "ed62e39d-0f4f-4660-90c9-774a63e6391f"
-Parent: "02381944-277b-41b5-8292-07642b36e03b"
-Template: "02381944-277b-41b5-8292-07642b36e03b"
-Path: /sitecore/templates/Feature/Trn/Pages/Departments/__Standard Values
+ID: "41ab3c12-a4cc-49ae-9d87-7d39ec4890db"
+Parent: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: /sitecore/templates/Feature/Trn/Pages/Symposium/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{4A2EE8DB-DA2D-44B2-88FB-83ED6AB051D4}"
+  Value: "{292EDE91-D18B-4745-BE76-E24CD8AA7543}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -18,13 +18,21 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
         <r
+          id="{BD2B644A-AB66-4DF2-BCB5-E702FBC159B4}"
+          ph="main"
+          uid="{620FF30A-E719-417F-9525-6B32E4557D2F}" />
+        <r
           id="{5E35ECEB-DD9D-4582-80A1-6A312140019F}"
           ph="main"
-          uid="{A911D8CE-2962-490E-B4B1-5FB7B8AA28C3}" />
+          uid="{94B0DDC6-7097-4389-89E9-EB8C62957159}" />
         <r
-          id="{160A5453-BEBA-4213-9491-F618C30AFF9D}"
+          id="{76529D71-067B-4547-8B46-7577C75A9AA7}"
           ph="main"
-          uid="{EDA6C03B-F4BC-4B39-AD6E-7A2B01533989}" />
+          uid="{718B4767-8810-44A2-AE5F-41D5E753AE3B}" />
+        <r
+          id="{D4F5870F-79E0-4D01-9DA1-42ABBF454E88}"
+          ph="main"
+          uid="{4E7AD902-A70E-4AF2-9F32-751698ACB87C}" />
       </d>
     </r>
 Languages:
@@ -34,7 +42,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210521T111856Z
+      Value: 20210603T141345Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

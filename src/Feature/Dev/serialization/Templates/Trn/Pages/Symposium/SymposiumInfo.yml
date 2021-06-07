@@ -1,0 +1,14 @@
+﻿---
+ID: "343745b7-5fe1-48fa-ae79-a506cf63bd27"
+Parent: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Symposium/SymposiumInfo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T134140Z

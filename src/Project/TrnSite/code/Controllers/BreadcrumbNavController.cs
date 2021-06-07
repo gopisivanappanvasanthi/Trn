@@ -14,6 +14,8 @@ namespace Trn.Project.TrnSite.Controllers
         // GET: Breadcrumb
         public ActionResult Index()
         {
+        
+            var siteStartItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
             List<NavigationItem> navItems = new List<NavigationItem>();
             var currentItem = Sitecore.Context.Item;
             ItemUrlBuilderOptions itemUrlBuilderOptions = new ItemUrlBuilderOptions
@@ -22,12 +24,13 @@ namespace Trn.Project.TrnSite.Controllers
             };
             var ancestorList = currentItem
                                     .Axes.GetAncestors()
+                                    .Where(i => i.Axes.IsDescendantOf(siteStartItem))
                                     .Concat(new List<Sitecore.Data.Items.Item> { currentItem })
                                     .Select(sitecoreitem => new NavigationItem
                                     {
                                       navTitle = sitecoreitem.DisplayName,
                                       navUrl = LinkManager.GetItemUrl(sitecoreitem,itemUrlBuilderOptions)
-            });
+                                    });
             return View(ancestorList);
         }
     }

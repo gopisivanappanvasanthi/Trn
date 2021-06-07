@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<Trn.Project.TrnSite.Models.NavigationItem>
-    <ul>
-        @foreach ( var navItem in Model)
-            {
-                <li><a href="@navItem.navUrl"> @navItem.navTitle</a></li>
-            }
-    </ul>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        @foreach (var navItem in Model)
+        {
+            <li class="breadcrumb-item"><a href="@navItem.navUrl"> @navItem.navTitle</a></li>
+        }
+    </ol>
+</nav>
