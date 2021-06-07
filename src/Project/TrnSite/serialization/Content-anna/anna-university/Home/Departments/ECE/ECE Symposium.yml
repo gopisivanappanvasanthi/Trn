@@ -1,0 +1,37 @@
+﻿---
+ID: "bc797a22-c56c-4e32-b5c4-fb8196c4e82e"
+Parent: "0f7eea2b-9c59-46d0-b65f-0ea880361569"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "Welcome to Electronics and Communication Engineering Symposium!!!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T112313Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: @@@@ International Level Symposium @@@@  International Level Symposium @@@@   International Level Symposium @@@@   International Level Symposium @@@@
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: ***DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING***
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {E759D3D8-B935-4690-AAA9-C7C14BB143F5}
+        {7CAC29D5-765F-4FAF-9DED-3C01A6D928A6}
+        {6AA92574-C844-4E0A-A854-D9FAF57DFF53}
+        {ADABE6EF-EF29-44A1-8BDF-4354B545B1AF}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 9876541023
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210630T123000Z
