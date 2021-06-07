@@ -1,5 +1,7 @@
 ﻿using Sitecore.Data.Fields;
+using Sitecore.Data.Items;
 using Sitecore.Links;
+using Sitecore.Resources.Media;
 using Sitecore.Web.UI.WebControls;
 using System;
 using System.Collections.Generic;
@@ -17,17 +19,40 @@ namespace Trn.Feature.Departments.Controllers
         {
             var contextItem = Sitecore.Context.Item;
             MultilistField multilistField = contextItem.Fields["CarouselItems"];
-            var multilistItemsFromCarousel = multilistField
+
+            List<GalleryInfo> galleryInfos = multilistField
                                                .GetItems()
                                                .Select(std => new GalleryInfo
                                                {
-                                                   ImageGallery = new HtmlString(FieldRenderer.Render(std, "ImageGallery")),
+                                                   ImageSrc = GetImageSrc(std),
+                                                   ImageAlt = GetImageAlt(std),
+                                                   ImageIsActive = "",
                                                    ImageGalleryMainTitle = new HtmlString(FieldRenderer.Render(std, "ImageGalleryMainTitle")),
                                                    ImageGallerySubTitle = new HtmlString(FieldRenderer.Render(std, "ImageGallerySubTitle"))
 
-                                               });
-                         
-            return View(multilistItemsFromCarousel);
+                                               }).ToList();
+
+            GalleryInfo firstImage = galleryInfos.First();
+            firstImage.ImageIsActive = "active";
+
+
+            return View(galleryInfos);
+        }
+
+        private string GetImageSrc(Sitecore.Data.Items.Item item)
+        {
+            ImageField imageField = item.Fields["ImageGallery"];
+            var src = MediaManager.GetMediaUrl(imageField.MediaItem);
+
+            return src;
+        }
+
+        private string GetImageAlt(Sitecore.Data.Items.Item item)
+        {
+            ImageField imageField = item.Fields["ImageGallery"];
+            var src = MediaManager.GetMediaUrl(imageField.MediaItem);
+
+            return imageField.Alt;
         }
     }
 }
