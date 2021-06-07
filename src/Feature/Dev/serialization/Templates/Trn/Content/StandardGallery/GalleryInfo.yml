@@ -1,0 +1,14 @@
+﻿---
+ID: "b3dc3bec-9971-400d-ac7c-2fced29a2c51"
+Parent: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Content/StandardGallery/GalleryInfo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T132738Z
