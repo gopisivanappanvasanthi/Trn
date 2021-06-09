@@ -1,26 +1,26 @@
-﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\NUnit.3.13.2\build\NUnit.props" Condition="Exists('..\..\..\..\packages\NUnit.3.13.2\build\NUnit.props')" />
+  <Import Project="..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.props" Condition="Exists('..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.props')" />
+  <Import Project="..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.props')" />
+  <Import Project="..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>
-    </ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D79562A3-BE6D-43C4-8E2D-6F90ADC39719}</ProjectGuid>
-    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <ProjectGuid>{4A17FBE3-BD49-4736-83A0-1487F4195C12}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Trn.Project.TrnSite</RootNamespace>
-    <AssemblyName>Trn.Project.TrnSite</AssemblyName>
+    <RootNamespace>Trn.Feature.StudentsTest</RootNamespace>
+    <AssemblyName>Trn.Feature.StudentsTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
-    <Use64BitIISExpress />
-    <IISExpressSSLPort>44399</IISExpressSSLPort>
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
-    <UseGlobalApplicationHostFile />
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -28,26 +28,31 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Castle.Core.4.4.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="FiftyOne.Foundation, Version=3.2.17.2, Culture=neutral, PublicKeyToken=e0b3a8da0bbce49c, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\51Degrees.mobi-core.3.2.17.2\lib\NET40\FiftyOne.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentAssertion.MSTest, Version=0.1.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\FluentAssertion.MSTest.0.1.4\lib\netstandard2.0\FluentAssertion.MSTest.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
@@ -57,6 +62,9 @@
     </Reference>
     <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Configuration.ConfigurationBuilders.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.Configuration.ConfigurationBuilders.Base.1.0.2\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.Base.dll</HintPath>
@@ -149,8 +157,14 @@
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    <Reference Include="Microsoft.VisualStudio.CodeCoverage.Shim, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\lib\net45\Microsoft.VisualStudio.CodeCoverage.Shim.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\MSTest.TestFramework.2.1.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Mvp.Xml, Version=2.3.0.0, Culture=neutral, PublicKeyToken=6ead800d778c9b9f, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Mvp.Xml.2.3.0\lib\net20\Mvp.Xml.dll</HintPath>
@@ -158,14 +172,17 @@
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="NSubstitute, Version=4.2.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\NSubstitute.4.2.2\lib\net46\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.13.2.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\NUnit.3.13.2\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="PdfSharp, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.dll</HintPath>
     </Reference>
     <Reference Include="PdfSharp.Charting, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.Charting.dll</HintPath>
-    </Reference>
-    <Reference Include="RazorGenerator.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\RazorGenerator.Mvc.2.4.9\lib\net40\RazorGenerator.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
@@ -224,6 +241,9 @@
     <Reference Include="Sitecore.FakeDb, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.FakeDb.3.0.0-alpha1\lib\net471\Sitecore.FakeDb.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.FakeDb.NSubstitute, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.FakeDb.NSubstitute.3.0.0-alpha1\lib\net471\Sitecore.FakeDb.NSubstitute.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Framework.Conditions, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Framework.Conditions.4.0.0\lib\netstandard2.0\Sitecore.Framework.Conditions.dll</HintPath>
     </Reference>
@@ -275,12 +295,6 @@
     <Reference Include="Sitecore.Marketing.xMgmt.ReferenceData, Version=15.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Marketing.xMgmt.ReferenceData.9.3.0\lib\net471\Sitecore.Marketing.xMgmt.ReferenceData.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Mvc.9.3.0\lib\net471\Sitecore.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Mvc.Analytics, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Mvc.Analytics.9.3.0\lib\net471\Sitecore.Mvc.Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="Sitecore.Nexus, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Nexus.9.3.0\lib\net471\Sitecore.Nexus.dll</HintPath>
     </Reference>
@@ -289,9 +303,6 @@
     </Reference>
     <Reference Include="Sitecore.Nexus.Licensing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9de34fe2109de40c, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Nexus.Licensing.2.0.6\lib\netstandard2.0\Sitecore.Nexus.Licensing.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Web, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Web.9.3.0\lib\net471\Sitecore.Web.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XConnect, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.XConnect.9.3.0\lib\netstandard2.0\Sitecore.XConnect.dll</HintPath>
@@ -333,13 +344,19 @@
       <HintPath>..\..\..\..\packages\Sitecore.Zip.9.3.0\lib\net471\Sitecore.Zip.dll</HintPath>
     </Reference>
     <Reference Include="sysglobl" />
+    <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+      <HintPath>..\..\..\..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Design" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Interactive.Async, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\System.Interactive.Async.3.1.1\lib\net46\System.Interactive.Async.dll</HintPath>
     </Reference>
@@ -356,8 +373,8 @@
       <HintPath>..\..\..\..\packages\System.IO.Packaging.4.0.0\lib\net46\System.IO.Packaging.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq" />
-    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
@@ -365,13 +382,13 @@
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
-    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.Caching" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\System.Runtime.CompilerServices.Unsafe.4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.InteropServices" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -396,128 +413,71 @@
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encodings.Web, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Text.Encodings.Web.5.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Text.Json.5.0.1\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Threading.Thread" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Extensions.Design" />
-    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc">
-      <HintPath>..\..\..\..\Lib\System.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
-    <Reference Include="System.EnterpriseServices" />
-    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\Site.css" />
-    <Content Include="Views\_SampleTrnLayout.cshtml" />
-    <Content Include="Views\Listing\Index.cshtml" />
-    <Content Include="Views\BreadcrumbNav\Index.cshtml" />
-    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.base.config" />
-    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.AnnaUniversity.Sitedefinition.config" />
-    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.KarunyaUniversity.Sitedefinition.config" />
-    <None Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Controllers\BreadcrumbNavController.cs" />
-    <Compile Include="Controllers\ListingController.cs" />
-    <Compile Include="Models\Card.cs" />
-    <Compile Include="Models\Listing.cs" />
-    <Compile Include="Models\NavigationItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ListingServices.cs" />
+    <Compile Include="GeneralActivityControllerTest.cs" />
+    <Compile Include="SubjectInformationControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\web.config" />
+    <None Include="app.config" />
     <None Include="packages.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <ProjectReference Include="..\code\Trn.Feature.Students.csproj">
+      <Project>{FAA9BAA3-DCE2-4FC7-A77A-12FDA47AAF08}</Project>
+      <Name>Trn.Feature.Students</Name>
+    </ProjectReference>
   </ItemGroup>
-  <PropertyGroup>
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-  </PropertyGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
-        <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>63251</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44399/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
-        </WebProjectProperties>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
+  <ItemGroup>
+    <Content Include="license.xml" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\NUnit.3.13.2\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\NUnit.3.13.2\build\NUnit.props'))" />
   </Target>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <Import Project="..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\..\..\..\packages\MSTest.TestAdapter.2.1.2\build\net45\MSTest.TestAdapter.targets')" />
+  <Import Project="..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.targets" Condition="Exists('..\..\..\..\packages\Microsoft.CodeCoverage.16.8.3\build\netstandard1.0\Microsoft.CodeCoverage.targets')" />
+  <Import Project="..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.targets" Condition="Exists('..\..\..\..\packages\Microsoft.NET.Test.Sdk.16.8.3\build\net40\Microsoft.NET.Test.Sdk.targets')" />
 </Project>

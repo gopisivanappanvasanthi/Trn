@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Trn.Project.TrnSite.Models;
+using Trn.Project.TrnSite.Services;
 
 namespace Trn.Project.TrnSite.Controllers
 {
@@ -15,21 +16,8 @@ namespace Trn.Project.TrnSite.Controllers
         public ActionResult Index()
         {
             var contextItem = Sitecore.Context.Item;
-
-            var studentsList = contextItem
-            .GetChildren()
-            .Select(std => new Card
-            {
-                cardTitle = std.Fields["name"].Value,
-                cardImage = new HtmlString(FieldRenderer.Render(std, "Avtar")),
-                url = LinkManager.GetItemUrl(std)
-            }).ToList();
-
-            Listing listing = new Listing
-            {
-                cardList = studentsList
-            };
-            return View(listing);
+            ListingServices listingServices = new ListingServices();
+            return View(listingServices.GetChildListing(contextItem));
         }
     }
 }

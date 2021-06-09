@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Trn.Feature.Students.Models;
+using Trn.Feature.Students.Services;
 
 namespace Trn.Feature.Students.Controllers
 {
@@ -15,10 +16,9 @@ namespace Trn.Feature.Students.Controllers
         {
             var contextItem = Sitecore.Context.Item;
 
-            General general = new General();
+            GeneralActivityServices generalActivityServices = new GeneralActivityServices();
+            General general = generalActivityServices.GetGeneralActivityData(contextItem);
 
-            general.activityTitle = new HtmlString(FieldRenderer.Render(contextItem, "activityTitle"));
-            general.activityDescription = new HtmlString(FieldRenderer.Render(contextItem, "activityDescription"));
             return View(general);
         }
     }

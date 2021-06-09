@@ -471,6 +471,8 @@
     <Compile Include="Models\StudentsInfo.cs" />
     <Compile Include="Models\SubjectsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\GeneralActivityServices.cs" />
+    <Compile Include="Services\SubjectDataServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />

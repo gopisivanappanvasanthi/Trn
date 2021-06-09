@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Trn.Feature.Students.Models;
+using Trn.Feature.Students.Services;
 
 namespace Trn.Feature.Students.Controllers
 {
@@ -16,12 +17,9 @@ namespace Trn.Feature.Students.Controllers
         {
             var contextItem = Sitecore.Context.Item;
 
-            SubjectsInfo subjectsInfo = new SubjectsInfo();
+            SubjectDataServices subjectDataServices = new SubjectDataServices();
 
-            subjectsInfo.mainsub = new HtmlString(FieldRenderer.Render(contextItem, "mainsub"));
-            subjectsInfo.alliedsub = new HtmlString(FieldRenderer.Render(contextItem, "alliedsub"));
-
-            return View(subjectsInfo);
+            return View(subjectDataServices.GetSubjectInfo(contextItem));
         }
     }
 }
