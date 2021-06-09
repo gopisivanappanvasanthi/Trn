@@ -1,0 +1,24 @@
+﻿---
+ID: "c534f145-3a2d-429e-b7eb-d379d7cc2d0d"
+Parent: "eb631460-9deb-4440-b908-aad633917014"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Events/SportsDay/SportsDayCelebration"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T175705Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: Our Sports Day
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Celebrate
