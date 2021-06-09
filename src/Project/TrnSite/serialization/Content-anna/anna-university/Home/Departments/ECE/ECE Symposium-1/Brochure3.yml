@@ -1,0 +1,24 @@
+﻿---
+ID: "03f4f465-572f-4d2f-9745-a762692893e2"
+Parent: "82dcace2-7a1d-4599-b49c-38fcacdda3b8"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium-1/Brochure3"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T131647Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: "YASYA 21, St. Thomas Institute for Science and Technology, Cultural Festival, Trivandrum, Kerala, 12th - 15th June 2021"
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: YASYA 21
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{915A015F-7B5B-4415-AC80-964DFE8D3CD7}" />

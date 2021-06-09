@@ -465,6 +465,7 @@
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\GalleryInfo.cs" />
     <Compile Include="Models\PageInfo.cs" />
+    <Compile Include="Models\SymposiumCard.cs" />
     <Compile Include="Models\SymposiumInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
