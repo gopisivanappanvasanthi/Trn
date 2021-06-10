@@ -1,0 +1,13 @@
+﻿---
+ID: "7cac29d5-765f-4faf-9ded-3c01a6d928a6"
+Parent: "bc797a22-c56c-4e32-b5c4-fb8196c4e82e"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium 2/Brochure1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20210609T151648:637588486084549031Z"
