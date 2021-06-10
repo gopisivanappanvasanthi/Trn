@@ -22,3 +22,7 @@ Languages:
     - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
       Hint: ImageGalleryMainTitle
       Value: Celebrate
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{719FD5FF-18CA-4763-981D-B4EEDFCE5246}" />

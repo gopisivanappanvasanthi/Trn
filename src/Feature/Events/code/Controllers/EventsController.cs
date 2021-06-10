@@ -1,10 +1,9 @@
-﻿using Trn.Feature.Events.Models;
-using Sitecore.Web.UI.WebControls;
-using System;
+﻿using Sitecore.Web.UI.WebControls;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Trn.Feature.Events.Models;
 
 namespace Trn.Feature.Events.Controllers
 {
