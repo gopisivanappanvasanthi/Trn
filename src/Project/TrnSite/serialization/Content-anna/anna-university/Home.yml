@@ -9,6 +9,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0f2262d6-4964-4368-be14-0b537614ff71"
+      Hint: SuperheroCarousel
+      Type: Multilist
+      Value: |
+        {523C40EF-F547-4099-9FB1-893E5885961F}
+        {8FF1244A-3653-4BE8-86A9-0335890DE397}
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210531T082144Z
+    - ID: "85a03dff-035e-4955-a6aa-0cd4057a554b"
+      Hint: SuperheroTitle
+      Value: Superhero Day Contest
