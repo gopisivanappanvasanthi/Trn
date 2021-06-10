@@ -23,3 +23,10 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "c4612a64-f126-40bb-8691-69ce233b363d"
+      Hint: Symposiums
+      Type: Multilist
+      Value: |
+        {D990FE02-4BA3-42CA-9D07-15119093AF1A}
+        {BC797A22-C56C-4E32-B5C4-FB8196C4E82E}
+        {991B56EF-3F83-4887-ADB9-786CEFEF2461}

@@ -1,0 +1,17 @@
+﻿---
+ID: "4c4ce91e-4aef-41e6-ac5e-06afa31d4cfc"
+Parent: "5f8a873d-75a7-4931-a61b-589fb528ba84"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/IT/IT Symposium 2"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T150835Z
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: WELCOME TO IT SYMPOSIUM 2

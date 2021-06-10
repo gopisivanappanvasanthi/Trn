@@ -1,0 +1,17 @@
+﻿---
+ID: "6bda1cf7-98a9-482f-bc27-6038149e8bab"
+Parent: "1f14bcc6-6966-471d-8beb-ed04d9c98351"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/MECH/Mech Symposium 1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T151027Z
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: WELCOME TO MECH SYMPOSIUM 1

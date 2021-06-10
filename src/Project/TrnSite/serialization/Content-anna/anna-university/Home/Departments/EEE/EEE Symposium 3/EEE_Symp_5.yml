@@ -1,9 +1,13 @@
 ﻿---
-ID: "6aa92574-c844-4e0a-a854-d9faf57dff53"
-Parent: "bc797a22-c56c-4e32-b5c4-fb8196c4e82e"
+ID: "909eb800-2fac-40fc-92d7-2abaf244a830"
+Parent: "67b158d9-c5ee-4907-8942-4ee9edde6f58"
 Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
-Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium/Brochure3"
+Path: "/sitecore/content/anna-university/Home/Departments/EEE/EEE Symposium 3/EEE_Symp_5"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -11,14 +15,14 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210604T131647Z
+      Value: 20210609T102730Z
     - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
       Hint: ImageGallerySubTitle
-      Value: "YASYA 21, St. Thomas Institute for Science and Technology, Cultural Festival, Trivandrum, Kerala, 12th - 15th June 2021"
+      Value: Impulse National Level Symposium
     - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
       Hint: ImageGalleryMainTitle
-      Value: YASYA 21
+      Value: IMPULSE 2018
     - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
       Hint: ImageGallery
       Value: |
-        <image mediaid="{915A015F-7B5B-4415-AC80-964DFE8D3CD7}" />
+        <image mediaid="{0571DA9C-25B7-45FB-83B2-C2386566BD3B}" />

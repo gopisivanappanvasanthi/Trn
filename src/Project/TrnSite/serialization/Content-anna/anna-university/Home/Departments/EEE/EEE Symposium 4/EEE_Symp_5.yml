@@ -1,9 +1,13 @@
 ﻿---
-ID: "adabe6ef-ef29-44a1-8bdf-4354b545b1af"
-Parent: "bc797a22-c56c-4e32-b5c4-fb8196c4e82e"
+ID: "a4001bab-8ddc-454b-83c5-8bb722cba212"
+Parent: "bfc2d1bc-53c0-4efa-ab9c-ec5ecfd31bb7"
 Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
-Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium/Brochure4"
+Path: "/sitecore/content/anna-university/Home/Departments/EEE/EEE Symposium 4/EEE_Symp_5"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
 Languages:
 - Language: en
   Versions:
@@ -11,14 +15,14 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210604T131658Z
+      Value: 20210609T102812Z
     - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
       Hint: ImageGallerySubTitle
-      Value: "CONNECT 2K21, Gitarattan International Business School, Management Fest, New Delhi, Delhi, 8th - 9th June 2021"
+      Value: Voltzfest 2018 National Level Symposium
     - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
       Hint: ImageGalleryMainTitle
-      Value: CONNECT 2K21
+      Value: VOLTZFEST 2018
     - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
       Hint: ImageGallery
       Value: |
-        <image mediaid="{C2455C86-B216-4314-BEA0-6C1D6B436526}" />
+        <image mediaid="{108B2F18-9730-4603-9EF2-E3D998A44739}" />
