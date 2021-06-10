@@ -51,6 +51,7 @@ namespace Trn.Feature.Departments.Controllers
         {
             ImageField imageField = item.Fields["ImageGallery"];
             var src = MediaManager.GetMediaUrl(imageField.MediaItem);
+           
 
             return imageField.Alt;
         }
