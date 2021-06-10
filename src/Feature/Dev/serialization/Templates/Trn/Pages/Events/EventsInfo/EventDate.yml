@@ -1,16 +1,16 @@
 ﻿---
-ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
-Parent: "ea4699f0-0b49-432b-a407-aa42e7489453"
+ID: "0be238ea-aa90-47ac-aa62-c95b12737f49"
+Parent: "c7dadcdf-e7d1-4fd1-9e29-8aa5b4c4a5bf"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Pages/PageDetailsBase/PageInfo/PageTitle
+Path: /sitecore/templates/Feature/Trn/Pages/Events/EventsInfo/EventDate
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Datetime
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210603T133130Z
+      Value: 20210609T072018Z
