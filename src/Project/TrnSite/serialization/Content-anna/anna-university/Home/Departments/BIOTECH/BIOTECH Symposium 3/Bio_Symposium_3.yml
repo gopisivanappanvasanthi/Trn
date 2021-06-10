@@ -1,0 +1,28 @@
+﻿---
+ID: "7505a739-2e3f-4fb1-91a2-76144baeac64"
+Parent: "d1a57f2e-7d27-4e3d-976f-0d075b415046"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/BIOTECH/BIOTECH Symposium 3/Bio_Symposium_3"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 37
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T092929Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: 7th Bio Technolgy Symposium International Level
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: BIO TECHNOLOGY SYMPOSIUM
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{BF20111F-50BD-477C-AC6B-009646F72F82}" />

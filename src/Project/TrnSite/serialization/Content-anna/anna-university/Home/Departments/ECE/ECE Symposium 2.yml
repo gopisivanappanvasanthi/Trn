@@ -2,7 +2,7 @@
 ID: "bc797a22-c56c-4e32-b5c4-fb8196c4e82e"
 Parent: "0f7eea2b-9c59-46d0-b65f-0ea880361569"
 Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
-Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium 2"
 DB: master
 Languages:
 - Language: en
@@ -20,7 +20,7 @@ Languages:
       Value: @@@@ International Level Symposium @@@@  International Level Symposium @@@@   International Level Symposium @@@@   International Level Symposium @@@@
     - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
       Hint: PageTitle
-      Value: ***DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING***
+      Value: WELCOME TO ECE SYMPOSIUM 2
     - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
       Hint: CarouselItems
       Type: Multilist
