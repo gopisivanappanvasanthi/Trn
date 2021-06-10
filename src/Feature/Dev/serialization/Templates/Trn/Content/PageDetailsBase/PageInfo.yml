@@ -2,7 +2,7 @@
 ID: "ea4699f0-0b49-432b-a407-aa42e7489453"
 Parent: "a3be095b-b194-4fae-ae79-d6578f7c295e"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Trn/Pages/PageDetailsBase/PageInfo
+Path: /sitecore/templates/Feature/Trn/Content/PageDetailsBase/PageInfo
 DB: master
 Languages:
 - Language: en
