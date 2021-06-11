@@ -4,6 +4,13 @@ Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
 Template: "41749532-af7f-4d9f-8263-1ed6460b9310"
 Path: "/sitecore/content/karunya-university"
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {137F2A49-1DB3-4DD6-BD31-780A8DFEFE94}
+    {12C87B25-3E60-49F6-A1A6-86E4AC4591C1}
 Languages:
 - Language: en
   Fields:

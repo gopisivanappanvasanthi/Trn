@@ -1,17 +1,17 @@
 ﻿---
-ID: "a3be095b-b194-4fae-ae79-d6578f7c295e"
-Parent: "99612252-eb65-49b2-af57-3c47d0eed086"
+ID: "a063fe99-a41d-47b6-ab1b-7b47c6dff741"
+Parent: "2bc30f85-aaeb-4b46-b81b-12c9c9b939e2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Trn/Pages/PageDetailsBase
+Path: /sitecore/templates/Feature/Trn/Content/Gallery
 DB: master
 SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: business/16x16/note.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{DE393017-3086-484C-8852-C9764B10D7FD}"
 Languages:
 - Language: en
   Versions:
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210603T133021Z
+      Value: 20210609T074713Z

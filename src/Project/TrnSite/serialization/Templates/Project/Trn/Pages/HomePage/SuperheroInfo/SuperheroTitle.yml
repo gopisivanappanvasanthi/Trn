@@ -1,8 +1,8 @@
 ﻿---
-ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
-Parent: "ea4699f0-0b49-432b-a407-aa42e7489453"
+ID: "85a03dff-035e-4955-a6aa-0cd4057a554b"
+Parent: "6c63a8fa-8464-4004-868c-5dd17e4b243f"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Pages/PageDetailsBase/PageInfo/PageBrief
+Path: /sitecore/templates/Project/Trn/Pages/HomePage/SuperheroInfo/SuperheroTitle
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210603T133132Z
+      Value: 20210610T082539Z
