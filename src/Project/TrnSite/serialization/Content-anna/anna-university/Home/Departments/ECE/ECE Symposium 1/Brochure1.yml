@@ -1,0 +1,24 @@
+﻿---
+ID: "e759d3d8-b935-4690-aaa9-c7c14bb143f5"
+Parent: "d990fe02-4ba3-42ca-9d07-15119093af1a"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium 1/Brochure1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210604T112325Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: INFIERNIX 2K21, Rajalakshmi Institute of Technology, ECE Technical Symposium, Chennai, Tamil Nadu, 5th June 2021
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value:  INFIERNIX 2K21
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{1500B89E-363C-4AE5-9A99-43B360683AE5}" />

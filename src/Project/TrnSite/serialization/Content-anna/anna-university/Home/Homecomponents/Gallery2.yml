@@ -1,0 +1,18 @@
+﻿---
+ID: "8ff1244a-3653-4be8-86a9-0335890de397"
+Parent: "c83bbd51-347f-4976-87ed-49f0877f1c41"
+Template: "a063fe99-a41d-47b6-ab1b-7b47c6dff741"
+Path: "/sitecore/content/anna-university/Home/Homecomponents/Gallery2"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210610T082907Z
+    - ID: "50d058ad-1bec-48c6-bdff-7980ad3fdd0e"
+      Hint: SuperheroImage
+      Value: |
+        <image mediaid="{BB1BD24E-6E24-4002-94D7-FFA515C54FD6}" />

@@ -1,0 +1,14 @@
+﻿---
+ID: "d839dfa3-cb53-46d0-85d0-6bf059fa75ce"
+Parent: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Article/ArticleInfo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T065946Z

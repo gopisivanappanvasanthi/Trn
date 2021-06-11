@@ -1,0 +1,24 @@
+﻿---
+ID: "fc6c7c64-0031-4112-90fb-69211ed002d1"
+Parent: "7366a1a5-1f74-4f6b-8d80-5279190d0c15"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/IT/IT Symposium 1/It_Symp_1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T102623Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: Tech Crescenza 2018 National Level Symposium
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: TECH CRESCENZA
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{E826BDFE-6036-448D-B3DF-8CF4612C82C0}" />
