@@ -1,0 +1,17 @@
+﻿---
+ID: "d990fe02-4ba3-42ca-9d07-15119093af1a"
+Parent: "0f7eea2b-9c59-46d0-b65f-0ea880361569"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium 1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T151333Z
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: WELCOME TO ECE SYMPOSIUM 1
