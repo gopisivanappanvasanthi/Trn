@@ -1,0 +1,24 @@
+﻿---
+ID: "05171b63-2678-4d23-a251-fb5254cb0a35"
+Parent: "76b1cc80-70f0-4343-8f29-8ee0df7490fc"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/MECH/Mech Symposium 2/Mech_Symp_3"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T153635Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: Mechnova Mechanical Symposium 2017  Mechnova Mechanical Symposium 2017  Mechnova Mechanical Symposium 2017 
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Mechnova Mechanical Symposium 2017 
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{9EAF6E8B-C683-4A61-AA23-7E1D078826EB}" />

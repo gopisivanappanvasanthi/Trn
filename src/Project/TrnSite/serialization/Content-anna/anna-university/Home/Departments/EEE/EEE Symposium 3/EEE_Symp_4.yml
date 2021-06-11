@@ -1,0 +1,28 @@
+﻿---
+ID: "2af02056-4aeb-4898-b536-e419648c567a"
+Parent: "67b158d9-c5ee-4907-8942-4ee9edde6f58"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/EEE/EEE Symposium 3/EEE_Symp_4"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 87
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T102822Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: Impulse 2019 Technical Symposium
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: IMPULSE 2019
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{605E3DE0-0D56-4A14-B222-FD2FBB698A1F}" />
