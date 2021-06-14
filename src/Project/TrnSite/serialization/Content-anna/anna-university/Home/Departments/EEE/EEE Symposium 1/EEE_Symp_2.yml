@@ -1,8 +1,8 @@
 ﻿---
-ID: "7cac29d5-765f-4faf-9ded-3c01a6d928a6"
-Parent: "bc797a22-c56c-4e32-b5c4-fb8196c4e82e"
+ID: "005884c7-e9b0-4620-9c16-baa6d79c5d83"
+Parent: "b9369f4a-395b-4f78-9a8f-fa8993921b7e"
 Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
-Path: "/sitecore/content/anna-university/Home/Departments/ECE/ECE Symposium 2/Brochure1"
+Path: "/sitecore/content/anna-university/Home/Departments/EEE/EEE Symposium 1/EEE_Symp_2"
 DB: master
 Languages:
 - Language: en
@@ -11,14 +11,14 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210604T131635Z
+      Value: 20210614T055043Z
     - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
       Hint: ImageGallerySubTitle
-      Value: "IMPETUS 21.0, University Visvesvaraya College of Engineering, Annual Tech Fest, Bengaluru, Karnataka, 5th - 6th June 2021"
+      Value: EEE Symp 2 EEE Symp 2
     - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
       Hint: ImageGalleryMainTitle
-      Value: IMPETUS 21.0
+      Value: EEE Symp 2
     - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
       Hint: ImageGallery
       Value: |
-        <image mediaid="{3B8CC996-49AC-4E5F-B746-54985642CE13}" />
+        <image mediaid="{502809D3-FDA7-4065-B378-07B71168DE5E}" />
