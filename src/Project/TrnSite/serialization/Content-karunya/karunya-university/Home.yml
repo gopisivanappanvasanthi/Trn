@@ -9,6 +9,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0f2262d6-4964-4368-be14-0b537614ff71"
+      Hint: SuperheroCarousel
+      Type: Multilist
+      Value: |
+        {B193317B-A041-4F69-8F33-7ACD6A0D029F}
+        {EBAD70CF-689E-46E5-9EC4-2DEF0CE7BDD0}
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210531T082144Z
+    - ID: "85a03dff-035e-4955-a6aa-0cd4057a554b"
+      Hint: SuperheroTitle
+      Value: Karunya University

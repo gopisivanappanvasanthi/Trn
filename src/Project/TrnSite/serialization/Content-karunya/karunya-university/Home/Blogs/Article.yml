@@ -1,8 +1,8 @@
 ﻿---
 ID: "a37abb6c-ee12-4607-91a2-56ffbb5535c8"
-Parent: "77b1b494-a6ae-4fa4-ab50-d2d4085c37bd"
+Parent: "acf0c1ef-e916-459d-a75a-23d3a41be801"
 Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
-Path: "/sitecore/content/karunya-university/Article"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Article"
 DB: master
 Languages:
 - Language: en
