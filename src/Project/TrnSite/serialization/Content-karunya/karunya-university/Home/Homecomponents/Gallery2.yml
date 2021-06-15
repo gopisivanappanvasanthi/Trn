@@ -1,8 +1,8 @@
 ﻿---
-ID: "8ff1244a-3653-4be8-86a9-0335890de397"
-Parent: "c83bbd51-347f-4976-87ed-49f0877f1c41"
+ID: "ebad70cf-689e-46e5-9ec4-2def0ce7bdd0"
+Parent: "cc3a403a-dc5a-4ada-b9fa-88e3685e4209"
 Template: "a063fe99-a41d-47b6-ab1b-7b47c6dff741"
-Path: "/sitecore/content/anna-university/Home/Homecomponents/Gallery2"
+Path: "/sitecore/content/karunya-university/Home/Homecomponents/Gallery2"
 DB: master
 Languages:
 - Language: en
@@ -15,4 +15,4 @@ Languages:
     - ID: "50d058ad-1bec-48c6-bdff-7980ad3fdd0e"
       Hint: SuperheroImage
       Value: |
-        <image mediaid="{31CAD3AA-13AC-41FE-8055-B88641D73CE3}" />
+        <image mediaid="{DE6D164F-8EF3-4FAB-B40C-0705EA22722B}" />

@@ -1,8 +1,8 @@
 ﻿---
 ID: "8dbb60c8-44a6-4421-a377-cbcff6c81436"
-Parent: "812e2eac-217e-4c44-af1b-3f23641532e0"
+Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
 Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
-Path: "/sitecore/content/anna-university/Article"
+Path: "/sitecore/content/anna-university/Home/Blogs/Article"
 DB: master
 Languages:
 - Language: en

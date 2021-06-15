@@ -1,0 +1,14 @@
+﻿---
+ID: "664fa4c4-10ee-4c38-97e0-2728918618e6"
+Parent: "6f947775-9b4f-4b99-97e3-18a3b347b11e"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Trn/HomePage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210615T093144Z

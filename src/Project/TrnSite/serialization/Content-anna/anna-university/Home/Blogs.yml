@@ -1,0 +1,14 @@
+﻿---
+ID: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "3e2d3e69-7677-4094-8fd4-0e4aff2e0fe8"
+Path: "/sitecore/content/anna-university/Home/Blogs"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210615T092304Z

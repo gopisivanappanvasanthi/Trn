@@ -1,8 +1,8 @@
 ﻿---
-ID: "c83bbd51-347f-4976-87ed-49f0877f1c41"
-Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+ID: "cc3a403a-dc5a-4ada-b9fa-88e3685e4209"
+Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
 Template: "e573d7f3-9ebf-4840-bad9-87a85441f6c0"
-Path: "/sitecore/content/anna-university/Home/Homecomponents"
+Path: "/sitecore/content/karunya-university/Home/Homecomponents"
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
