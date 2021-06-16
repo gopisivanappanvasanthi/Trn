@@ -1,0 +1,24 @@
+﻿@model Trn.Feature.Article.Models.Comment
+
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        <label for="@Model.UserName" class="form-label">Your Name</label>
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+
+        @*<input type="text" class="form-control" id="@Model.UserName" placeholder="<<<give your name here...>>>">*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.UserEmailId" class="form-label">Your Email address</label>
+        @Html.TextBoxFor(x => x.UserEmailId, new { @class = "form-control" })
+        @*<input type="email" class="form-control" id="@Model.UserEmailId" placeholder="<<<give your email id here... >>>">*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.UserComments" class="form-label">Your Comments</label>
+        @Html.TextAreaFor(x => x.UserComments, new { @class = "form-control" })
+        @*<textarea class="form-control" id="@Model.UserComments" placeholder="<<<leave your comments here... >>>" rows="3"></textarea>*@
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+}
