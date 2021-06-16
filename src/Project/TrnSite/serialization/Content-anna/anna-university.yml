@@ -11,6 +11,10 @@ SharedFields:
   Value: |
     {137F2A49-1DB3-4DD6-BD31-780A8DFEFE94}
     {12C87B25-3E60-49F6-A1A6-86E4AC4591C1}
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    au|sitecore\Gopi|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|
 Languages:
 - Language: en
   Fields:
