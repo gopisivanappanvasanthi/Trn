@@ -448,13 +448,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="Views\Superhero\Index.cshtml" />
     <Content Include="Views\SuperheroGallery\Index.cshtml" />
+    <Content Include="Views\QandA\Index.cshtml" />
+    <Content Include="Views\QandA\QandA_SummaryOne.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\QandAController.cs" />
     <Compile Include="Controllers\SuperheroController.cs" />
     <Compile Include="Controllers\SuperheroGalleryController.cs" />
+    <Compile Include="Models\QandA.cs" />
     <Compile Include="Models\Superhero.cs" />
     <Compile Include="Models\SuperheroGal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -4,6 +4,25 @@ Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
 Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
 Path: "/sitecore/content/anna-university/Home/QandA"
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A26ACD4C-0195-46D6-BD81-8B70A33E01F2}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{BA386E98-1B9F-4B67-8D88-E215B2B5FE01}"
+          ph="main"
+          uid="{9A047D3D-319F-4154-9553-014389066043}" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

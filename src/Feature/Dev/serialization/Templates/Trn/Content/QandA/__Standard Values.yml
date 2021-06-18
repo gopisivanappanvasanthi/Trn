@@ -1,0 +1,27 @@
+﻿---
+ID: "e081acea-4a8b-474f-a636-ad131436ad73"
+Parent: "a26acd4c-0195-46d6-bd81-8b70a33e01f2"
+Template: "a26acd4c-0195-46d6-bd81-8b70a33e01f2"
+Path: /sitecore/templates/Feature/Trn/Content/QandA/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T125343Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

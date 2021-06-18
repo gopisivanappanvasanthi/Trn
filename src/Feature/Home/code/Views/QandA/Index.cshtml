@@ -1,0 +1,13 @@
+﻿@model Trn.Feature.Home.Models.QandA
+
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        <label for="@Model.Question" class="form-label">Your Question</label>
+        @Html.TextBoxFor(x => x.Question, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+}
