@@ -453,6 +453,8 @@
     <Content Include="Views\SuperheroGallery\Index.cshtml" />
     <Content Include="Views\QandA\Index.cshtml" />
     <Content Include="Views\QandA\QandA_SummaryOne.cshtml" />
+    <Content Include="Views\TrnAdmissionForm\Index.cshtml" />
+    <Content Include="Views\TrnAdmissionForm\AdmissionSummary.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -460,6 +462,8 @@
     <Compile Include="Controllers\SuperheroController.cs" />
     <Compile Include="Controllers\SuperheroGalleryController.cs" />
     <Compile Include="Models\QandA.cs" />
+    <Compile Include="Controllers\TrnAdmissionFormController.cs" />
+    <Compile Include="Models\Admission.cs" />
     <Compile Include="Models\Superhero.cs" />
     <Compile Include="Models\SuperheroGal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

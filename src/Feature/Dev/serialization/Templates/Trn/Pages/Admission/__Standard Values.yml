@@ -1,16 +1,10 @@
 ﻿---
-ID: "1038f8ee-bf5f-49fc-9066-7bd45bd99e87"
-Parent: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
-Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
-Path: /sitecore/templates/Project/Trn/Folders/TrnForms/__Standard Values
+ID: "dd94b720-2f20-4736-8b50-d6e2303c4bad"
+Parent: "9f176a86-afc9-488c-96a4-d801831d4040"
+Template: "9f176a86-afc9-488c-96a4-d801831d4040"
+Path: /sitecore/templates/Feature/Trn/Pages/Admission/__Standard Values
 DB: master
 SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Type: TreelistEx
-  Value: |
-    {3810FF1A-3C2F-4698-9284-24BB23E11D46}
-    {9F176A86-AFC9-488C-96A4-D801831D4040}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -22,7 +16,7 @@ SharedFields:
         <r
           id="{99AE223C-59BE-4D91-A6EF-598010CF492F}"
           ph="main"
-          uid="{792FDCEC-4AEC-4580-9E48-D4F07FD792DE}" />
+          uid="{812D34F9-23F9-418E-B451-8A88B0752BAB}" />
       </d>
     </r>
 Languages:
@@ -32,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210618T053808Z
+      Value: 20210618T113520Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
