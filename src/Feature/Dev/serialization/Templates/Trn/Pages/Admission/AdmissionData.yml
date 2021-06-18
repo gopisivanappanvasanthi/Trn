@@ -1,0 +1,14 @@
+﻿---
+ID: "90f05747-bcdb-4853-ae9e-e5aaaafeaf10"
+Parent: "9f176a86-afc9-488c-96a4-d801831d4040"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Pages/Admission/AdmissionData
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T102024Z
