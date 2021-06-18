@@ -31,13 +31,13 @@ namespace Trn.Feature.Home.Controllers
         [HttpPost]
         public ActionResult Index(Admission inputComment)
         {
-            var parentItem = Sitecore.Context.Item;
+            ID parentItemID = new ID("{536FCE6E-3FA7-4AB4-9AA8-9DDD249894A6}");
             var masterDatabase = Sitecore.Configuration.Factory.GetDatabase("master");
 
             var web = Sitecore.Configuration.Factory.GetDatabase("web");
             //var parentItemFromWeb = webDatabase.GetItem(parentItem.ID);
 
-            var parentItemFromMaster = masterDatabase.GetItem(parentItem.ID);
+            var parentItemFromMaster = masterDatabase.GetItem(parentItemID);
             ID idparentitem = new ID("{9F176A86-AFC9-488C-96A4-D801831D4040}");
             var parentItemForAdmission = masterDatabase.GetItem(idparentitem);
             TemplateID templateID = new TemplateID(idparentitem);
