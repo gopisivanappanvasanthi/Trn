@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Trn.Feature.Home.Models
 {
-    public class QandA
+    public class QuestionList
     {
-        public string Question { get; set; }
-        
+        public List<QuestionList> questions { get; set; }
+        public string answers { get; set; }
     }
 }

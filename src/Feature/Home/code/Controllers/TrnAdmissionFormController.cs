@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Trn.Feature.Home.Models;
-//using Trn.Foundation.Publishing.Services;
+using Trn.Foundation.Publishing.Services;
 
 namespace Trn.Feature.Home.Controllers
 {
@@ -55,8 +55,8 @@ namespace Trn.Feature.Home.Controllers
                 createdItem.Editing.EndEdit();
                 createdItem.Editing.AcceptChanges();
 
-               // TrnPublishing trnPublishing = new TrnPublishing();
-               //trnPublishing.DoTrnPublish(createdItem, masterDatabase, web);
+               TrnPublishing trnPublishing = new TrnPublishing();
+               trnPublishing.DoTrnPublish(createdItem, masterDatabase, web);
 
             }
             //Database master = Sitecore.Configuration.Factory.GetDatabase("master");

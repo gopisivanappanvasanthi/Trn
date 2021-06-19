@@ -6,13 +6,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Trn.Feature.Home.Models;
-
-
-
+using Trn.Foundation.Publishing.Services;
 
 namespace Trn.Feature.Home.Controllers
 {
-    public class QandAController : Controller
+    public class QuestionController : Controller
     {
         // GET: QandA
         [HttpGet]
@@ -29,29 +27,31 @@ namespace Trn.Feature.Home.Controllers
         [HttpPost]
         public ActionResult Index(QandA inputQuery)
         {
-            var parentItem = Sitecore.Context.Item;
+            ID parentItemID = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
             var masterDatabase = Sitecore.Configuration.Factory.GetDatabase("master");
-            var web = Sitecore.Configuration.Factory.GetDatabase("web");
+            var webDatabase = Sitecore.Configuration.Factory.GetDatabase("web");
 
-            var parentItemFromMaster = masterDatabase.GetItem(parentItem.ID);
-            ID id = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
-            TemplateID templateID = new TemplateID(id);
+            var parentItemFromMaster = masterDatabase.GetItem(parentItemID);
+            ID idParentItem = new ID("{BDDBCE0D-A7F0-4913-873C-A117CEAE7659}");
+            var parentItemForQandA = masterDatabase.GetItem(idParentItem);
+
+            TemplateID templateID = new TemplateID(idParentItem);
             using (new SecurityDisabler())
             {
                 var createdItem = parentItemFromMaster.Add(inputQuery.Question, templateID);
                 createdItem.Editing.BeginEdit();
                 createdItem.Fields["question"].Value = inputQuery.Question;
-                createdItem.Fields["answers"].Value = inputQuery.Answers;
+                
                 
                 createdItem.Editing.EndEdit();
                 createdItem.Editing.AcceptChanges();
 
-                //TrnPublishing trnPublishing = new TrnPublishing();
-                //trnPublishing.DoTrnPublish(createdItem, masterDatabase, web);
+                TrnPublishing trnPublishing = new TrnPublishing();
+                trnPublishing.DoTrnPublish(createdItem, masterDatabase, webDatabase);
 
             }
 
-            return View("/Views/QandA/QandA_SummaryOne.cshtml");
+            return View("/Views/Question/QandA_SummaryOne.cshtml");
 
         }
     }
