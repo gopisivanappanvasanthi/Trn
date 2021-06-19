@@ -5,13 +5,10 @@ using System.Web;
 
 namespace Trn.Feature.Home.Models
 {
-    public class QandA
+    public class Answer
     {
-        public string Question { get; set; }
-
         public string QuestionGuid { get; set; }
 
         public string answer { get; set; }
-
     }
 }

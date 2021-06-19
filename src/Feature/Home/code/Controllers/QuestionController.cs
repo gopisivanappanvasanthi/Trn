@@ -27,6 +27,9 @@ namespace Trn.Feature.Home.Controllers
         [HttpPost]
         public ActionResult Index(QandA inputQuery)
         {
+            var contextItem = Sitecore.Context.Item;
+            Random ran = new Random();
+            var nameofyouritem = contextItem.Name + ran.Next(10, 50).ToString();
             ID parentItemID = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
             var masterDatabase = Sitecore.Configuration.Factory.GetDatabase("master");
             var webDatabase = Sitecore.Configuration.Factory.GetDatabase("web");
@@ -38,7 +41,7 @@ namespace Trn.Feature.Home.Controllers
             TemplateID templateID = new TemplateID(idParentItem);
             using (new SecurityDisabler())
             {
-                var createdItem = parentItemFromMaster.Add(inputQuery.Question, templateID);
+                var createdItem = parentItemFromMaster.Add(nameofyouritem, templateID);
                 createdItem.Editing.BeginEdit();
                 createdItem.Fields["question"].Value = inputQuery.Question;
                 
