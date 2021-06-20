@@ -2,13 +2,14 @@
  <div>
     @foreach (var item in Model.questions)
      {
-        <h3>@item.questions</h3>
+        <h3>@item.Question</h3>
 
         <div class="col">
             @using (Html.BeginForm())
             {
                 <div class="mb-3">
-                    <label for="@Model.answers" class="form-label">Your Question</label>
+                    <input type="hidden" id="@item.QuestionGuid" name="@item.QuestionGuid"
+                    <label for="@item.answer" class="form-label">Your Question</label>
                     @Html.TextBoxFor(x => x.answers, new { @class = "form-control" })
                 </div>
 
