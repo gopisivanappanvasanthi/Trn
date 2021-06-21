@@ -2,7 +2,7 @@
 ID: "dd94b720-2f20-4736-8b50-d6e2303c4bad"
 Parent: "9f176a86-afc9-488c-96a4-d801831d4040"
 Template: "9f176a86-afc9-488c-96a4-d801831d4040"
-Path: /sitecore/templates/Feature/Trn/Pages/Admission/__Standard Values
+Path: /sitecore/templates/Feature/Trn/Content/Admission/__Standard Values
 DB: master
 SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
