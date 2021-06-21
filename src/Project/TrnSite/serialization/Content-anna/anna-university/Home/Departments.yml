@@ -8,6 +8,21 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{73536FE3-5021-4B5D-BFEC-057A3DAACF9E}"
+          p:after="*[1=2]"
+          s:id="{6E1A9D45-7BEF-4A8E-A267-E993964A7CF4}"
+          s:ph="main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

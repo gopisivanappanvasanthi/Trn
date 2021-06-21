@@ -1,0 +1,33 @@
+﻿---
+ID: "b7e1edd5-449d-4535-bf51-4ffb399d86ef"
+Parent: "0ad08451-b02a-4d65-b1be-0a130a2742f5"
+Template: "8279cc55-604f-45b4-911d-081e6b0090d3"
+Path: "/sitecore/content/anna-university/Home/SymposiumEnquiries/Mechanical United"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210619T080948Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "745dc5ee-90f2-4318-a0a8-cae006c198a0"
+      Hint: Phone Number
+      Value: 7817287182299
+    - ID: "9668bc87-a858-4bf4-b2a5-6152cc061154"
+      Hint: Team Name
+      Value: Mechanical United
+    - ID: "b2eb04eb-7983-421e-9007-b3f5887f754e"
+      Hint: Symposium Name
+      Value: Mechanical
+    - ID: "e40abb08-3cf0-421a-ac73-65a7ba46557e"
+      Hint: Number of Presenters
+      Value: 4
+    - ID: "f44ba4c1-30ab-43b6-8c62-333d7a287724"
+      Hint: Idea to be Presented
+      Value: MechGust 2K17
