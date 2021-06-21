@@ -1,0 +1,14 @@
+﻿---
+ID: "e8d89c1d-e17c-4942-8bc1-016893496fc8"
+Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
+Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
+Path: "/sitecore/content/karunya-university/Home/LabEquipmentDetails"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T055041Z

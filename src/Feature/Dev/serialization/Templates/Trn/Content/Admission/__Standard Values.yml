@@ -1,0 +1,33 @@
+﻿---
+ID: "dd94b720-2f20-4736-8b50-d6e2303c4bad"
+Parent: "9f176a86-afc9-488c-96a4-d801831d4040"
+Template: "9f176a86-afc9-488c-96a4-d801831d4040"
+Path: /sitecore/templates/Feature/Trn/Content/Admission/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{99AE223C-59BE-4D91-A6EF-598010CF492F}"
+          ph="main"
+          uid="{812D34F9-23F9-418E-B451-8A88B0752BAB}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T113520Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

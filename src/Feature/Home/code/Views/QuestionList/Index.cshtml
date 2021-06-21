@@ -1,0 +1,22 @@
+﻿@model Trn.Feature.Home.Models.QuestionList
+ <div>
+    @foreach (var item in Model.questions)
+     {
+        <h3>@item.questions</h3>
+
+        <div class="col">
+            @using (Html.BeginForm())
+            {
+                <div class="mb-3">
+                    <label for="@Model.answers" class="form-label">Your Question</label>
+                    @Html.TextBoxFor(x => x.answers, new { @class = "form-control" })
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            }
+
+        </div>
+     }
+ </div>
