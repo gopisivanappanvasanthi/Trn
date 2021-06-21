@@ -1,0 +1,33 @@
+﻿---
+ID: "8d347dfa-7e6a-4f36-84e8-f4937e17b95b"
+Parent: "ef8bf5c9-e99e-4b7b-9f3b-dd757b11ff27"
+Template: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
+Path: "/sitecore/content/anna-university/Home/LabEquimentDetails/bio medical"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21317640-1da6-43f2-a827-3be43139d2ff"
+      Hint: EquipmentName
+      Value: EquipmentName
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210621T104754Z
+    - ID: "447922d0-8d5e-430b-bb0e-12f317303bce"
+      Hint: EquipmentUsageManual
+      Value: EquipmentUsageManual
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "6469513a-d901-4d86-ae8e-32f2c0e8da45"
+      Hint: LabSubject
+      Value: LabSubject
+    - ID: "66f28b0b-d665-4789-919c-f3d52a5c996d"
+      Hint: EquipmentIdentity
+      Value: EquipmentIdentity
+    - ID: "72e99159-58f2-487f-b1d5-c96552df14b9"
+      Hint: Department
+      Value: bio medical
