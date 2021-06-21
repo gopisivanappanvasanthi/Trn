@@ -1,0 +1,33 @@
+﻿---
+ID: "9c043e7b-3a22-4154-96cd-bbf7020b95a9"
+Parent: "536fce6e-3fa7-4ab4-9aa8-9ddd249894a6"
+Template: "9f176a86-afc9-488c-96a4-d801831d4040"
+Path: "/sitecore/content/anna-university/Home/AdmissionForms/Prateek"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "011a9703-1eff-46c2-8699-9eb86928d485"
+      Hint: EmailId
+      Value: prateek@gmail.com
+    - ID: "042454eb-ca29-4d3c-bcf9-dbff71c00d42"
+      Hint: FirstName
+      Value: Prateek
+    - ID: "1afcbf9b-2449-45e1-a683-c78df195f5fd"
+      Hint: LastName
+      Value: Kumar
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T184937Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "80abf68e-8e6a-43d8-bccd-36435dca155f"
+      Hint: PhoneNumber
+      Value: 7897654678
+    - ID: "ab3be0f1-60a0-4a48-8226-6c876c0228a0"
+      Hint: Address
+      Value: Coimbatore

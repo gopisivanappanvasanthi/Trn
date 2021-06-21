@@ -2,7 +2,7 @@
 ID: "90f05747-bcdb-4853-ae9e-e5aaaafeaf10"
 Parent: "9f176a86-afc9-488c-96a4-d801831d4040"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Trn/Pages/Admission/AdmissionData
+Path: /sitecore/templates/Feature/Trn/Content/Admission/AdmissionData
 DB: master
 Languages:
 - Language: en
