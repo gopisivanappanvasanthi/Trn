@@ -455,6 +455,8 @@
     <Content Include="Views\TrnPageDetail\Index.cshtml" />
     <Content Include="Views\TrnCarousel\Index.cshtml" />
     <Content Include="Views\TrnSymposiumListing\Index.cshtml" />
+    <Content Include="Views\TrnSymposiumEnquiry\Index.cshtml" />
+    <Content Include="Views\TrnSymposiumEnquiry\EnquirySummary.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -463,11 +465,13 @@
     <Compile Include="Controllers\DepartmentInfoController.cs" />
     <Compile Include="Controllers\TrnPageDetailController.cs" />
     <Compile Include="Controllers\TrnSymposiumController.cs" />
+    <Compile Include="Controllers\TrnSymposiumEnquiryController.cs" />
     <Compile Include="Controllers\TrnSymposiumListingController.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\GalleryInfo.cs" />
     <Compile Include="Models\PageInfo.cs" />
     <Compile Include="Models\SymposiumCard.cs" />
+    <Compile Include="Models\SymposiumEnquiry.cs" />
     <Compile Include="Models\SymposiumInfo.cs" />
     <Compile Include="Models\SymposiumListingInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -485,6 +489,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Publishing\code\Trn.Foundation.Publishing.csproj">
+      <Project>{35538056-C229-481A-9E54-154EABCA7E00}</Project>
+      <Name>Trn.Foundation.Publishing</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
