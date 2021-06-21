@@ -1,15 +1,15 @@
 ﻿---
-ID: "ed62e39d-0f4f-4660-90c9-774a63e6391f"
-Parent: "02381944-277b-41b5-8292-07642b36e03b"
-Template: "02381944-277b-41b5-8292-07642b36e03b"
-Path: /sitecore/templates/Feature/Trn/Pages/Departments/__Standard Values
+ID: "302d499f-7112-4561-9140-b64ccc7ca787"
+Parent: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
+Template: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
+Path: /sitecore/templates/Feature/Trn/Content/LabEquipmentDetails/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
   Value: |
-    {4A2EE8DB-DA2D-44B2-88FB-83ED6AB051D4}
+    {02381944-277B-41B5-8292-07642B36E03B}
     {EE14F1C5-2C82-4AAD-BA39-6CDB08CE1446}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
@@ -20,21 +20,9 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
         <r
-          id="{5E35ECEB-DD9D-4582-80A1-6A312140019F}"
-          ph="main"
-          uid="{A911D8CE-2962-490E-B4B1-5FB7B8AA28C3}" />
-        <r
-          id="{160A5453-BEBA-4213-9491-F618C30AFF9D}"
-          ph="main"
-          uid="{EDA6C03B-F4BC-4B39-AD6E-7A2B01533989}" />
-        <r
           id="{EF037D67-4834-4F18-B76B-2CA864D359DF}"
           ph="main"
-          uid="{0BAEED43-3C8E-42E7-95CC-4256C3815093}" />
-        <r
-          id="{E4747BAB-4914-4C11-A143-7BFC1EF2CBC2}"
-          ph="main"
-          uid="{21F8A960-5016-457F-A026-6011CE2DB1EF}" />
+          uid="{6511B4B5-6CE3-447C-9E0F-1CDE64604969}" />
       </d>
     </r>
 Languages:
@@ -44,7 +32,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210521T111856Z
+      Value: 20210618T112407Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

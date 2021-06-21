@@ -1,0 +1,123 @@
+﻿@model Trn.Feature.Departments.Models.LabDetailsInfo
+
+@using (Html.BeginForm())
+{
+<div class="mb-3">
+    <label for="@Model.Department" class="form-label">Department</label>
+    @Html.TextBoxFor(x => x.Department, new { @class = "form-control" })
+    <!--<label>-->
+        @*@Html.TextBoxFor(x => x.Department, new { @class = "form-control" })*@
+        <!--<input list="browsers" name="myBrowser" />
+    </label>
+    <datalist id="Department">
+        <option value="ECE">
+        <option value="EEE">
+        <option value="IT ">
+        <option value="BIO TECH">
+        <option value="MECH">
+
+    </datalist>-->
+    @*<head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+
+            <div class="container">
+
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">ECE</a>
+                        <a class="dropdown-item" href="#">EEE</a>
+                        <a class="dropdown-item" href="#">IT</a>
+                    </div>
+                </div>
+            </div>
+
+        </body>*@
+    @*<input type="text" class="form-control" id="@Model.UserName" placeholder="<<<give your name here...>>>">*@
+</div>
+    <div class="mb-3">
+        <label for="@Model.LabSubject" class="form-label">LabSubject</label>
+        @Html.TextBoxFor(x => x.LabSubject, new { @class = "form-control" })
+        @*<input type="email" class="form-control" id="@Model.UserEmailId" placeholder="<<<give your email id here... >>>">*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.EquipmentName" class="form-label">EquipmentName</label>
+        @Html.TextAreaFor(x => x.EquipmentName, new { @class = "form-control" })
+        @*<textarea class="form-control" id="@Model.UserComments" placeholder="<<<leave your comments here... >>>" rows="3"></textarea>*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.EquipmentIdentity" class="form-label">EquipmentIdentity</label>
+        @Html.TextBoxFor(x => x.EquipmentIdentity, new { @class = "form-control" })
+
+        @*<input type="text" class="form-control" id="@Model.UserName" placeholder="<<<give your name here...>>>">*@
+    </div>
+
+    <div class="mb-3">
+        <label for="@Model.EquipmentUsageManual" class="form-label">EquipmentUsageManual</label>
+        @Html.TextBoxFor(x => x.EquipmentUsageManual, new { @class = "form-control" })
+
+        @*<input type="text" class="form-control" id="@Model.UserName" placeholder="<<<give your name here...>>>">*@
+    </div>
+    <head>
+        <label class="control-label" for="date">EquipmentExpiryDate</label>
+        <input type="text" value="@Model.EquipmentExpiryDate"class="form-control datepicker" placeholder="EquipmentExpiryDate" />
+        <label for="@Model.EquipmentExpiryDate" class="form-label"></label>
+        
+        <script>
+            $(function () {
+                $('.datepicker').datepicker({
+                    format: 'mm-dd-yyyy'
+                });
+            });
+        </script>
+    </head>
+
+
+    
+     
+   
+
+
+
+
+    @*<div class="container">
+            <div class="row">
+                <div class='col-sm-6'>
+                    <div class="form-group">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    $(function () {
+                        $('.datetimepicker1').datetimepicker();
+                    });
+                </script>
+            </div>
+        </div>*@
+
+    @*div class="mb-3">
+            <label for="@Model.EquipmentExpiryDate" class="form-label">EquipmentExpiryDate</label>
+            @Html.TextBoxFor(x => x.EquipmentExpiryDate, new { @class = "form-control" })
+        </div>*@
+
+
+
+
+    <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+}
+
