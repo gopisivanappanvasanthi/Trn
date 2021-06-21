@@ -14,8 +14,12 @@
         @*<input type="email" class="form-control" id="@Model.UserEmailId" placeholder="<<<give your email id here... >>>">*@
     </div>
     <div class="mb-3">
-        <label for="@Model.DateofBirth" class="DateField">Date of Birth</label>
-        @Html.TextBoxFor(x => x.DateofBirth, new { @class = "DateField" })
+
+        <label for="@Model.DateofBirth" class="form-label">Date of Birth</label>
+
+       
+            <input type="text" value="@Model.DateofBirth" class="form-control datepicker" placeholder="Select Date">
+
         @*<textarea class="form-control" id="@Model.UserComments" placeholder="<<<leave your comments here... >>>" rows="3"></textarea>*@
     </div>
     <div class="mb-3">
@@ -42,4 +46,10 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </div>
 }
-
+<script>
+    $(function () {
+        $('.datepicker').datepicker({
+            format: 'mm-dd-yyyy'
+        });
+    });
+</script>
