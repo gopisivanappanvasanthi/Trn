@@ -29,7 +29,7 @@ namespace Trn.Feature.Home.Controllers
         {
             var contextItem = Sitecore.Context.Item;
             Random randomNumber = new Random();
-            var displayNameItem = contextItem.Name +"Query" + randomNumber.Next(1, 20).ToString();
+            var displayNameItem = contextItem.Name +"Query" + randomNumber.Next(500, 1500).ToString();
 
             ID parentItemID = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
             var masterDatabase = Sitecore.Configuration.Factory.GetDatabase("master");
