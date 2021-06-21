@@ -8,7 +8,23 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{3810FF1A-3C2F-4698-9284-24BB23E11D46}"
+  Value: |
+    {3810FF1A-3C2F-4698-9284-24BB23E11D46}
+    {EE14F1C5-2C82-4AAD-BA39-6CDB08CE1446}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{EF037D67-4834-4F18-B76B-2CA864D359DF}"
+          ph="main"
+          uid="{4EC8E60B-2E75-479E-9FCB-F61DD1C87247}" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
