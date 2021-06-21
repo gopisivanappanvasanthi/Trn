@@ -1,8 +1,8 @@
 ﻿---
-ID: "f290bdaa-32c5-4ab5-985b-7ea81368e4d1"
-Parent: "7c686966-5d0e-4267-aa0f-9f141a605e8b"
+ID: "b2eb04eb-7983-421e-9007-b3f5887f754e"
+Parent: "9f56fd0c-b3a4-4290-ac3d-716e16c1313b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Content/QandA/QandASection/answers
+Path: /sitecore/templates/Feature/Trn/Content/SymposiumEnquiry/SymposiumEnquiry/SymposiumName
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210618T125331Z
+      Value: 20210618T170152Z

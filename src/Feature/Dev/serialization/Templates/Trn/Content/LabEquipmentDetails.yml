@@ -1,23 +1,20 @@
 ﻿---
-ID: "a26acd4c-0195-46d6-bd81-8b70a33e01f2"
+ID: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
 Parent: "2bc30f85-aaeb-4b46-b81b-12c9c9b939e2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Trn/Content/QandA
+Path: /sitecore/templates/Feature/Trn/Content/LabEquipmentDetails
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Core2/32x32/question_mark_h.png
+  Value: Software/16x16/components.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 194
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{E081ACEA-4A8B-474F-A636-AD131436AD73}"
+  Value: "{302D499F-7112-4561-9140-B64CCC7CA787}"
 Languages:
 - Language: en
   Versions:
@@ -25,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210618T124826Z
+      Value: 20210618T112010Z

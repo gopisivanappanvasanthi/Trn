@@ -1,8 +1,8 @@
 ﻿---
-ID: "7c686966-5d0e-4267-aa0f-9f141a605e8b"
-Parent: "a26acd4c-0195-46d6-bd81-8b70a33e01f2"
+ID: "9f56fd0c-b3a4-4290-ac3d-716e16c1313b"
+Parent: "8279cc55-604f-45b4-911d-081e6b0090d3"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Trn/Content/QandA/QandASection
+Path: /sitecore/templates/Feature/Trn/Content/SymposiumEnquiry/SymposiumEnquiry
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210618T125327Z
+      Value: 20210618T170152Z
