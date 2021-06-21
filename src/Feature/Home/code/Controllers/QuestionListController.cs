@@ -24,7 +24,7 @@ namespace Trn.Feature.Home.Controllers
                                       {
                                           Question = x.Fields["question"].Value,
                                           QuestionGuid = x.ID.ToString(),
-                                          Answer= "",
+                                          answer= "",
                                       }).ToList();
 
             QuestionList questionList = new QuestionList

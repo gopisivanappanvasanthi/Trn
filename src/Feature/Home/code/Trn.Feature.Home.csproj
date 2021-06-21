@@ -452,7 +452,6 @@
     <Content Include="Views\Superhero\Index.cshtml" />
     <Content Include="Views\SuperheroGallery\Index.cshtml" />
     <Content Include="Views\Question\Index.cshtml" />
-    <Content Include="Views\Question\QandA_SummaryOne.cshtml" />
     <Content Include="Views\TrnAdmissionForm\Index.cshtml" />
     <Content Include="Views\TrnAdmissionForm\AdmissionSummary.cshtml" />
     <Content Include="Views\QuestionList\Index.cshtml" />

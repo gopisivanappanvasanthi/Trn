@@ -9,6 +9,6 @@ namespace Trn.Feature.Home.Models
     {
         public string Question { get; set; }
         public string QuestionGuid { get; set; }
-        public string Answer { get; set; }
+        public string answer { get; set; }
     }
 }

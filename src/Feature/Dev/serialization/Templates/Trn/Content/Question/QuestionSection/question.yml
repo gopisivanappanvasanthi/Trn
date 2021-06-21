@@ -2,7 +2,7 @@
 ID: "d7744248-5cdb-4939-908a-e21c80562ad4"
 Parent: "fb5d69fd-aa18-4274-a056-2c8fcfc74485"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Content/QandA/QandASection/question
+Path: /sitecore/templates/Feature/Trn/Content/Question/QuestionSection/question
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"

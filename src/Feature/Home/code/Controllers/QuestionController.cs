@@ -29,17 +29,17 @@ namespace Trn.Feature.Home.Controllers
         {
             var contextItem = Sitecore.Context.Item;
             Random randomNumber = new Random();
-            var displayNameItem = contextItem.Name + randomNumber.Next(1, 10).ToString();
+            var displayNameItem = contextItem.Name +"Query" + randomNumber.Next(1, 20).ToString();
 
             ID parentItemID = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
             var masterDatabase = Sitecore.Configuration.Factory.GetDatabase("master");
             var webDatabase = Sitecore.Configuration.Factory.GetDatabase("web");
 
             var parentItemFromMaster = masterDatabase.GetItem(parentItemID);
-            ID idParentItem = new ID("{BDDBCE0D-A7F0-4913-873C-A117CEAE7659}");
-            var parentItemForQandA = masterDatabase.GetItem(idParentItem);
+            ID QandATemplateId = new ID("{BDDBCE0D-A7F0-4913-873C-A117CEAE7659}");
+           // var parentItemForQandA = masterDatabase.GetItem(idParentItem);
 
-            TemplateID templateID = new TemplateID(idParentItem);
+            TemplateID templateID = new TemplateID(QandATemplateId);
             using (new SecurityDisabler())
             {
                 var createdItem = parentItemFromMaster.Add(displayNameItem, templateID);
@@ -55,7 +55,7 @@ namespace Trn.Feature.Home.Controllers
 
             }
 
-            return View("/Views/Question/QandA_SummaryOne.cshtml");
+            return View("/Views/QuestionList/Index.cshtml");
 
         }
     }

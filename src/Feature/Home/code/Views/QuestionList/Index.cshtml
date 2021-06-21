@@ -1,4 +1,5 @@
 ﻿@model Trn.Feature.Home.Models.QuestionList
+<h1>Queries Submitted</h1>
  <div>
     @foreach (var item in Model.questions)
      {
@@ -8,8 +9,8 @@
             @using (Html.BeginForm())
             {
                 <div class="mb-3">
-                    <input type="hidden" id="@item.QuestionGuid" name="@item.QuestionGuid"
-                    <label for="@item.answer" class="form-label">Your Question</label>
+                       <input type="hidden" id="@item.QuestionGuid" name="@item.QuestionGuid" value="@item.QuestionGuid" />
+                    <label for="@item.answer" class="form-label">Your Answer</label>
                     @Html.TextBoxFor(x => x.answers, new { @class = "form-control" })
                 </div>
 
