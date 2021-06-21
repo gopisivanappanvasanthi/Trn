@@ -1,0 +1,14 @@
+﻿---
+ID: "ee83250a-24b0-48e0-b715-93a6d47bb56e"
+Parent: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Content/LabEquipmentDetails/LabDetailsInfo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T112323Z

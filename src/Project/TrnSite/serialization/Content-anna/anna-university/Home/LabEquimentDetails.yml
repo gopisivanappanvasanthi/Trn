@@ -4,6 +4,29 @@ Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
 Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
 Path: "/sitecore/content/anna-university/Home/LabEquimentDetails"
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{EE14F1C5-2C82-4AAD-BA39-6CDB08CE1446}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4EC8E60B-2E75-479E-9FCB-F61DD1C87247}">
+          <p:d />
+        </r>
+        <r
+          uid="{BCE81131-5898-468D-9E0E-548B80680255}"
+          s:id="{EF037D67-4834-4F18-B76B-2CA864D359DF}"
+          s:ph="main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

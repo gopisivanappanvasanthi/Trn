@@ -1,0 +1,35 @@
+﻿@model Trn.Feature.Departments.Models.SymposiumEnquiry
+
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        <label for="@Model.TeamName" class="form-label">Team Name</label>
+        @Html.TextBoxFor(x => x.TeamName, new { @class = "form-control" })
+
+        @*<input type="text" class="form-control" id="@Model.UserName" placeholder="<<<give your name here...>>>">*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.PhoneNumber" class="form-label">Phone Number</label>
+        @Html.TextBoxFor(x => x.PhoneNumber, new { @class = "form-control" })
+        @*<input type="email" class="form-control" id="@Model.UserEmailId" placeholder="<<<give your email id here... >>>">*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.SymposiumName" class="DateField">Symposium Name</label>
+        @Html.TextBoxFor(x => x.SymposiumName, new { @class = "DateField" })
+        @*<textarea class="form-control" id="@Model.UserComments" placeholder="<<<leave your comments here... >>>" rows="3"></textarea>*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.Idea" class="form-label">Idea to be Presented</label>
+        @Html.TextBoxFor(x => x.Idea, new { @class = "form-control" })
+        @*<textarea class="form-control" id="@Model.UserComments" placeholder="<<<leave your comments here... >>>" rows="3"></textarea>*@
+    </div>
+    <div class="mb-3">
+        <label for="@Model.PhoneNumber" class="form-label">Number of Presenters</label>
+        @Html.TextBoxFor(x => x.Presenters, new { @class = "form-control" })
+        @*<textarea class="form-control" id="@Model.UserComments" placeholder="<<<leave your comments here... >>>" rows="3"></textarea>*@
+    </div>
+    
+    <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+}

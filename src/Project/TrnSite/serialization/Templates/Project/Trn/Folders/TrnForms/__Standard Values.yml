@@ -14,17 +14,7 @@ SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
-  Value: |
-    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
-        <r
-          id="{99AE223C-59BE-4D91-A6EF-598010CF492F}"
-          ph="main"
-          uid="{792FDCEC-4AEC-4580-9E48-D4F07FD792DE}" />
-      </d>
-    </r>
+  Value: 
 Languages:
 - Language: en
   Versions:

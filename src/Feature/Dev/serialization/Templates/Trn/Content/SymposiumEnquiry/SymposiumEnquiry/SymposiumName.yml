@@ -1,8 +1,8 @@
 ﻿---
-ID: "7c8e9e11-e42c-4cb7-be92-950c8e1da468"
-Parent: "90f05747-bcdb-4853-ae9e-e5aaaafeaf10"
+ID: "b2eb04eb-7983-421e-9007-b3f5887f754e"
+Parent: "9f56fd0c-b3a4-4290-ac3d-716e16c1313b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Pages/Admission/AdmissionData/Course
+Path: /sitecore/templates/Feature/Trn/Content/SymposiumEnquiry/SymposiumEnquiry/SymposiumName
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210618T102024Z
+      Value: 20210618T170152Z

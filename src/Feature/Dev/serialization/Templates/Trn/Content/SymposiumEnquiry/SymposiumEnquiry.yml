@@ -1,0 +1,14 @@
+﻿---
+ID: "9f56fd0c-b3a4-4290-ac3d-716e16c1313b"
+Parent: "8279cc55-604f-45b4-911d-081e6b0090d3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Trn/Content/SymposiumEnquiry/SymposiumEnquiry
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T170152Z

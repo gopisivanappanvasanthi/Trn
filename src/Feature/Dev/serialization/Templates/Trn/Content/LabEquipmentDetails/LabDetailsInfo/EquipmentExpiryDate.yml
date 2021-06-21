@@ -1,16 +1,16 @@
 ﻿---
-ID: "011a9703-1eff-46c2-8699-9eb86928d485"
-Parent: "90f05747-bcdb-4853-ae9e-e5aaaafeaf10"
+ID: "ad2ec850-e8c5-4bd0-ba6b-82a2a527d9b5"
+Parent: "ee83250a-24b0-48e0-b715-93a6d47bb56e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Pages/Admission/AdmissionData/EmailId
+Path: /sitecore/templates/Feature/Trn/Content/LabEquipmentDetails/LabDetailsInfo/EquipmentExpiryDate
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Date
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 600
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210618T102025Z
+      Value: 20210618T112324Z

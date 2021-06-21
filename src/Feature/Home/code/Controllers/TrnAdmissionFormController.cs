@@ -38,9 +38,9 @@ namespace Trn.Feature.Home.Controllers
             //var parentItemFromWeb = webDatabase.GetItem(parentItem.ID);
 
             var parentItemFromMaster = masterDatabase.GetItem(parentItemID);
-            ID idparentitem = new ID("{9F176A86-AFC9-488C-96A4-D801831D4040}");
-            var parentItemForAdmission = masterDatabase.GetItem(idparentitem);
-            TemplateID templateID = new TemplateID(idparentitem);
+            ID admissionformtemplateid = new ID("{9F176A86-AFC9-488C-96A4-D801831D4040}");
+           // var parentItemForAdmission = masterDatabase.GetItem(idparentitem);
+            TemplateID templateID = new TemplateID(admissionformtemplateid);
             using (new SecurityDisabler())
             {
                 var createdItem = parentItemFromMaster.Add(inputComment.FirstName, templateID);
