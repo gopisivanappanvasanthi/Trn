@@ -1,0 +1,14 @@
+﻿---
+ID: "0ad08451-b02a-4d65-b1be-0a130a2742f5"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
+Path: "/sitecore/content/anna-university/Home/SymposiumEnquiries"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T145752Z
