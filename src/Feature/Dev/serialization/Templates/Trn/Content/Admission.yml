@@ -1,8 +1,8 @@
 ﻿---
 ID: "9f176a86-afc9-488c-96a4-d801831d4040"
-Parent: "99612252-eb65-49b2-af57-3c47d0eed086"
+Parent: "2bc30f85-aaeb-4b46-b81b-12c9c9b939e2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Trn/Pages/Admission
+Path: /sitecore/templates/Feature/Trn/Content/Admission
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
