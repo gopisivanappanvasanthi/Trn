@@ -11,7 +11,6 @@ namespace Trn.Feature.Home.Controllers
     public class QuestionListController : Controller
     {
         // GET: QuestionList
-        [HttpGet]
         public ActionResult Index()
         {
             ID parentItemID = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
@@ -34,6 +33,11 @@ namespace Trn.Feature.Home.Controllers
             };
 
             return View(questionList);
+        }
+        [HttpPost]
+        public ActionResult Index(QuestionList questionList)
+        {
+            return View("/Views/QuestionList/AnswerSummary.cshtml");
         }
     }
 }

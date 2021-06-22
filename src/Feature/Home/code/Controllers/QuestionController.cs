@@ -55,7 +55,7 @@ namespace Trn.Feature.Home.Controllers
 
             }
 
-            return View("/Views/QuestionList/Index.cshtml");
+            return View("/Views/Question/QuestionSummary.cshtml");
 
         }
     }

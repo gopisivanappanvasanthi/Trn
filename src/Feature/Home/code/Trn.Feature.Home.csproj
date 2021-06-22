@@ -455,6 +455,8 @@
     <Content Include="Views\TrnAdmissionForm\Index.cshtml" />
     <Content Include="Views\TrnAdmissionForm\AdmissionSummary.cshtml" />
     <Content Include="Views\QuestionList\Index.cshtml" />
+    <Content Include="Views\QuestionList\AnswerSummary.cshtml" />
+    <Content Include="Views\Question\QuestionSummary.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
