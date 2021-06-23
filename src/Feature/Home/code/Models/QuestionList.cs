@@ -8,7 +8,5 @@ namespace Trn.Feature.Home.Models
     public class QuestionList
     {
         public List<QandA> questions { get; set; }
-        public string answers { get; set; }
-        
     }
 }

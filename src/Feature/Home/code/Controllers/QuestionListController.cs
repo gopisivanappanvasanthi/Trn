@@ -19,17 +19,17 @@ namespace Trn.Feature.Home.Controllers
             var parentItemFromMaster = masterDatabase.GetItem(parentItemID);
 
             var listOfQuestions = parentItemFromMaster.GetChildren()
-                                      .Select(x => new QandA
+                                      .Select(qtn => new QandA
                                       {
-                                          Question = x.Fields["question"].Value,
-                                          QuestionGuid = x.ID.ToString(),
-                                          answer= "",
+                                          Question = qtn.Fields["question"].Value,
+                                          QuestionGuid = qtn.ID.ToString(),
+                                          Answers = GetListOfAnswers(qtn),
+                                          QandAHasChildren = qtn.HasChildren,
                                       }).ToList();
 
             QuestionList questionList = new QuestionList
             {
-                questions = listOfQuestions,
-               
+                questions = listOfQuestions
             };
 
             return View(questionList);
@@ -38,6 +38,43 @@ namespace Trn.Feature.Home.Controllers
         public ActionResult Index(QuestionList questionList)
         {
             return View("/Views/QuestionList/AnswerSummary.cshtml");
+        }
+
+        private List<Answer> GetListOfAnswers(Sitecore.Data.Items.Item ques)
+        {
+            List<Answer> answers = new List<Answer>();
+
+            if (ques.HasChildren)
+            {
+                answers = ques.GetChildren()
+                            .Select(ans => new Answer
+                            {
+                                AnswerForQuestion = ans.Fields["answer"].Value,
+                                QuestionId = ans.ID.ToString(),
+                                MarkedasCorrect = Convert.ToBoolean(ans.Fields["markascorrect"].Value, null),
+                                IsValidAnswer = true
+                            }).Concat(new List<Answer>() { new Answer
+                            {
+                                AnswerForQuestion = "",
+                                QuestionId = ques.ID.ToString(),
+                                MarkedasCorrect = false,
+                                IsValidAnswer = false
+                            }}).ToList();
+            }
+            else
+            {
+                answers = new List<Answer>()
+                {
+                    new Answer
+                    {
+                        AnswerForQuestion = "",
+                        QuestionId = ques.ID.ToString(),
+                        MarkedasCorrect = false,
+                        IsValidAnswer = false
+                    }
+                };
+            }
+            return answers;
         }
     }
 }

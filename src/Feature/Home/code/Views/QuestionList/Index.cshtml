@@ -3,22 +3,36 @@
 <div>
     @if (Model.questions != null)
     {
-        foreach (var item in Model.questions)
+        foreach (var ques in Model.questions)
         {
-            <h3>@item.Question</h3>
+            <h3>@ques.Question</h3><div class="col">
 
-            <div class="col">
-                @using (Html.BeginForm())
+                @foreach (var ans in ques.Answers)
                 {
-                    <div class="mb-3">
-                        <input type="hidden" id="@item.QuestionGuid" name="@item.QuestionGuid" value="@item.QuestionGuid" />
-                        <label for="@item.answer" class="form-label">Your Answer</label>
-                        @Html.TextBoxFor(x => x.answers, new { @class = "form-control" })
-                    </div>
+                    if (ans.IsValidAnswer)
+                    {
+                        <div class="mb-3">
+                            <h5>@ans.AnswerForQuestion</h5>
+                            <input type="hidden" name="@ans.QuestionId" value="@ans.QuestionId" />
+                        </div>
+                    }
+                    else
+                    {
+                        using (Html.BeginForm())
+                        {
+                            <div class="mb-3">
+                                <input type="hidden" id="@ans.QuestionId" name="@ans.QuestionId" value="@ans.QuestionId" />
+                                <label for="@ans.AnswerForQuestion" class="form-label">Your Answer</label>
+                                @Html.TextBox(ans.AnswerForQuestion, new { @class = "form-control" })
+                            </div>
 
-                    <div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
+                            <div>
+                                <button type="submit" class="btn btn-outline-secondary">Submit your answer</button>
+                            </div>
+                        }
+
+                    }
+
                 }
 
             </div>
