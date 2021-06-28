@@ -51,7 +51,7 @@ namespace Trn.Feature.Home.Controllers
                             {
                                 AnswerForQuestion = ans.Fields["answer"].Value,
                                 QuestionId = ans.ID.ToString(),
-                                MarkedasCorrect = Convert.ToBoolean(ans.Fields["markascorrect"].Value, null),
+                                MarkedasCorrect = Convert.ToBoolean(ans.Fields["markascorrect"].Value == "1" ? "true" : "false", null),
                                 IsValidAnswer = true
                             }).Concat(new List<Answer>() { new Answer
                             {
