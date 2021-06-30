@@ -1,0 +1,35 @@
+﻿---
+ID: "991b56ef-3f83-4887-adb9-786cefef2461"
+Parent: "0f7eea2b-9c59-46d0-b65f-0ea880361569"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/Technovial"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International ECE Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T151613Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: Technovial Is An International symposium which is hosted by department of ece. It is one such event where young brains get to showcase their skills and compete with others to find the best. The Fest will be organised on February 07 and February 08, 2021 as a combinational series of workshop and technical symposium. The Fest comes up with many innovative activities this time which will make the students enjoy to the fullest.
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: TECHNOVIAL'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {FB802DE8-8FBD-4BFE-8F15-861A92FF294D}
+        {9911868B-DDA9-4C0B-9504-BC4AA7EAD9A9}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 7890998765
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210722T053000Z

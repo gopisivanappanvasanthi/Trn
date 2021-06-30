@@ -1,0 +1,35 @@
+﻿---
+ID: "8262d654-55b1-463b-9418-3422dd85ed69"
+Parent: "1f14bcc6-6966-471d-8beb-ed04d9c98351"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/MECH/MechnoCraft"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International Mechanical Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T124551Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: MECHNO CRAFT is an Inter National Level Technical Symposium which is conducted by the Mechanical Engineers Association to find great new talents and to recognize them. This event is conducted every year as a festival to mark the legacy and to establish the standard of our Mechanical Engineers Association.
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: MECHNO CRAFT'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {57A2C38A-591D-44EA-8A51-34DAD9432725}
+        {AFDE65EC-8F1F-4F67-9060-4AE992C55524}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 8890998765
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210708T100000Z
