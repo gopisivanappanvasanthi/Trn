@@ -1,0 +1,24 @@
+﻿---
+ID: "d5d1cf36-733e-475f-b5e1-69d1edb344f8"
+Parent: "acf0c1ef-e916-459d-a75a-23d3a41be801"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/SecondArticle"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: Established in October 1986 in the verdant valleys of Siruvani Hills in Coimbatore, KITS is presently a Deemed University ranked among the top 100 Institutions in Engineering by NIRF, MHRD, GoI. The sprawling 720 acre green campus is home to 7500 students drawn across the States and Union Territory in India and abroad, providing them a perfect ambience for living and learning. KITS is powered by a team of highly motivated, competent and experienced Faculty Members. Many of them have Doctorate Degree in various areas of specialisations and few of them with Post – Doctoral Research from reputed Universities across the globe. KITS has received funded projects to the tune of Rs.34 Crores and has generated Rs.5 Crores through Consultancy services. The Faculty of the University has published 3931 Research Papers in Scopus Indexed Journals and have filed 58 Patents and 53 published Patents.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T072539Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: KARUNYA UNIVERSITY
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{1E5CDA21-0732-4343-92EF-14C166019333}" />

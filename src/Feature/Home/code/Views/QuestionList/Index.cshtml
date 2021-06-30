@@ -3,28 +3,28 @@
 <div>
     @if (Model.questions != null)
     {
-        foreach (var ques in Model.questions)
+        for (int ques = 0; ques < Model.questions.Count; ques++)
         {
-            <h3>@ques.Question</h3><div class="col">
+            <h3>@Model.questions[ques].Question</h3><div class="col">
 
-                @foreach (var ans in ques.Answers)
+                @for (int ans =0; ans < @Model.questions[ques].Answers.Count; ans++ )
                 {
-                    if (ans.IsValidAnswer)
+                    if (@Model.questions[ques].Answers[ans].IsValidAnswer)
                     {
                         <div class="mb-3">
-                            <h5>@ans.AnswerForQuestion</h5>
-                            <input type="hidden" name="@ans.QuestionId" value="@ans.QuestionId" />
+                            <h5>@Model.questions[ques].Answers[ans].AnswerForQuestion</h5>
+                            <input type="hidden" name="@Model.questions[ques].Answers[ans].QuestionId" value="@Model.questions[ques].Answers[ans].QuestionId" />
                         </div>
                     }
                     else
                     {
-                        using (Html.BeginForm())
+                        using (Html.BeginForm(Model.questions[ques].Answers[ans]))
                         {
-                            <div class="mb-3">
-                                <input type="hidden" id="@ans.QuestionId" name="@ans.QuestionId" value="@ans.QuestionId" />
-                                <label for="@ans.AnswerForQuestion" class="form-label">Your Answer</label>
-                                @Html.TextBox(ans.AnswerForQuestion)
-                            </div>
+                                   <div class="mb-3">
+                                       <input type="hidden" id="@Model.questions[ques].Answers[ans].QuestionId" name="@Model.questions[ques].Answers[ans].QuestionId" value="@Model.questions[ques].Answers[ans].QuestionId" />
+                                       <label for="@Model.questions[ques].Answers[ans].AnswerForQuestion" class="form-label">Your Answer</label>
+                                       @Html.TextBoxFor(x => x.questions[ques].Answers[ans].AnswerForQuestion)
+                                   </div>
 
                             <div>
                                 <button type="submit" class="btn btn-outline-secondary">Submit your answer</button>

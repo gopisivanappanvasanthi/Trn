@@ -1,0 +1,21 @@
+﻿---
+ID: "d9b4f471-54f4-4887-9a81-e0183270f9aa"
+Parent: "40653d85-72f2-46b6-bf28-d4bb4a595886"
+Template: "eab1e889-a7a2-4750-be52-0fd59d624a60"
+Path: "/sitecore/content/anna-university/Home/QandA/AnnualDayQuery1/Answer-2"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210628T055606Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "96a7fe47-344c-4cbc-9b40-01e4d100ab4e"
+      Hint: answer
+      Value: "Answer-2"

@@ -35,8 +35,19 @@ namespace Trn.Feature.Home.Controllers
             return View(questionList);
         }
         [HttpPost]
-        public ActionResult Index(QuestionList questionList)
+        public ActionResult Index(Answer answer)
         {
+            //for(int i=0; i< questionList.questions.Count; i++)
+            //{
+            //    for(int j=0; j<questionList.questions[i].Answers.Count; j++)
+            //    {
+            //        if (!questionList.questions[i].Answers[j].IsValidAnswer)
+            //        {
+            //            Answer answer = new Answer();
+            //        }
+            //    }
+            //}
+
             return View("/Views/QuestionList/AnswerSummary.cshtml");
         }
 
@@ -51,7 +62,7 @@ namespace Trn.Feature.Home.Controllers
                             {
                                 AnswerForQuestion = ans.Fields["answer"].Value,
                                 QuestionId = ans.ID.ToString(),
-                                MarkedasCorrect = Convert.ToBoolean(ans.Fields["markascorrect"].Value == "1" ? "true" : "false", null),
+                                MarkedasCorrect = Convert.ToBoolean(ans.Fields["markascorrect"].Value == "1" ? 1 : 0, null),
                                 IsValidAnswer = true
                             }).Concat(new List<Answer>() { new Answer
                             {
