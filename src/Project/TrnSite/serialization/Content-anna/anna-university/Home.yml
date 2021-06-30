@@ -4,6 +4,21 @@ Parent: "812e2eac-217e-4c44-af1b-3f23641532e0"
 Template: "137f2a49-1db3-4dd6-bd31-780a8dfefe94"
 Path: "/sitecore/content/anna-university/Home"
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A058BADB-EE36-4D38-B712-9425E514F920}"
+          s:ds="{8DBB60C8-44A6-4421-A377-CBCFF6C81436}"
+          s:par="" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

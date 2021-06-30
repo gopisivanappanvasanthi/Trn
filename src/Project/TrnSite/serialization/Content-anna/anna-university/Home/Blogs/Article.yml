@@ -70,12 +70,22 @@ Languages:
         <image mediaid="{F4E39147-7748-4F26-A2F8-A455B7634483}" />
   - Version: 4
     Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: A Sample Title
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210623T153311Z
     - ID: "700f4aad-ad3b-4058-8673-a0cee765a1f7"
       Hint: __Content Test
       Value: 
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: A Sample Title
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20210623T153311Z
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BE1AA64-6397-4362-B43C-8EFE1E08B3C7}" />
