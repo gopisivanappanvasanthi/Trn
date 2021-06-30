@@ -1,16 +1,16 @@
 ﻿---
-ID: "d7744248-5cdb-4939-908a-e21c80562ad4"
-Parent: "fb5d69fd-aa18-4274-a056-2c8fcfc74485"
+ID: "3679973f-8acf-4b21-adb1-268db04fa85d"
+Parent: "6defbfa9-d3e7-47b3-9d69-99010d43c3a6"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Trn/Content/QandA/QandASection/question
+Path: /sitecore/templates/Feature/Trn/Content/Answer/AnswerSection/markascorrect
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210619T052214Z
+      Value: 20210622T061114Z

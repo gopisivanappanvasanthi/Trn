@@ -2,7 +2,7 @@
 ID: "fb5d69fd-aa18-4274-a056-2c8fcfc74485"
 Parent: "bddbce0d-a7f0-4913-873c-a117ceae7659"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Trn/Content/QandA/QandASection
+Path: /sitecore/templates/Feature/Trn/Content/Question/QuestionSection
 DB: master
 Languages:
 - Language: en
