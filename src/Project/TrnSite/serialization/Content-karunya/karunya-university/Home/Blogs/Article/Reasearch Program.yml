@@ -1,0 +1,24 @@
+﻿---
+ID: "6b2fe87e-22cc-423b-9309-6e874b2c93fc"
+Parent: "a37abb6c-ee12-4607-91a2-56ffbb5535c8"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Article/Reasearch Program"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "Karunya Institute of Technology and Sciences offers Ph.D. degree program. These program are offered in various Departments focusing on the thrust areas of research of the Institution, namely Food, Water, Health and Energy. A wide range of facilities and infrastructure are provided to the scholars which include research facilities and equipment worth more than Rs. 100 million; Research Fellowship worth Rs. 5 million; short term research grants; academic and research exchange programmes with foreign Universities; unlimited access to computer and internet facilities; online subscription to research journals, etc. Research projects worth 50 million funded by Government and Private agencies are being carried out in the campus. Scholars are given opportunities to work in those projects as well. The campus life of Karunya is worth mentioning. It has a well-equipped residential campus, which include all essential facilities, avenues for sports and cultural activities, guest house and restaurant facilities, auditoriums, bank, hospital and post office."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T133427Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: Reasearch Program in Karunya
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{046D2177-BD9E-4DEA-A5B5-C2D3139738E2}" />

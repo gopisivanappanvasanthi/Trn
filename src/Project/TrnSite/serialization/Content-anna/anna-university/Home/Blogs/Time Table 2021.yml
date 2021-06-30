@@ -1,0 +1,28 @@
+﻿---
+ID: "1ecb9dd8-54ba-407a-bb26-9f110f51cc13"
+Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/anna-university/Home/Blogs/Time Table 2021"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 425
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "Anna University Time Table 2021 PDF Download for AUCOE Special Exam Time Table affiliated Colleges April May 2021 UG & PG Regular Degree Exam Date 1st 2nd 3rd 4th 5th 6th 7th 8th Semester Regular, Back, Re-Exam and Special Arrear. There are the Exam Controller has been Postponed the AU Degree new Exam Schedule for all BE/ B.Tech / B.Arch and other Programmes. So all the Regular, private, and Distance Education students of AU and its affiliated colleges check their respective Anna University Degree DDE Exam Scheme PDF. The Exam controller decides to conduct Online/Offline Proctored Mode a Anna University Special Exam June July 2021 for all UG PG programs due to the Covid19 situation. However, the Date and Schedule are informed to students in well advance.  However, the COE has the right to change and revised the Dates of the exam paper. So the students have to regularly keep checking here for any latest announcement of Anna University UG PG Time Table April May 2021. Moreover the respective each and every BA BSc BCom MSc etc is provided separately to check the subject wise exam schedule. So scroll down to get more latest AUCDE Special Arrear Exam Date from this page here. The detailed and course wise Revised Exam postponed time table for Anna University and affiliated colleges Distance Education program sis releases shortly."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T115314Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: Anna University Time Table 2021 AUCOE UG PG 2nd 4th 6th Semester
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6DBD7C-9F70-4960-BE5B-BAF8861663A1}" />

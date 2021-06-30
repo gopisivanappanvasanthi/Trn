@@ -1,0 +1,24 @@
+﻿---
+ID: "95b005f5-93a8-4bfb-abf9-b2203051e0f6"
+Parent: "a37abb6c-ee12-4607-91a2-56ffbb5535c8"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Article/karunya Tie-up"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "Department of Computer Sciences Technology and Novell Software Development India Pvt. Ltd. had signed MoU on 7-5- 2010. Faculty members were trained in SUSE Linux Enterprise Server 11 and on taking up the industrial certification the course was offered to the students from the year 2011. The students on taking up the course and completing the certification examination were offered internship by Novell. Over the next few years, as an outcome of the MoU, certification course was conducted and various technical events in collaboration with Novell were conducted very frequently. To achieve academic excellence and bridge the educational-technical gap in the field of education, the department of Computer Sciences Technology, Karunya Institute of Technology and Sciences further engaged with Novell on 29-4- 2014 to offer M. Tech Information Technology, Also the Novell Center of Excellence for Cloud Computing lab established to offer trainings and carry out research in Cloud."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T133051Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value:  Consultancy tie up with Industry. 
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{C9C9DFCD-6F53-48CC-B1A3-7911AF55779A}" />

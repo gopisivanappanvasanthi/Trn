@@ -2,7 +2,7 @@
 ID: "8dbb60c8-44a6-4421-a377-cbcff6c81436"
 Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
 Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
-Path: "/sitecore/content/anna-university/Home/Blogs/Article"
+Path: "/sitecore/content/anna-university/Home/Blogs/Anna University re-exam"
 DB: master
 SharedFields:
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
@@ -14,6 +14,9 @@ SharedFields:
         id="{A93EDA12-95E3-4EE4-A755-5A894C3A64B0}"
         name="Accessing Anna Article" />
     </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:

@@ -1,0 +1,24 @@
+﻿---
+ID: "8ec8b2c1-457c-4916-acb3-e79449c4ace9"
+Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/anna-university/Home/Blogs/students protest"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "ADVERTISEMENT  QChennai: Anna University Students Protest & More Here are the latest news updates from Chennai.  THE QUINT Published: 19 Jan 2019, 7:43 AM IST INDIA 3 min read Students of engineering colleges affiliated to Anna University have launched a statewide protest against a regulation issued in 2017. i Share Share Share Share Share Comments 1. Engineering Students Protest Against Anna University’s Regulation The management has urged the students to approach their college principals and seek details of the regulation.  The management has urged the students to approach their college principals and seek details of the regulation. (Photo Courtesy: The News Minute) Students of engineering colleges affiliated to Anna University have launched a statewide protest against a regulation issued in 2017. The university implemented the choice-based credit system (CBCS), under which the students who fail in a paper in a semester can reappear only in the next year along with their juniors in that semester.  The students are protesting against this rule. Anna University Registrar J Kumar, who met the students and later the reporters, said the university had received the students' written demands. However, any changes in the regulations can be made only after a committee studies the demands."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T120901Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: Engineering Students Protest Against Anna University’s Regulation
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{D3DA29D9-7210-45C7-9682-C36441898597}" />

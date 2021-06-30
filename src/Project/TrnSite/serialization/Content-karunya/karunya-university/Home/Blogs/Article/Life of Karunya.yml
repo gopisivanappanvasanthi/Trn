@@ -1,0 +1,24 @@
+﻿---
+ID: "aeca43d3-f6a8-4536-a0b0-104e089d12fb"
+Parent: "a37abb6c-ee12-4607-91a2-56ffbb5535c8"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Article/Life of Karunya"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: The internal assessment schedule for UG and PG exams has already been released by the Anna University. The exams for UG degree will begin from November 15. The university has also released the review results of April/ May 2017 exams for UG/ PG. The internal assessment schedule for UG and PG exams has already been released by the Anna University. The exams for UG degree will begin from November 15. The university has also released the review results of April/ May 2017 exams for UG/ PG. 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T124028Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: Karunya University Admissions |sports |life
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{B500D7E8-2480-4009-B0A8-7595DBB36645}" />

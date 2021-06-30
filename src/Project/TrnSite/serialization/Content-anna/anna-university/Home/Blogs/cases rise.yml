@@ -1,0 +1,28 @@
+﻿---
+ID: "77f1f589-aa50-482a-b1f0-ec6690e24641"
+Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/anna-university/Home/Blogs/cases rise"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "As colleges reopened for a section of students, there has been a COVID-19 outbreak in one of the city’s premier educational institutions. Indian Institute of Technology (IIT) Madras recorded 191 positive cases. The institution had to go under a localised lockdown and carry out extensive testing to prevent the spread.The Greater Chennai Corporation (GCC) collected 6,344 samples from college students across the city for testing.  Six students of Anna University, five students from Valasaravakkam zone, three from Sholinganallur, one each from Alandur and Perungudi have also tested positive for COVID-19."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T115859Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: "COVID cases at IIT-M and Anna University go up"
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{7FFDCCF6-FC0A-4EB8-A50B-69576EFD4511}" />
