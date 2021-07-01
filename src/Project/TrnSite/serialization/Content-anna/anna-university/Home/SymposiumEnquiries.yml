@@ -4,6 +4,26 @@ Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
 Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
 Path: "/sitecore/content/anna-university/Home/SymposiumEnquiries"
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{792FDCEC-4AEC-4580-9E48-D4F07FD792DE}">
+          <p:d />
+        </r>
+        <r
+          uid="{07F6E044-1098-4D42-ACA6-002A67F28486}"
+          p:after="*[1=2]"
+          s:id="{99AE223C-59BE-4D91-A6EF-598010CF492F}"
+          s:ph="main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

@@ -1,0 +1,24 @@
+﻿---
+ID: "4e51e594-0857-4436-8714-8004c3edc58a"
+Parent: "acf0c1ef-e916-459d-a75a-23d3a41be801"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/online exams"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: Controller of Examinations office at Karunya Institute of Technology and Sciences is responsible to create and display examination timetable, coordinate and conduct internal and external examinations, process marks, publish results and conduct convocation. The Controller of Examination office promotes centralized examinations and valuation. The examinations are scheduled in line with the institutions academic calendar. The Eduserve portal is used to enter marks for all examination components. The final results are announced within 10 working days of the last examination.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T132608Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: "Online End Semester Examination - APR/May/JUN 2021"
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{C9C9DFCD-6F53-48CC-B1A3-7911AF55779A}" />

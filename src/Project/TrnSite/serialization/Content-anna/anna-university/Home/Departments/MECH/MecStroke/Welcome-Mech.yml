@@ -1,0 +1,24 @@
+﻿---
+ID: "22e6f133-ccc0-4ddb-b019-85de1d14e01d"
+Parent: "2c2d3081-4a3d-4333-98fd-2ab4fd25ddea"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/MECH/MecStroke/Welcome-Mech"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T183119Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: "Mech Symposiums - 2021"
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Welcome
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{BC96308A-83CA-4BD9-BCB8-2369C220DD36}" />

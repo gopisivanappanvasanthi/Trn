@@ -10,5 +10,7 @@ namespace Trn.Feature.Article.Models
         public HtmlString Title { get; set; }
         public HtmlString Description { get; set; }
         public HtmlString Image { get; set; }
+
+        public string Url { get; set; }
     }
 }

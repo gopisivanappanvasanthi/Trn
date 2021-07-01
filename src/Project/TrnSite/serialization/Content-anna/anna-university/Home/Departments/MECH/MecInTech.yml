@@ -1,0 +1,35 @@
+﻿---
+ID: "5791aa78-8a87-4d82-816c-f06df40975a0"
+Parent: "1f14bcc6-6966-471d-8beb-ed04d9c98351"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/MECH/MecInTech"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International Mechanical Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T124519Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: "Symposium is dedicated to working closely with its presenters and key-note speakers to ensure their messages are clearly communicated to the investment community. We do more than just give them a slide projector and microphone – we can help with their presentation as well as offer advice on presentation skills and how to effectively communicate their message. We also work with them to ensure they have the right people in the room to hear that message."
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: MECINTECH'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {9388EBB2-00B7-4B18-869F-2E9F152C8E5F}
+        {0F7489E0-7451-46AA-B132-B8F1BC33DE2B}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 8890765478
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210728T160000Z

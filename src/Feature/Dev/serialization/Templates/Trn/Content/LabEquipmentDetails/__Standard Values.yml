@@ -1,0 +1,39 @@
+﻿---
+ID: "302d499f-7112-4561-9140-b64ccc7ca787"
+Parent: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
+Template: "ee14f1c5-2c82-4aad-ba39-6cdb08ce1446"
+Path: /sitecore/templates/Feature/Trn/Content/LabEquipmentDetails/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {02381944-277B-41B5-8292-07642B36E03B}
+    {EE14F1C5-2C82-4AAD-BA39-6CDB08CE1446}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{EF037D67-4834-4F18-B76B-2CA864D359DF}"
+          ph="main"
+          uid="{6511B4B5-6CE3-447C-9E0F-1CDE64604969}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210618T112407Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

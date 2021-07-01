@@ -1,22 +1,41 @@
 ﻿@model Trn.Feature.Home.Models.QuestionList
- <div>
-    @foreach (var item in Model.questions)
-     {
-        <h3>@item.questions</h3>
+<h1>Queries Submitted</h1>
+<div>
+    @if (Model.questions != null)
+    {
+        for (int ques = 0; ques < Model.questions.Count; ques++)
+        {
+            <h3>@Model.questions[ques].Question</h3><div class="col">
 
-        <div class="col">
-            @using (Html.BeginForm())
-            {
-                <div class="mb-3">
-                    <label for="@Model.answers" class="form-label">Your Question</label>
-                    @Html.TextBoxFor(x => x.answers, new { @class = "form-control" })
-                </div>
+                @for (int ans =0; ans < @Model.questions[ques].Answers.Count; ans++ )
+                {
+                    if (@Model.questions[ques].Answers[ans].IsValidAnswer)
+                    {
+                        <div class="mb-3">
+                            <h5>@Model.questions[ques].Answers[ans].AnswerForQuestion</h5>
+                            <input type="hidden" name="@Model.questions[ques].Answers[ans].QuestionId" value="@Model.questions[ques].Answers[ans].QuestionId" />
+                        </div>
+                    }
+                    else
+                    {
+                        using (Html.BeginForm(Model.questions[ques].Answers[ans]))
+                        {
+                                   <div class="mb-3">
+                                       <input type="hidden" id="@Model.questions[ques].Answers[ans].QuestionId" name="@Model.questions[ques].Answers[ans].QuestionId" value="@Model.questions[ques].Answers[ans].QuestionId" />
+                                       <label for="@Model.questions[ques].Answers[ans].AnswerForQuestion" class="form-label">Your Answer</label>
+                                       @Html.TextBoxFor(x => x.questions[ques].Answers[ans].AnswerForQuestion)
+                                   </div>
 
-                <div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-            }
+                            <div>
+                                <button type="submit" class="btn btn-outline-secondary">Submit your answer</button>
+                            </div>
+                        }
 
-        </div>
-     }
- </div>
+                    }
+
+                }
+
+            </div>
+        }
+    }
+</div>

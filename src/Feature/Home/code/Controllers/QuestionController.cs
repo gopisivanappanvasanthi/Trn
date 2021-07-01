@@ -27,18 +27,22 @@ namespace Trn.Feature.Home.Controllers
         [HttpPost]
         public ActionResult Index(QandA inputQuery)
         {
+            var contextItem = Sitecore.Context.Item;
+            Random randomNumber = new Random();
+            var displayNameItem = contextItem.Name +"Query" + randomNumber.Next(500, 1500).ToString();
+
             ID parentItemID = new ID("{8CFC3B0F-B415-4152-B097-F4F6F64D0080}");
             var masterDatabase = Sitecore.Configuration.Factory.GetDatabase("master");
             var webDatabase = Sitecore.Configuration.Factory.GetDatabase("web");
 
             var parentItemFromMaster = masterDatabase.GetItem(parentItemID);
-            ID idParentItem = new ID("{BDDBCE0D-A7F0-4913-873C-A117CEAE7659}");
-            var parentItemForQandA = masterDatabase.GetItem(idParentItem);
+            ID QandATemplateId = new ID("{BDDBCE0D-A7F0-4913-873C-A117CEAE7659}");
+           // var parentItemForQandA = masterDatabase.GetItem(idParentItem);
 
-            TemplateID templateID = new TemplateID(idParentItem);
+            TemplateID templateID = new TemplateID(QandATemplateId);
             using (new SecurityDisabler())
             {
-                var createdItem = parentItemFromMaster.Add(inputQuery.Question, templateID);
+                var createdItem = parentItemFromMaster.Add(displayNameItem, templateID);
                 createdItem.Editing.BeginEdit();
                 createdItem.Fields["question"].Value = inputQuery.Question;
                 
@@ -51,7 +55,7 @@ namespace Trn.Feature.Home.Controllers
 
             }
 
-            return View("/Views/Question/QandA_SummaryOne.cshtml");
+            return View("/Views/Question/QuestionSummary.cshtml");
 
         }
     }

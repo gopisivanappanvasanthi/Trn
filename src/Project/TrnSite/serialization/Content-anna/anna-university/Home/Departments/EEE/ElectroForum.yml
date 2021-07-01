@@ -1,0 +1,35 @@
+﻿---
+ID: "660b92e2-d218-48b0-84a7-b9cf0bca0ce8"
+Parent: "cc662689-7ec5-4f4a-8ae4-b7d077c73893"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/EEE/ElectroForum"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International EEE Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T123011Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: "Electro forum is an inter national level symposium organized to bring the brightest students from across the state and country into a single conference in the aim of collective learning and enhancing of the skills imbued by the Department of Electronics and Communication Engineering at the Hindusthan College of Engineering and Technology. This Symposium also becomes a center stage to bring technology congealed with extra-curricular events and provides an unforgettable experience."
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: ELECTRO FORUM'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {447A6310-B0C7-419B-9355-7480958FB571}
+        {557AD686-CDAC-4316-8408-E8AB02DE4898}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 8890765890
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210717T043000Z

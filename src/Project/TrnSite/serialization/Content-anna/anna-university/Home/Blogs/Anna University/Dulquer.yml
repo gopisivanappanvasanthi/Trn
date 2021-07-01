@@ -1,0 +1,27 @@
+﻿---
+ID: "134d1612-da69-4f29-bf6c-2f0e290fb99a"
+Parent: "8dbb60c8-44a6-4421-a377-cbcff6c81436"
+Template: "3810ff1a-3c2f-4698-9284-24bb23e11d46"
+Path: "/sitecore/content/anna-university/Home/Blogs/Anna University/Dulquer"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210617T091739Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "aa6fd6e1-9e79-4047-b218-2819d9e4543f"
+      Hint: username
+      Value: Dulquer
+    - ID: "d587e8fe-657c-4200-89ff-206bb2a7b288"
+      Hint: usercomments
+      Value: Dulquer's comments
+    - ID: "e9180cb1-24fd-4c43-a549-6a09c840f10e"
+      Hint: useremailid
+      Value: dulquer@gmail.com

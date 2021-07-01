@@ -43,6 +43,9 @@ Languages:
     - ID: "6a8c72c3-c914-462c-94b5-342c4cbdc3a5"
       Hint: id
       Value: VIN IN 73
+    - ID: "700f4aad-ad3b-4058-8673-a0cee765a1f7"
+      Hint: __Content Test
+      Value: /sitecore/system/Marketing Control Panel/Test Lab/2021/06/23/16/09/Kohi B60DA3FAB0EF4D6E97E879ACC5B18B8B/Version
     - ID: "855de9d9-9506-41c9-b31a-8b61376524f6"
       Hint: sports
       Value: Hockey

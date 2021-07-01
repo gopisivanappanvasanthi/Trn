@@ -8,7 +8,9 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{292EDE91-D18B-4745-BE76-E24CD8AA7543}"
+  Value: |
+    {292EDE91-D18B-4745-BE76-E24CD8AA7543}
+    {8279CC55-604F-45B4-911D-081E6B0090D3}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -33,6 +35,10 @@ SharedFields:
           id="{D4F5870F-79E0-4D01-9DA1-42ABBF454E88}"
           ph="main"
           uid="{4E7AD902-A70E-4AF2-9F32-751698ACB87C}" />
+        <r
+          id="{6E1A9D45-7BEF-4A8E-A267-E993964A7CF4}"
+          ph="main"
+          uid="{70351B0B-9C8B-4A0B-9F9E-403FD882D598}" />
       </d>
     </r>
 Languages:

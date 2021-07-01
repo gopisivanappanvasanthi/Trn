@@ -1,0 +1,28 @@
+﻿---
+ID: "5be7f296-79ac-4494-b9c6-9746d351ce1e"
+Parent: "acf0c1ef-e916-459d-a75a-23d3a41be801"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Admission in 2021"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 350
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: Karunya University (formerly Karunya Institute of Technology and Sciences, KITS) ,2020 Admissions started.Karunya University is a fully residential, Christian University located in Coimbatore, India. It was founded as a Christian minority institution by the late D. G. S. Dhinakaran, his son Paul Dhinakaran, Christian evangelists and the founders of Jesus Calls Ministries, India. This deemed university has been accredited byNAAC with a ‘B’ grade.In 1981, D.G.S. Dhinakaran embarked on the path to start a technical university. The institute was inaugurated on 4 October 1986 as Karunya Institute of Technology. In 2004, the institute was awarded deemed university status in recognition of its academic excellence by the Ministry of Human Resources Development, government of India and subsequently renamed as Karunya University.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T124532Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: Karunya Engineering University Coimbatore Admission 2021
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{1685988F-C22E-4F41-8BB0-8D3DD3FA4AD6}" />

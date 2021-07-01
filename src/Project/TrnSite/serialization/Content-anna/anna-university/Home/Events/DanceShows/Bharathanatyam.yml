@@ -1,0 +1,24 @@
+﻿---
+ID: "2807386a-4b05-4f92-abf9-466b269617b3"
+Parent: "1b1b1811-bc1c-4e2c-abce-0e20497a9c3a"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Events/DanceShows/Bharathanatyam"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T130549Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: "Events - 2021"
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Bharathanatyam
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{0B06F5CB-E8EB-47C5-BF55-5B4121CA63D8}" alt="" height="775" width="1466" hspace="" vspace="" />
