@@ -459,6 +459,7 @@
     <Content Include="Views\LabDetails\LabdetailsView.cshtml" />
     <Content Include="Views\TrnSymposiumEnquiry\Index.cshtml" />
     <Content Include="Views\TrnSymposiumEnquiry\EnquirySummary.cshtml" />
+    <Content Include="Views\TrnHighlights\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -466,6 +467,7 @@
     <Compile Include="Controllers\TrnCarouselController.cs" />
     <Compile Include="Controllers\DepartmentGalleryController.cs" />
     <Compile Include="Controllers\DepartmentInfoController.cs" />
+    <Compile Include="Controllers\TrnHighlightsController.cs" />
     <Compile Include="Controllers\TrnPageDetailController.cs" />
     <Compile Include="Controllers\TrnSymposiumController.cs" />
     <Compile Include="Controllers\TrnSymposiumEnquiryController.cs" />
