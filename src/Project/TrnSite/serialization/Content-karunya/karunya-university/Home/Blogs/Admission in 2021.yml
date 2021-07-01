@@ -1,9 +1,13 @@
 ﻿---
 ID: "5be7f296-79ac-4494-b9c6-9746d351ce1e"
-Parent: "a37abb6c-ee12-4607-91a2-56ffbb5535c8"
+Parent: "acf0c1ef-e916-459d-a75a-23d3a41be801"
 Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
-Path: "/sitecore/content/karunya-university/Home/Blogs/Article/Admission in 2021"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Admission in 2021"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 350
 Languages:
 - Language: en
   Versions:
