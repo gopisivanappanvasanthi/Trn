@@ -1,0 +1,24 @@
+﻿---
+ID: "1bb410b4-ecb1-4811-8244-cb7da47bd642"
+Parent: "acf0c1ef-e916-459d-a75a-23d3a41be801"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Faculty and Infrastructure"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "Far away, from the rushing frenzy of the city, in a serene and peaceful valley, lies in the warm embrace of the Western Ghats, Karunya Institute of Technology and Sciences, with a vision to raise technocrats and entrepreneurs and a mission of influencing the society to make it a better place. Karunya strives to imbibe its students with holistic excellence. Karunya spreads over an acre of 700 acres with magnificent infrastructures of research laboratories, academic facilities and residences. It is an institute with a social concern which thrives to raise scientists and entrepreneurs who would find solutions to human problems in the areas of food, water, healthcare and energy through research.  Karunya is equipped with gallery classrooms and uses latest teaching aids for providing application oriented teaching. Students have the freedom to choose the course of their study according to their liking with the Choice based Credit system. We have nationally acclaimed laboratories for Water research and Food Processing. Our contributions in the field of Biotechnology and nanotechnology are highly appreciated nationally. Computer laboratories are equipped with include high-end IBM PureFlex System, Blade servers, Rack servers, Workstations and Personal Computers. Green computing is practiced by server consolidation and desktop virtualization using VMware products. A separate Storage Area Network has been commissioned by the centre for data storage. The Computer Technology Center is well-equipped with licensed software for academic and administrative needs. A state-of-the art campus network with 10 Gbps fiber optic backbone connects all the Institution and residence buildings. Internet connectivity is available 24x7 through multiple service providers via Internet leased lines.  Karunya provides fully furnished residential facilities for boys and girls separately. Centres of excellence are established in partnership with Siemens Limited, Cisco Systems, Novell India Pvt Limited, IBM, Salzer Electronics Limited and the Lancet Commission."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T130011Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: Karunya Engineering University  infrastructure
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{0BA1F8E1-4BE6-4F36-845A-938ACEA1503F}" />
