@@ -18,16 +18,9 @@ SharedFields:
           s:ds="{8DBB60C8-44A6-4421-A377-CBCFF6C81436}"
           s:par="" />
         <r
-          uid="{7E3C4CDA-FA0E-4AE1-AEA4-B341A0002D18}"
-          p:after="r[@uid='{A058BADB-EE36-4D38-B712-9425E514F920}']"
+          uid="{CA54C74E-9815-4B3A-95C7-92207C7D45B1}"
           s:ds="{CB1DA034-B838-4391-8A0A-E35A089E89E9}"
-          s:id="{717D008B-5A61-4D43-863E-11D7F38414A2}"
-          s:par=""
-          s:ph="main" />
-        <r
-          uid="{CCE0AB60-755D-4C9E-A270-3ABC5AB18DF8}">
-          <p:d />
-        </r>
+          s:par="" />
       </d>
     </r>
 Languages:
