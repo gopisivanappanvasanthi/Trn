@@ -1,0 +1,14 @@
+﻿---
+ID: "4aeaa20f-b63e-455a-9532-8a45ecca19ad"
+Parent: "efadadb1-cc90-4bf1-817f-874a90543352"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Trn/Components
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210702T062018Z

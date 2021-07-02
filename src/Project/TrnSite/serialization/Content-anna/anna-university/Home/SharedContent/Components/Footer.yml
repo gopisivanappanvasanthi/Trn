@@ -1,0 +1,14 @@
+﻿---
+ID: "84005f78-b833-4a55-9dc5-5a13a85dd7b3"
+Parent: "9aa36aa9-c928-40b9-a145-38d0f2fd64f5"
+Template: "f9625222-0f75-4272-9522-ef06b4797f08"
+Path: "/sitecore/content/anna-university/Home/SharedContent/Components/Footer"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210702T062603Z

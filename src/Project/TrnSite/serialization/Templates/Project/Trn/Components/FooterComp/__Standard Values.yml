@@ -1,0 +1,35 @@
+﻿---
+ID: "161b5db7-fdab-4954-9654-184c8e8a4d29"
+Parent: "f9625222-0f75-4272-9522-ef06b4797f08"
+Template: "f9625222-0f75-4272-9522-ef06b4797f08"
+Path: /sitecore/templates/Project/Trn/Components/FooterComp/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          ds=""
+          id="{2A7A2091-6AE5-4605-AE35-A8479BAD57E9}"
+          par=""
+          ph="trn-footer"
+          uid="{3D0458CD-BB76-4052-9099-FDE7DFB22D4A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210702T062137Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "62e25198-47d8-4f22-b449-94eefe4081a8"
+Parent: "9aa36aa9-c928-40b9-a145-38d0f2fd64f5"
+Template: "c65fe1fb-433a-4ac5-a97d-3a2e1938618a"
+Path: "/sitecore/content/anna-university/Home/SharedContent/Components/Header"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210702T062549Z
