@@ -1,8 +1,8 @@
 ﻿---
-ID: "4be9f797-4a65-47ae-8fa4-02d594260eba"
-Parent: "8dbb60c8-44a6-4421-a377-cbcff6c81436"
+ID: "24f348e0-e4c0-4a04-ac44-4d28411168db"
+Parent: "1bb410b4-ecb1-4811-8244-cb7da47bd642"
 Template: "3810ff1a-3c2f-4698-9284-24bb23e11d46"
-Path: "/sitecore/content/anna-university/Home/Blogs/Article/Kohila"
+Path: "/sitecore/content/karunya-university/Home/Blogs/Faculty and Infrastructure/gopi"
 DB: master
 Languages:
 - Language: en
@@ -11,17 +11,17 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210616T110938Z
+      Value: 20210705T064217Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         extranet\Anonymous
     - ID: "aa6fd6e1-9e79-4047-b218-2819d9e4543f"
       Hint: username
-      Value: Kohila
+      Value: gopi
     - ID: "d587e8fe-657c-4200-89ff-206bb2a7b288"
       Hint: usercomments
-      Value: Your Article is amazing
+      Value: Karunya Engineering University infrastructure is good
     - ID: "e9180cb1-24fd-4c43-a549-6a09c840f10e"
       Hint: useremailid
-      Value: kohila.chellasamy@verticurl.com
+      Value: gopi@gmail.com
