@@ -1,0 +1,35 @@
+﻿---
+ID: "1b1b1811-bc1c-4e2c-abce-0e20497a9c3a"
+Parent: "ea0e51b4-2eaf-44e2-b82e-9d13bfa632e1"
+Template: "069bd830-6b89-4952-8b93-5c3c654c209f"
+Path: "/sitecore/content/anna-university/Home/Events/DanceShows"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0be238ea-aa90-47ac-aa62-c95b12737f49"
+      Hint: EventDate
+      Value: 20210702T013000Z
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: Organizing various set of dance programs to develop the talent of the participant who are participating in the event. The dance are performed as a single member or group of members and individual choreographers are assigned for the team.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T104218Z
+    - ID: "6679edaa-0594-4260-93f9-94d800591014"
+      Hint: EventPOC
+      Value: Mohana
+    - ID: "85d0d298-2668-4ef7-833c-5bf35b8404de"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {2807386A-4B05-4F92-ABF9-466B269617B3}
+        {688F8BE6-32E8-4229-8E2E-52023FB6A2C8}
+    - ID: "89c6fa21-97cd-4eb9-8811-0687c4645160"
+      Hint: EventDuration
+      Value: 3 Days
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: Dance Shows

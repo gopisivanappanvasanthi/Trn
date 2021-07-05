@@ -1,0 +1,35 @@
+﻿---
+ID: "4169fb18-d08f-4276-af27-905f3a1e1fbc"
+Parent: "ea0e51b4-2eaf-44e2-b82e-9d13bfa632e1"
+Template: "069bd830-6b89-4952-8b93-5c3c654c209f"
+Path: "/sitecore/content/anna-university/Home/Events/Exhibition"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0be238ea-aa90-47ac-aa62-c95b12737f49"
+      Hint: EventDate
+      Value: 20210626T113000Z
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: The students to actively participate the science exhibition in order to bring out the talents from the students as they can provide modern ideology and solutions to the current problematic areas. The Student whose enjoy the whole academic year with that special day, ie., Annual Day Celebrations. The Celebration session has starts before a month ago with all special drills and extra curricular activities and games too. On the performance basis student will receive special prize and awards like Championship, Best Student, Outstanding student of the year, Best Class and also academic related simulations.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T104022Z
+    - ID: "6679edaa-0594-4260-93f9-94d800591014"
+      Hint: EventPOC
+      Value: Prateek
+    - ID: "85d0d298-2668-4ef7-833c-5bf35b8404de"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {4199A881-5D85-4B14-98CC-B31E81333655}
+        {C28960BA-B1CF-46C6-A529-EBA5A6624C83}
+    - ID: "89c6fa21-97cd-4eb9-8811-0687c4645160"
+      Hint: EventDuration
+      Value: 4 Days
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: Exhibition

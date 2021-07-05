@@ -1,0 +1,35 @@
+﻿---
+ID: "d1a57f2e-7d27-4e3d-976f-0d075b415046"
+Parent: "232e220f-6f2f-4be2-81aa-c5eaeba60900"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/BIOTECH/Gene"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International Biotechnology Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T151218Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: Synthetic morphogenesis is a novel and exciting field that requires collaboration among traditionally distinct scientific communities, from developmental biologists, to chemists, theoreticians and computational modellers. This symposium will bring together scientists from these different disciplines to discuss the extent to which cells/tissues/organs can be built de novo starting from isolated components.
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: GENE'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {C1E23464-B9FB-4DDC-B5B9-C8F7E694CBF9}
+        {B54DCE7B-43A9-4C16-9690-6EF329F11B9F}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 8907654578
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210624T013000Z

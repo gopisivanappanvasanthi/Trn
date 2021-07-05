@@ -1,0 +1,35 @@
+﻿---
+ID: "f95526af-3c3a-4801-a7e5-111daaaf2c71"
+Parent: "ea0e51b4-2eaf-44e2-b82e-9d13bfa632e1"
+Template: "069bd830-6b89-4952-8b93-5c3c654c209f"
+Path: "/sitecore/content/anna-university/Home/Events/Craftworkshops"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0be238ea-aa90-47ac-aa62-c95b12737f49"
+      Hint: EventDate
+      Value: 20210701T150000Z
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: Host a workshop where students can make their own dorm room décor — think plant hangers, terrariums, or recycled frames for their art. Get inspiration from Pinterest, Instagram, or Etsy for the latest crafting trends.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T105633Z
+    - ID: "6679edaa-0594-4260-93f9-94d800591014"
+      Hint: EventPOC
+      Value: Kohila 
+    - ID: "85d0d298-2668-4ef7-833c-5bf35b8404de"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {787174E6-CE45-49C6-A023-48436670A60D}
+        {625D8529-A4D7-4194-B592-92F57BDA0EC8}
+    - ID: "89c6fa21-97cd-4eb9-8811-0687c4645160"
+      Hint: EventDuration
+      Value: 2 Days
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: Craft workshops

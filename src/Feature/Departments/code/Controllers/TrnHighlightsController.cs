@@ -12,17 +12,16 @@ namespace Trn.Feature.Departments.Controllers
 {
     public class TrnHighlightsController : Controller
     {
-        
         // GET: TrnHighlights
         public ActionResult Index()
         {
             var contextItem = RenderingContext.Current.Rendering.Item;
             PageInfo page = new PageInfo
-            { PageTitle = new HtmlString(FieldRenderer.Render(contextItem, "PageTitle")),
+            {
+                PageTitle = new HtmlString(FieldRenderer.Render(contextItem, "PageTitle")),
                 PageBrief = new HtmlString(FieldRenderer.Render(contextItem, "PageBrief")),
                 Url = LinkManager.GetItemUrl(contextItem)
             };
-     
             return View(page);
         }
     }

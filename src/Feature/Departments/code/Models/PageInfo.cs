@@ -12,7 +12,5 @@ namespace Trn.Feature.Departments.Models
         public HtmlString PageBrief { get; set; }
 
         public String Url { get; set; }
-
-
     }
 }

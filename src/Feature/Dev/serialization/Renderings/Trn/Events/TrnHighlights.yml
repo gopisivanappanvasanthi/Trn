@@ -1,5 +1,5 @@
 ﻿---
-ID: "5ef97e63-aaea-4e87-9ed8-bdc962e64451"
+ID: "717d008b-5a61-4d43-863e-11d7f38414a2"
 Parent: "4e40d36b-c59e-4d35-a343-5e9f16ab235b"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/Renderings/Feature/Trn/Events/TrnHighlights
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210630T111846Z
+      Value: 20210701T051954Z
