@@ -452,14 +452,17 @@
     <Content Include="Views\TrnComments\Index.cshtml" />
     <Content Include="Views\TrnComments\CommentsSummary.cshtml" />
     <Content Include="Views\FeaturedArticle\Index.cshtml" />
+    <Content Include="Views\CommentsList\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\FeaturedArticleController.cs" />
     <Compile Include="Controllers\TrnArticleController.cs" />
+    <Compile Include="Controllers\TrnCommentsListController.cs" />
     <Compile Include="Controllers\TrnCommentsController.cs" />
     <Compile Include="Models\ArticleInfo.cs" />
     <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\ListOfComments.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
