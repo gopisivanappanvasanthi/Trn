@@ -1,1 +1,15 @@
-﻿<h1>Thanks for your comments</h1>
+﻿
+@*@model Trn.Feature.Article.Models.Comment*@
+<h1>Thanks for your comments</h1>
+@*<div>
+    @foreach (var item in Model.comments)
+    {
+        <div>
+            @item.UserName
+        </div>
+        <div>
+            @item.UserComments
+        </div>
+
+    }
+</div>*@

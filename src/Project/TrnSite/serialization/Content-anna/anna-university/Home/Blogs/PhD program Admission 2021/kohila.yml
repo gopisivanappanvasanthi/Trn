@@ -1,0 +1,27 @@
+﻿---
+ID: "2131c292-4492-4f2e-9673-153dbdad6c6f"
+Parent: "7b42bb87-b38c-4008-ae12-2687dcb1e487"
+Template: "3810ff1a-3c2f-4698-9284-24bb23e11d46"
+Path: "/sitecore/content/anna-university/Home/Blogs/PhD program Admission 2021/kohila"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210706T050957Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "aa6fd6e1-9e79-4047-b218-2819d9e4543f"
+      Hint: username
+      Value: kohila
+    - ID: "d587e8fe-657c-4200-89ff-206bb2a7b288"
+      Hint: usercomments
+      Value: Anna University announces Admission to PhD Program for July 2021 session is good
+    - ID: "e9180cb1-24fd-4c43-a549-6a09c840f10e"
+      Hint: useremailid
+      Value: kohila@gmail.com

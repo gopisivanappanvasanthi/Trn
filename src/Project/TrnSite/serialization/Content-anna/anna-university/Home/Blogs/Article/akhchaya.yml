@@ -1,8 +1,8 @@
 ﻿---
-ID: "e11b5254-fb9f-41ba-b06a-da92a9d572d3"
+ID: "55046046-d738-4722-a136-73f8888634c1"
 Parent: "8dbb60c8-44a6-4421-a377-cbcff6c81436"
 Template: "3810ff1a-3c2f-4698-9284-24bb23e11d46"
-Path: "/sitecore/content/anna-university/Home/Blogs/Anna University/Arun"
+Path: "/sitecore/content/anna-university/Home/Blogs/Article/akhchaya"
 DB: master
 Languages:
 - Language: en
@@ -11,17 +11,17 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210617T092534Z
+      Value: 20210616T111524Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         extranet\Anonymous
     - ID: "aa6fd6e1-9e79-4047-b218-2819d9e4543f"
       Hint: username
-      Value: Arun
+      Value: akhchaya
     - ID: "d587e8fe-657c-4200-89ff-206bb2a7b288"
       Hint: usercomments
-      Value: Amazing
+      Value: Article is amazing
     - ID: "e9180cb1-24fd-4c43-a549-6a09c840f10e"
       Hint: useremailid
-      Value: arunm@gmail.com
+      Value: akhchayadhanasekaran@verticurl.com
