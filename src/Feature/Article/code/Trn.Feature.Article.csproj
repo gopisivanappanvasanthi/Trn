@@ -452,7 +452,7 @@
     <Content Include="Views\TrnComments\Index.cshtml" />
     <Content Include="Views\TrnComments\CommentsSummary.cshtml" />
     <Content Include="Views\FeaturedArticle\Index.cshtml" />
-    <Content Include="Views\CommentsList\Index.cshtml" />
+    <Content Include="Views\TrnCommentsList\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
