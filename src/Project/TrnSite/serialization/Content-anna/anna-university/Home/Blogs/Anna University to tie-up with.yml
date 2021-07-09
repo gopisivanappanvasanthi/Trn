@@ -1,0 +1,28 @@
+﻿---
+ID: "d3c63142-55f2-4541-a4a3-f18d3babc324"
+Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
+Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
+Path: "/sitecore/content/anna-university/Home/Blogs/Anna University to tie-up with German universities"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
+      Hint: Description
+      Value: "Anna University of Chennai has collaborated with German University, to come up with working solutions for reducing wastage of water in Indian cities. Their main goal is to implement a model plan in the town of Tiruvannamalai. In order to come up with the new model, Anna University's Centre for Water Resources and Centre for Environmental Studies along with the team from University of Written/ Herdecke GmbH, Germany has organised a 4-day workshop.  Read more at: https://www.careerindia.com/news/2013/09/25/anna-university-to-tie-up-with-german-universities-for-a-cause-006718.html?story=4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T112546Z
+    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
+      Hint: Title
+      Value: "Anna University to tie-up with German universities "
+    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
+      Hint: Image
+      Value: |
+        <image mediaid="{8733345A-B3A5-4155-9E09-6A243EA7AEBE}" />
