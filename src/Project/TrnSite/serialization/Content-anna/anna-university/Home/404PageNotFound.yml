@@ -1,0 +1,28 @@
+﻿---
+ID: "6de34391-e937-4819-a322-dd0d062c8ce0"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "92b6789a-faca-4de0-be6a-7128a13a7bb5"
+Path: "/sitecore/content/anna-university/Home/404PageNotFound"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T093416Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "81ac2273-5b76-4878-b536-600031d3a96c"
+      Hint: Description
+      Value: We're sorry, the page you requested couldn't be found. You can either return to the previous page, visit our home page or contact our support team.
+    - ID: "b6a6d6a7-79e1-4ae4-bed9-a6c3618e4633"
+      Hint: Image
+      Value: |
+        <image mediaid="{1AA49D85-A7B6-48E2-AF94-8AECC2EC9D03}" alt="Error404alt" height="676" width="1200" hspace="" vspace="" />
+    - ID: "eb9d838b-630c-48c5-956e-50ddf7ac9cd3"
+      Hint: Title
+      Value: "OOPS! PAGE NOT FOUND :-("
