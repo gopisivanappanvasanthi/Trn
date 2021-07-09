@@ -1,0 +1,17 @@
+﻿
+@model Trn.Feature.Article.Models.ListOfComments
+
+
+<h1>comments Submitted </h1>
+<div>
+    @foreach (var item in Model.comments)
+    {
+    <div>
+        <h2>  @item.UserName</h2>
+    </div>
+    <div>
+        <h3> @item.UserComments</h3>
+    </div>
+
+    }
+</div>

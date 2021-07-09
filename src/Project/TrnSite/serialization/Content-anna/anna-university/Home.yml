@@ -28,6 +28,238 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A058BADB-EE36-4D38-B712-9425E514F920}"
+              s:pt="{7D0187BE-4AEE-4FEB-8D89-4DFB8AF366C1}"
+              s:uid="{A058BADB-EE36-4D38-B712-9425E514F920}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{9782CEA8-8FF3-4A51-ADEF-1E10B0AF8027}"
+                    s:name="if goal is triggered"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="2AAB2306C626413B83907A5AFB9737A5"
+                        s:id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
+                        s:GoalId="{28A7C944-B8B6-45AD-A635-6F72E8F81F69}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="B9A468F3A90D49538CBC8EAFAD52617B"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8DBB60C8-44A6-4421-A377-CBCFF6C81436}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{EC3A1744-1F2E-4251-8E30-9245A477DE52}"
+                    s:name="the 10th view"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="C9E4D87CC2474610A819A43A5092FBA6"
+                        s:id="{61C016A2-5210-4F1D-A663-BDA18BE487F6}"
+                        s:fieldname="views"
+                        s:value="10" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="217B0AEBFDB84377917077015A7B9208"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{77F1F589-AA50-482A-B1F0-EC6690E24641}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{9CEB25E3-48AB-4838-93C0-80EFFAAAAC6F}"
+                    s:name="if device is smartphnone "
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="E5CFF4723FC8447E963BF8F800B6BCCD"
+                        s:id="{F563E8D0-1D8A-4744-BD90-3C8D7E483884}"
+                        s:Value="{15FB4B13-691C-4BBD-8904-6CEC99CA18C4}|{B8E0B251-233D-4FA9-9DF9-5D38450E00D9}|{5E6E71F7-D473-4AA4-9408-67658D41FEF2}|{F4EB413E-2700-475E-8ED7-343D9B4941F5}|{B6C812AD-AF28-479A-ADFE-310BB46BF009}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A5DA6B15CBF84D0FB7DF7EA35A2DB1C4"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1ECB9DD8-54BA-407A-BB26-9F110F51CC13}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E6DB34A8-25C9-4B80-80E1-AD0B0F6DC610}"
+                    s:name="bucket is enable"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="846D81E36DF74F4DB3B1BF39DAC35D91"
+                        s:id="{58FC232E-C94E-4CDD-A41C-1633BBACB407}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="CCA32A8DEEFA4E43BD41A1267721CFAA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{D070BA1D-4E72-46AB-B247-DC963215FB04}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{0C437BF1-4A3C-4604-8355-2DD113711645}"
+                    s:name="touch screen"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="96F6408642054303AD98B1F7B60C6C86"
+                        s:id="{05B547A2-C736-4351-8A03-AA74AF67B6C0}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9596AD5E26E34BAABAA136B9CE0263F0"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{ACDB859B-675D-40B3-99A5-A9D8669755B7}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E3A57C89-E271-475F-A00A-AE21D1DF3BC5}"
+                    s:name="valid email "
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="F2939DF375FD4D7C814F4F9442B6AD50"
+                        s:id="{10DC9B65-3C17-43BA-ABD1-5A5A0DE7FE7F}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A810EEAFA2224C07B933C79A2E904136"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{645C01CF-B5C2-4ECB-8C38-8CD076CB1219}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{4EF08854-3973-448B-8410-3859C720D68D}"
+                    s:name="if january"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="F57E8F8DD62C484881BA597F524B0F0A"
+                        s:id="{F27973B0-4439-48F6-AC06-ED2C2F31AC61}"
+                        s:Month="{3C14D331-85BB-464D-B255-2603B6451923}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="15F72B07DE794B9CA39E13339A7BF12D"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2488D45D-C457-49E2-B4FB-1ECF580CFAF9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E4B705A0-944D-4601-9954-046EC14C6FDB}"
+                    s:name="cookie"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="8549C1692D7840B39D646B95C9A28473"
+                        s:id="{3EC6CAC6-255C-41B3-AA52-D98C9E7368D7}"
+                        s:ParameterName="gopi" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="DA53DDD9B5F64A019F77D3D6BCF8CC97"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EC8B2C1-457C-4916-ACB3-E79449C4ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{ED7F0EB3-5896-4014-834E-90F4AD15417E}"
+                    s:name="search feature is enable"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="E4EFC3957F7F4C57A2F82531850086C5"
+                        s:id="{40E132E9-251F-4B89-9C32-342876FB1524}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="97BCBB097320458F81C2FFCA79312D38"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{7B42BB87-B38C-4008-AE12-2687DCB1E487}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{7D0AFEB4-2306-4662-8E49-3DEE79F036E0}"
+                    s:name="if saturday and sunday"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="9C5923175B03484F9D33D228CF077A58"
+                        s:id="{C18B0900-ED61-47A8-AEF0-AD6D133512C8}"
+                        s:DaysList="{B45FD42E-FBDC-4460-A179-DB0B5D22A3EA}|{04CC0FD2-C5DE-4F7C-B263-B1C88BABA6CD}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="3E4D95CE91A2453D9293D4FD3A7DC1E3"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8DE9DA07-D49F-48CD-9597-145FB2D88F49}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{38778CB9-5BA7-4542-AFAB-B7296CCB5CC1}"
+                    s:name="if thuesday,friday."
+                    s:test="true">
+                    <actions>
+                      <action
+                        uid="E03DC3BA95A541239B327D8675BE3109"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{F716E862-7E68-4B78-A181-F0316C978D32}" />
+                    </actions>
+                    <conditions>
+                      <condition
+                        uid="5CF4B318169D43928D5036ED6E74B331"
+                        s:id="{C18B0900-ED61-47A8-AEF0-AD6D133512C8}"
+                        s:DaysList="{AD163B7C-FCB6-4E92-A04A-024FC080A6A1}|{61FE0E28-8723-4895-AF39-E8B977513AD9}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{23351C93-54AC-4C85-8F5B-82CBCC16FF24}"
+                    s:name="if day is monday,tues,wesday"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="03D245DFE2804B919EC5C35EA97925DF"
+                        s:id="{C18B0900-ED61-47A8-AEF0-AD6D133512C8}"
+                        s:DaysList="{D1172755-83B7-426B-9BA3-F1C5D2CB6EED}|{139A76F8-583B-4760-BA34-3AB0421044B6}|{8A19F2AA-ABB9-4496-A64E-56CDBE1C2D4C}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="41B9EAA9E5904B8884C02016414857DD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{D3C63142-55F2-4541-A4A3-F18D3BABC324}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="14F8A02905C549E3967D263EB6EFE8A9"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: "0f2262d6-4964-4368-be14-0b537614ff71"
       Hint: SuperheroCarousel
       Type: Multilist

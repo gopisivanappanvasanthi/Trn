@@ -1,0 +1,27 @@
+﻿---
+ID: "96124a48-c200-4d9a-9965-23eb14900039"
+Parent: "f716e862-7e68-4b78-a181-f0316c978d32"
+Template: "3810ff1a-3c2f-4698-9284-24bb23e11d46"
+Path: "/sitecore/content/anna-university/Home/Blogs/Exam Hall Tickets released/priya"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T081838Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "aa6fd6e1-9e79-4047-b218-2819d9e4543f"
+      Hint: username
+      Value: priya
+    - ID: "d587e8fe-657c-4200-89ff-206bb2a7b288"
+      Hint: usercomments
+      Value: comments
+    - ID: "e9180cb1-24fd-4c43-a549-6a09c840f10e"
+      Hint: useremailid
+      Value: priya@gmail.com
