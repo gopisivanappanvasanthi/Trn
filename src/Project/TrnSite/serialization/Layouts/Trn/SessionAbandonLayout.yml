@@ -1,8 +1,8 @@
 ﻿---
 ID: "c79c6beb-cccb-4b35-a980-6e36eafb0a4c"
-Parent: "da04b275-8838-4a3a-afee-817cf1fdd2eb"
+Parent: "1fab9579-696e-4b16-a45b-2af32881c868"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/SessionAbandonLayout
+Path: /sitecore/layout/Layouts/Project/Trn/SessionAbandonLayout
 DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
