@@ -65,12 +65,12 @@
     "@sitecore-jss/sitecore-jss-dev-tools": "^16.0.0",
     "@sitecore-jss/sitecore-jss-manifest": "^16.0.0",
     "@sitecore-jss/sitecore-jss-rendering-host": "^16.0.0",
-    "@storybook/addon-actions": "^6.3.2",
-    "@storybook/addon-essentials": "^6.3.2",
-    "@storybook/addon-links": "^6.3.2",
-    "@storybook/node-logger": "^6.3.2",
-    "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.3.2",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/node-logger": "^6.3.4",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.4",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "~9.0.2",
     "chalk": "~2.4.2",
@@ -121,10 +121,10 @@
     "bootstrap:disconnected": "node scripts/bootstrap.js --disconnected",
     "graphql:update": "node -r babel-register ./scripts/update-graphql-fragment-data.js",
     "test": "react-scripts test --env=jsdom",
-    "lint": "eslint ./src/**/*.js ./src/stories/*.jsx ./sitecore/definitions/**/*.js ./scripts/**/*.js ./server/**/*.js ./data/**/*.yml",
+    "lint": "eslint ./src/**/*.js ./src/stories/*/*/*.js ./sitecore/definitions/**/*.js ./scripts/**/*.js ./server/**/*.js ./data/**/*.yml",
     "eject": "react-scripts eject",
     "eject:script": "ncp ./scripts ./scripts-copy && node ./scripts-copy/eject.js && ncp ./scripts-copy ./scripts && del-cli ./scripts-copy",
-    "storybook": "start-storybook -p 6008 -s public",
+    "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "browserslist": [
@@ -132,5 +132,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
 }
