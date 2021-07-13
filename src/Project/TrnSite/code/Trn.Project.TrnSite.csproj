@@ -457,6 +457,7 @@
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.AnnaUniversity.Sitedefinition.config" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.KarunyaUniversity.Sitedefinition.config" />
     <Content Include="Views\ErrorPage\Index.cshtml" />
+    <Content Include="App_Config\Include\Trn\Sitecore.ContentSearch.Solr.Index.Articles.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
