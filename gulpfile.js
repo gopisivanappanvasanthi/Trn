@@ -165,7 +165,7 @@ function Sync_Unicorn(callback) {
 }
 gulp.task("Sync-Unicorn",
     function (callback) {
-        Sync_Unicorn();
+        Sync_Unicorn(callback);
     });
 
 
