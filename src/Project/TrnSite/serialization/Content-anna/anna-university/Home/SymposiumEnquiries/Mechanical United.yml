@@ -17,17 +17,17 @@ Languages:
       Value: |
         extranet\Anonymous
     - ID: "745dc5ee-90f2-4318-a0a8-cae006c198a0"
-      Hint: Phone Number
+      Hint: PhoneNumber
       Value: 7817287182299
     - ID: "9668bc87-a858-4bf4-b2a5-6152cc061154"
-      Hint: Team Name
+      Hint: TeamName
       Value: Mechanical United
     - ID: "b2eb04eb-7983-421e-9007-b3f5887f754e"
-      Hint: Symposium Name
+      Hint: SymposiumName
       Value: Mechanical
     - ID: "e40abb08-3cf0-421a-ac73-65a7ba46557e"
-      Hint: Number of Presenters
+      Hint: NumberofPresenters
       Value: 4
     - ID: "f44ba4c1-30ab-43b6-8c62-333d7a287724"
-      Hint: Idea to be Presented
+      Hint: IdeatobePresented
       Value: MechGust 2K17

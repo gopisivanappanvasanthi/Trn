@@ -1,8 +1,8 @@
 ﻿---
-ID: "4ef98280-22e1-41f2-893a-05d7dc73fa64"
+ID: "656a5edb-4f3e-42f3-b38c-9a7545cf8e6a"
 Parent: "8cfc3b0f-b415-4152-b097-f4f6f64d0080"
 Template: "bddbce0d-a7f0-4913-873c-a117ceae7659"
-Path: "/sitecore/content/anna-university/Home/QandA/AnnualDayQuery9"
+Path: "/sitecore/content/anna-university/Home/QandA/sample quest"
 DB: master
 Languages:
 - Language: en
@@ -11,11 +11,11 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210620T065808Z
+      Value: 20210619T081311Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         extranet\Anonymous
     - ID: "d7744248-5cdb-4939-908a-e21c80562ad4"
       Hint: question
-      Value: "What is Annual Day?"
+      Value: sample quest

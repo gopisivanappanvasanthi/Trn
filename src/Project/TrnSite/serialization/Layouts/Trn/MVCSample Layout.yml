@@ -1,13 +1,13 @@
 ﻿---
-ID: "c79c6beb-cccb-4b35-a980-6e36eafb0a4c"
-Parent: "da04b275-8838-4a3a-afee-817cf1fdd2eb"
+ID: "cb78263b-948b-46f6-983d-f4b0de343f2b"
+Parent: "2c13764e-562a-40f5-a667-c66cc0e40bdf"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/SessionAbandonLayout
+Path: /sitecore/layout/Layouts/Project/Trn/MVCSample Layout
 DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /layouts/test.aspx
+  Value: /Views/_SampleTrnLayout.cshtml
 Languages:
 - Language: en
   Versions:
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210623T154945Z
+      Value: 20210511T055246Z

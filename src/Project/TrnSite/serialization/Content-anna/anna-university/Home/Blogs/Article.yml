@@ -4,16 +4,6 @@ Parent: "7b5c683b-1c5e-40cc-96ca-12370f32903b"
 Template: "12c87b25-3e60-49f6-a1a6-86e4ac4591c1"
 Path: "/sitecore/content/anna-university/Home/Blogs/Article"
 DB: master
-SharedFields:
-- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
-  Hint: __Tracking
-  Type: Tracking
-  Value: |
-    <tracking>
-      <event
-        id="{A93EDA12-95E3-4EE4-A755-5A894C3A64B0}"
-        name="Accessing Anna Article" />
-    </tracking>
 Languages:
 - Language: en
   Versions:
@@ -32,50 +22,3 @@ Languages:
       Hint: Image
       Value: |
         <image mediaid="{F4E39147-7748-4F26-A2F8-A455B7634483}" />
-  - Version: 2
-    Fields:
-    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
-      Hint: Description
-      Value: Anna University is a public state university located in Tamil Nadu, India. The main campus is in Chennai. It was originally established on 4 September 1978 and was named after C.N. Annadurai, the former Chief Minister of Tamil Nadu. After taking many different forms over the years, as per a September 2020 bill passed in the Tamil Nadu Legislative assembly, the varsity is now reconstituted to be an affiliating university for engineering colleges across Tamil Nadu excluding the engineering colleges that are part of Anna Technological and Research University. The University is now the affiliating authority for close to 550 engineering colleges in Tamil Nadu. Anna University was established on 4th September 1978 as a unitary type of University. It offers higher education in Engineering, Technology and allied Sciences relevant to the current and projected needs of the society.
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20210623T094628Z
-    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
-      Hint: Title
-      Value: ANNA UNIVERSITY
-    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
-      Hint: __Valid from
-      Value: 20210623T094628Z
-    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
-      Hint: Image
-      Value: |
-        <image mediaid="{F4E39147-7748-4F26-A2F8-A455B7634483}" />
-  - Version: 3
-    Fields:
-    - ID: "1c6b61ae-dddf-41d0-888c-6b19b9191019"
-      Hint: Description
-      Value: Anna University is a public state university located in Tamil Nadu, India. The main campus is in Chennai. It was originally established on 4 September 1978 and was named after C.N. Annadurai, the former Chief Minister of Tamil Nadu. After taking many different forms over the years, as per a September 2020 bill passed in the Tamil Nadu Legislative assembly, the varsity is now reconstituted to be an affiliating university for engineering colleges across Tamil Nadu excluding the engineering colleges that are part of Anna Technological and Research University. The University is now the affiliating authority for close to 550 engineering colleges in Tamil Nadu. Anna University was established on 4th September 1978 as a unitary type of University. It offers higher education in Engineering, Technology and allied Sciences relevant to the current and projected needs of the society.
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20210623T094657Z
-    - ID: "98335f81-4674-4aed-811b-da5b5a00ad5b"
-      Hint: Title
-      Value: ANNA UNIVERSITY
-    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
-      Hint: __Valid from
-      Value: 20210623T094657Z
-    - ID: "f447238b-591f-491f-9aca-3f21a369d3ed"
-      Hint: Image
-      Value: |
-        <image mediaid="{F4E39147-7748-4F26-A2F8-A455B7634483}" />
-  - Version: 4
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20210623T153311Z
-    - ID: "700f4aad-ad3b-4058-8673-a0cee765a1f7"
-      Hint: __Content Test
-      Value: 
-    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
-      Hint: __Valid from
-      Value: 20210623T153311Z
