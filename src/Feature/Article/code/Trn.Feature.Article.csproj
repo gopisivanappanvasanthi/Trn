@@ -448,7 +448,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
     <Content Include="Views\TrnComments\Index.cshtml" />
     <Content Include="Views\TrnComments\CommentsSummary.cshtml" />
     <Content Include="Views\FeaturedArticle\Index.cshtml" />
@@ -475,6 +474,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Publishing\code\Trn.Foundation.Publishing.csproj">
