@@ -1,0 +1,18 @@
+﻿---
+ID: "a8d5a57d-d42e-43e3-82c8-36b3eafb0444"
+Parent: "bded112a-99fd-45a7-8883-855b837fb932"
+Template: "f8a17d6a-118e-4cd7-b5f5-88ff37a4f237"
+Path: "/sitecore/content/anna-university/Home/Navigation/Home/TempField"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T071032Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
