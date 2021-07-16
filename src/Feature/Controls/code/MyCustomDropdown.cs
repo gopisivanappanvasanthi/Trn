@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.ModelBinding;
 using Sitecore.Links;
 using Sitecore.Mvc.Presentation;
-using Sitecore.Web.UI.WebControls;
+using Sitecore.Web;
 
 namespace Trn.Feature.Controls
 {
@@ -20,7 +21,7 @@ namespace Trn.Feature.Controls
                 new KeyValuePair<string, string>("Key4", "Value4"),
                 new KeyValuePair<string, string>("Key5", "Value5"),
             };
-            output.Write("<select" + ControlAttributes + ">");
+            //output.Write("<select" + ControlAttribute + ">");
             foreach (var keyValuePair in keyValuePairs)
             {
                 if (keyValuePair.Value == Value)
