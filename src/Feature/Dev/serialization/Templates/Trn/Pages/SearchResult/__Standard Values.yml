@@ -1,0 +1,37 @@
+﻿---
+ID: "c5107a2c-76e5-4a4c-b0bf-28170e5504a9"
+Parent: "45020a57-cf69-4049-a922-797ff524160c"
+Template: "45020a57-cf69-4049-a922-797ff524160c"
+Path: /sitecore/templates/Feature/Trn/Pages/SearchResult/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CB78263B-948B-46F6-983D-F4B0DE343F2B}">
+        <r
+          id="{88E9A530-D75D-4CB5-83AB-D9DE777D3FE3}"
+          ph="main"
+          uid="{C44B1988-765C-4201-B4F5-5E7DF4EC1751}" />
+        <r
+          id="{0E0C2E1F-8B38-40F7-87BA-2BC49C53D2BD}"
+          ph="main"
+          uid="{B23018C2-03ED-4E67-91CE-DFF04E2B37D7}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T052124Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

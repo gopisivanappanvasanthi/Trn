@@ -1,0 +1,8 @@
+﻿@model List<Trn.Feature.Search.Models.TrnSearchResult>
+
+@foreach (var item in Model)
+{
+    <a href="@item.ResultRefUrl">@item.ResultTitle</a>
+    <div>@item.ResultDescription</div>
+    <div>@item.ResultImageCard</div>
+}

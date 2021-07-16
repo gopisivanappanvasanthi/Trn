@@ -1,0 +1,14 @@
+﻿@model Trn.Feature.Search.Models.SearchTerm
+
+
+@using (Html.BeginForm())
+{
+    <div class="mb-3">
+        @Html.TextBoxFor(x => x.SearchTermString, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-outline-primary">Search Articles</button>
+    </div>
+}
+

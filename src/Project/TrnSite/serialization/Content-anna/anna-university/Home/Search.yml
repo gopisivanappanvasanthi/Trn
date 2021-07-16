@@ -1,0 +1,17 @@
+﻿---
+ID: "c6d2cff3-93ce-45ea-aa71-cca92181b939"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "45020a57-cf69-4049-a922-797ff524160c"
+Path: "/sitecore/content/anna-university/Home/Search"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T053509Z
+    - ID: "bc541bc4-914c-4124-849d-74e809143f03"
+      Hint: PageTitle
+      Value: Search in Anna University

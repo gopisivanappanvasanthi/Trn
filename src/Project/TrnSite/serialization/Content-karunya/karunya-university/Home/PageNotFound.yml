@@ -1,0 +1,14 @@
+﻿---
+ID: "ca910744-52a4-4fcf-81cc-3be8454011ef"
+Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
+Template: "92b6789a-faca-4de0-be6a-7128a13a7bb5"
+Path: "/sitecore/content/karunya-university/Home/PageNotFound"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T053611Z
