@@ -9,7 +9,7 @@ using Sitecore.Web;
 
 namespace Trn.Feature.Controls
 {
-    public class MyCustomDropdown : Sitecore.Web.UI.HtmlControls.Control
+    public class TrnCustomDropdown : Sitecore.Web.UI.HtmlControls.Control
     {
         protected override void DoRender(System.Web.UI.HtmlTextWriter output)
         {
@@ -21,7 +21,7 @@ namespace Trn.Feature.Controls
                 new KeyValuePair<string, string>("Key4", "Value4"),
                 new KeyValuePair<string, string>("Key5", "Value5"),
             };
-            //output.Write("<select" + ControlAttribute + ">");
+            output.Write("<select" + new ControlAttribute() + ">");
             foreach (var keyValuePair in keyValuePairs)
             {
                 if (keyValuePair.Value == Value)
