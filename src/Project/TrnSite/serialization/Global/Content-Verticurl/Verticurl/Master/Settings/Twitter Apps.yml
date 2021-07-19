@@ -1,0 +1,18 @@
+﻿---
+ID: "246f25c8-76e1-4d28-a4f0-0f7670980dec"
+Parent: "3e61ed4d-2e80-4396-943a-f1e3d220efae"
+Template: "456067df-fc7d-4639-9177-41f69e81c927"
+Path: /sitecore/content/Verticurl/Master/Settings/Twitter Apps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164955Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

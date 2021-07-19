@@ -1,0 +1,25 @@
+﻿---
+ID: "30d16b56-536d-4431-af8d-4909248280b2"
+Parent: "026dc904-c349-43c0-bc50-4dab570f46d3"
+Template: "026dc904-c349-43c0-bc50-4dab570f46d3"
+Path: /sitecore/templates/Feature/Verticurl/testmodule/testcomponet Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {ADDE3179-F121-48F9-BCDC-02B48C3A8B51}
+    {026DC904-C349-43C0-BC50-4DAB570F46D3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

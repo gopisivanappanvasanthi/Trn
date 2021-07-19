@@ -1,0 +1,22 @@
+﻿---
+ID: "4b843cc8-d236-46f2-bcba-e6e9b566f688"
+Parent: "0b43da43-6a22-47a5-af48-d052d18fb9f5"
+Template: "1151b2a9-08af-4f4d-a892-c2cc9a92ea6a"
+Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/Promo/testvariant/Component
+DB: master
+SharedFields:
+- ID: "06882697-dc92-477d-a99a-5d79bd2ccb8d"
+  Hint: RenderingItem
+  Value: "{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T103746Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
