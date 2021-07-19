@@ -1,0 +1,18 @@
+﻿---
+ID: "33e09e92-4483-4237-bd64-ad5659efd376"
+Parent: "74a41f2b-f712-4583-9df1-6b9d183dc8ae"
+Template: "83db28a0-f7f6-42fc-ad48-d0a2d4b644d6"
+Path: /sitecore/content/Verticurl/Master/Data/Galleries
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164906Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

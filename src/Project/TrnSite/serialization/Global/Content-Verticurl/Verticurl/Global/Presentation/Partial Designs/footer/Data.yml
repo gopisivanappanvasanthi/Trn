@@ -1,0 +1,18 @@
+﻿---
+ID: "1e8567ff-9db1-4039-a44c-c66b8340f2d7"
+Parent: "bdb8d2c8-d4e8-4d33-9896-8b4fd5212b60"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Verticurl/Global/Presentation/Partial Designs/footer/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T095738Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

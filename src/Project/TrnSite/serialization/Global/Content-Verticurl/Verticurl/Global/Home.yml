@@ -1,0 +1,62 @@
+﻿---
+ID: "fb77aec4-d82d-4c7b-a61d-d4d24e5a3b44"
+Parent: "35c7e4bc-57e5-4225-8da0-720d5a18c6af"
+Template: "24d88d58-e55d-488c-8ea5-2d815f16406b"
+Path: /sitecore/content/Verticurl/Global/Home
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{4FD52D1A-26C6-4A3E-B0CD-53C2DF662ADB}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{FB54EFBF-FF6B-4761-8AC3-4736887C1EDF}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{755C9ECE-6EFC-488F-8BED-FD61B1704D12}"
+              p:before="*"
+              s:key="test"
+              s:md="{A71BA212-749C-4753-B6C9-0E9E08D6D8FD}" />
+            <p
+              uid="{B2EAF13F-08ED-47B2-92D7-A0317DE346DD}"
+              p:after="p[@uid='{755C9ECE-6EFC-488F-8BED-FD61B1704D12}']"
+              s:key="/main/container-1"
+              s:md="{A71BA212-749C-4753-B6C9-0E9E08D6D8FD}" />
+            <r
+              uid="{9CE653F9-1195-43C4-B6E3-5AD5AB3C7147}"
+              p:after="*[1=2]"
+              s:ds="{5AACFE2C-9404-4103-86E6-F55AA30C0091}"
+              s:id="{FAE0D244-55C1-4F1B-8ED5-590C9F131CEE}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature&amp;FieldNames=%7BBBC43149-6D94-454C-9ECC-37522D09F028%7D&amp;Styles&amp;Scope=%7B71607C28-9AD2-4DEC-95EE-6BD023F8CCE8%7D&amp;PageSize=20&amp;DefaultLanguageFilter=%7B454E70DB-4ED7-4AAF-89B0-A4BB67DA5835%7D&amp;DefaultSortOrder=%7B95D2321D-CF96-4F96-A854-D86B297605E4%7D&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164813Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Global
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "76c2fbc1-af55-4fce-881c-646cc005de8f"
+      Hint: Title
+      Value: Global

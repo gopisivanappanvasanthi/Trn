@@ -1,0 +1,60 @@
+﻿---
+ID: "a71ba212-749c-4753-b6c9-0e9e08d6d8fd"
+Parent: "c85009ed-02f3-4ebe-b8c7-28eb9cbf09ca"
+Template: "1ca0304b-e5b6-4810-8211-54426f1752c2"
+Path: /sitecore/content/Verticurl/Global/Presentation/Placeholder Settings/Placeholder
+DB: master
+SharedFields:
+- ID: "0e54a8dc-72ad-4372-a7c7-bb4773fad44d"
+  Hint: VaryByUser
+  Type: Checkbox
+  Value: 0
+- ID: "1084d3d2-0457-456a-abbc-eb4cc0966072"
+  Hint: VaryByQueryString
+  Type: Checkbox
+  Value: 0
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Type: Checkbox
+  Value: 0
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 0
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Placeholder
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Type: Checkbox
+  Value: 0
+- ID: "8d9232b0-613f-440b-a2fa-dcdd80fbd33e"
+  Hint: VaryByLogin
+  Type: Checkbox
+  Value: 0
+- ID: "c98cf969-ba71-42da-833d-b3fc1368ba27"
+  Hint: VaryByDevice
+  Type: Checkbox
+  Value: 0
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {BA1B7D2A-99F1-44FC-A757-AC0737AAECFA}
+    {51C13F03-8364-4F61-B860-2EC6CA7439B3}
+- ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
+  Hint: ClearOnIndexUpdate
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T100838Z
+    - ID: "ff1fa49e-6fac-4ff2-8f79-57abe7338715"
+      Hint: Reset Caching Options
+      Type: Checkbox
+      Value: 0

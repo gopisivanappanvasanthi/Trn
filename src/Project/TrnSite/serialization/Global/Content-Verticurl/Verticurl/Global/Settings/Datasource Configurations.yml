@@ -1,0 +1,18 @@
+﻿---
+ID: "ab0fd983-c56a-47cc-a6be-816f70be5454"
+Parent: "60cd62b4-10eb-482e-9a6e-96e1b5c58501"
+Template: "f86fe270-00a4-492f-bfaf-5bf27e40ce13"
+Path: /sitecore/content/Verticurl/Global/Settings/Datasource Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

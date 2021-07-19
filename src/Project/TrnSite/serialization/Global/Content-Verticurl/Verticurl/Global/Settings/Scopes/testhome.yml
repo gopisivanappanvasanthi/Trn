@@ -1,0 +1,22 @@
+﻿---
+ID: "71607c28-9ad2-4dec-95ee-6bd023f8cce8"
+Parent: "ebeaff07-cc75-47dc-a748-d2546c292e77"
+Template: "8b649372-cc12-4f31-802a-8c3b3d09bb3f"
+Path: /sitecore/content/Verticurl/Global/Settings/Scopes/testhome
+DB: master
+SharedFields:
+- ID: "b04fe662-2b23-44dd-b971-2b864a1ec55f"
+  Hint: ScopeQuery
+  Value: "template:{24D88D58-E55D-488C-8EA5-2D815F16406B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210716T151117Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

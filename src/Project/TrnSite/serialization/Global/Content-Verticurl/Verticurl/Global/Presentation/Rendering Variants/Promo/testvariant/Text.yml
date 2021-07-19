@@ -1,0 +1,21 @@
+﻿---
+ID: "9157c56f-0833-47aa-8213-96c102dd143f"
+Parent: "0b43da43-6a22-47a5-af48-d052d18fb9f5"
+Template: "7c02e9f5-54b5-4ef4-bd10-f4c5d448a48c"
+Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/Promo/testvariant/Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07211f80-7ffc-4df4-a4de-c8956f391850"
+      Hint: Text
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T103659Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
