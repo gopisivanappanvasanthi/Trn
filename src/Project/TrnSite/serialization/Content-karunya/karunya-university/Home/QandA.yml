@@ -4,6 +4,10 @@ Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
 Template: "2ce4f84f-3982-4f82-933a-15714f3ee1ee"
 Path: "/sitecore/content/karunya-university/Home/QandA"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:

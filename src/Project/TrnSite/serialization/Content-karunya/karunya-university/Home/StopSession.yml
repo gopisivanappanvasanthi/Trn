@@ -4,6 +4,10 @@ Parent: "7a77e86d-298d-47ae-9df1-2b6024c9d657"
 Template: "18ce5a5f-5d43-4c53-a37e-ce394b0fee44"
 Path: "/sitecore/content/karunya-university/Home/StopSession"
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
 Languages:
 - Language: en
   Versions:

@@ -1,0 +1,35 @@
+﻿---
+ID: "169ce2e4-2771-4b20-87f9-c7bf58594c5d"
+Parent: "ea0e51b4-2eaf-44e2-b82e-9d13bfa632e1"
+Template: "069bd830-6b89-4952-8b93-5c3c654c209f"
+Path: "/sitecore/content/anna-university/Home/Events/ShortFilmMaking"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0be238ea-aa90-47ac-aa62-c95b12737f49"
+      Hint: EventDate
+      Value: 20210629T093000Z
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: Here the students will have to make one short film based on social issues or issues which have an impact on society or giving a social message. Here the other institute can compete with each other. The student can generally form a group to make a team for film making. All the film will be shown in a special slot or screening during the fest and the jury member will decide the best film and rewarded the team. This can be also done regardless of stream and specialisation of students.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T112717Z
+    - ID: "6679edaa-0594-4260-93f9-94d800591014"
+      Hint: EventPOC
+      Value: Kohila
+    - ID: "85d0d298-2668-4ef7-833c-5bf35b8404de"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {615DB99B-AEAA-4EAB-ADFE-9AED881C0A71}
+        {966457C3-12DA-4FBC-89B1-210F1A19EDC6}
+    - ID: "89c6fa21-97cd-4eb9-8811-0687c4645160"
+      Hint: EventDuration
+      Value: 4 Days
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: Short Film Making

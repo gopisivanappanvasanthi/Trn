@@ -1,5 +1,5 @@
 ﻿---
-ID: "cb274e19-d3a0-4862-852e-c3d7925d0b4b"
+ID: "d733e40a-961f-48cb-ad47-a451a9456ad2"
 Parent: "c83bbd51-347f-4976-87ed-49f0877f1c41"
 Template: "e6bfc04d-cba7-4520-be58-289310f3e7f6"
 Path: "/sitecore/content/anna-university/Home/Homecomponents/TrnSampleItem"
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210716T105715Z
+      Value: 20210720T075342Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

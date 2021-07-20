@@ -1,0 +1,35 @@
+﻿---
+ID: "666a0aec-d27c-400f-a553-9267e4dcce80"
+Parent: "232e220f-6f2f-4be2-81aa-c5eaeba60900"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/BIOTECH/BioSel"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International Biotechnology Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210609T151207Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: "BIOSEL-2021 a international Level Technical Symposium aims to provide an innovative platform to propagate the innovative ideas on the most recent, relevant research and their practices. The Symposium which is being second time hasted by our college deals with the emerging importance of technology and its application. The pioneering opinions of Young Scientists, Faculties, Academicians, Research Scholars and Students of various colleges will be brought to the fame by sharing their experience with others in this area."
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: BIOSEL'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {B7254124-5BF5-49DF-8743-966C991699B7}
+        {8817ED81-2A55-4845-BA5B-34A0E1227536}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 7889654789
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210624T043000Z

@@ -1,0 +1,35 @@
+﻿---
+ID: "c02b55dd-0ffc-4110-bdf1-c683b1796599"
+Parent: "1f14bcc6-6966-471d-8beb-ed04d9c98351"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/MECH/Mechano"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International Mechanical Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T124852Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: The Symposium is mainly aimed at boosting the technical and presentation skills in young engineers of India and providing them opportunity to showcase their innovative ideas and emerging thoughts. With a vision of spreading knowledge and making people realise the power of observation and spark of new thinking, MECHANO promises to mesmerise you with unique events and leave you enchanted and astounded.
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: MECHANO'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {FEB04051-E587-4B92-AC94-4A72E89BAB3E}
+        {3C4CDCE6-62A1-460B-8ABC-D671DAF84BB5}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 8890765489
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210715T023000Z

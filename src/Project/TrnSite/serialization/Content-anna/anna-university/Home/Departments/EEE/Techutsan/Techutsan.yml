@@ -1,0 +1,24 @@
+﻿---
+ID: "60705b85-f807-43c9-b58c-a31c050f3968"
+Parent: "bfc2d1bc-53c0-4efa-ab9c-ec5ecfd31bb7"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/EEE/Techutsan/Techutsan"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T180911Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: An International Symposium
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: TECHUTSAN
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{1560EF9E-AC04-4762-9184-CEC7411D9673}" />

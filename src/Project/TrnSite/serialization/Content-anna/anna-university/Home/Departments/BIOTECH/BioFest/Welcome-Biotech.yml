@@ -1,0 +1,24 @@
+﻿---
+ID: "175a4806-afc7-4abf-b4d4-672d8e02faca"
+Parent: "f16e83e2-4037-4aaa-bb7f-f157c2a8c0f9"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/BIOTECH/BioFest/Welcome-Biotech"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T171250Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: "Biotech Symposiums - 2021"
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Welcome
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{ED45C4FE-8A06-4110-AF60-462628D3811D}" />

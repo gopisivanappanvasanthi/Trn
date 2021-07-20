@@ -1,0 +1,35 @@
+﻿---
+ID: "86a145d2-c06f-4ca8-9179-ddad23bc24d0"
+Parent: "ea0e51b4-2eaf-44e2-b82e-9d13bfa632e1"
+Template: "069bd830-6b89-4952-8b93-5c3c654c209f"
+Path: "/sitecore/content/anna-university/Home/Events/Debugging"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0be238ea-aa90-47ac-aa62-c95b12737f49"
+      Hint: EventDate
+      Value: 20210626T070000Z
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "A great event and competition to organize for the future programmers where several institutes can come together and compete with the student of other institution. It involves problem-solving and algorithmic thinking of the students. The students will involve in problem-solving or debugging. The students participating in the competition will be given time to solve the maximum errors in limited time."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T112604Z
+    - ID: "6679edaa-0594-4260-93f9-94d800591014"
+      Hint: EventPOC
+      Value: Gopi
+    - ID: "85d0d298-2668-4ef7-833c-5bf35b8404de"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {BDEA847B-155D-483E-8008-2C1816A9D75A}
+        {58B17753-2B1B-4DE3-9C95-5F3A4F9DC841}
+    - ID: "89c6fa21-97cd-4eb9-8811-0687c4645160"
+      Hint: EventDuration
+      Value: 2 Days
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: Debugging

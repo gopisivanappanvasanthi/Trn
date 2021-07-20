@@ -1,0 +1,18 @@
+﻿---
+ID: "c79c6beb-cccb-4b35-a980-6e36eafb0a4c"
+Parent: "1fab9579-696e-4b16-a45b-2af32881c868"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Trn/SessionAbandonLayout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /layouts/test.aspx
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210623T154945Z

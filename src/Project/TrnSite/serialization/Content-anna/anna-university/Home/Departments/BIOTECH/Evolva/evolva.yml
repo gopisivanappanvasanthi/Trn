@@ -1,0 +1,24 @@
+﻿---
+ID: "edf40a48-2405-463a-ad43-cf88b6968cc9"
+Parent: "4bdb7e52-68de-4d6c-a76b-3918d607d03c"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/BIOTECH/Evolva/evolva"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T172940Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: An International Symposium
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: EVOLVA
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{4F9EE282-ED20-4327-B430-3E0F88A0BD71}" />

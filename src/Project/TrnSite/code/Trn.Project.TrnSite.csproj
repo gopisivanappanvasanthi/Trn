@@ -454,6 +454,7 @@
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.base.config" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.AnnaUniversity.Sitedefinition.config" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.KarunyaUniversity.Sitedefinition.config" />
+    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.controls.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

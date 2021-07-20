@@ -1,0 +1,24 @@
+﻿---
+ID: "1336e88b-0475-4b09-9ccc-0d12f44c5a89"
+Parent: "d9cebf0a-0638-40b2-9d84-cf45490fbfc2"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Events/FacePainting/Welcome-Event"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T141719Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: "Events - 2021"
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Face Painting
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{FAE757B2-3D34-49D6-A933-D7B9B740FCB2}" />

@@ -1,0 +1,35 @@
+﻿---
+ID: "d81c6f81-c479-443a-b174-e663694e0a92"
+Parent: "5f8a873d-75a7-4931-a61b-589fb528ba84"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/IT/Vignite"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International IT Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T124025Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: Inter National level symposium conducted by aspiring students of Information technology.The name of the symposium means magnetic iron ore and the main motto of our symposium is to trigger the technical intellectual present in the student community.This event is conducted every year for the benefit of the student community.Vignite2k21 is exclusively conducting technical events like paper presentation,bug hunt etc and non technical events like IPL Auction etc.This symposium is an excellent opportunity for all the students to acquire knowledge and to win prizes.
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: VIGNITE'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {6A0B863B-B057-470E-8221-379A39880B40}
+        {FA0EA78E-B58B-4947-ABE0-18D9B9569472}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 77896543221
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210704T073000Z

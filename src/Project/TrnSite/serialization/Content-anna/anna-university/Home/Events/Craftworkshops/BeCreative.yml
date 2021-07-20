@@ -1,0 +1,24 @@
+﻿---
+ID: "625d8529-a4d7-4194-b592-92f57bda0ec8"
+Parent: "f95526af-3c3a-4801-a7e5-111daaaf2c71"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Events/Craftworkshops/BeCreative"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T125447Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: Craft Workshops
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: Let's be creative
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{C61E033B-BAF4-49B7-9491-FB2B59E18BB8}" />

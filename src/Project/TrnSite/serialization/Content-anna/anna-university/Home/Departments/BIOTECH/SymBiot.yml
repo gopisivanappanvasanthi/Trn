@@ -1,0 +1,35 @@
+﻿---
+ID: "773c9144-fdd7-4f4e-a9ce-ad4c10fb8682"
+Parent: "232e220f-6f2f-4be2-81aa-c5eaeba60900"
+Template: "4a2ee8db-da2d-44b2-88fb-83ed6ab051d4"
+Path: "/sitecore/content/anna-university/Home/Departments/BIOTECH/SymBiot"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24c117d4-ee04-4bca-aa63-1c05db0674e6"
+      Hint: PageBrief
+      Value: "* Welcome to the International Biotechnology Symposium - 2021 *"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T120846Z
+    - ID: "27a31f86-304b-4bdb-9769-089905fc2633"
+      Hint: SymposiumDescription
+      Value: "Symbiot is a international level symposium conducted annually by the department of biotechnology, with the aim of providing participants an exposure to a real-life work environment. Every year more than 200 students from all over the country take part in this event."
+    - ID: "e141e45a-f80b-4a80-9008-d63cd9026c5c"
+      Hint: PageTitle
+      Value: SYMBIOT'21
+    - ID: "ebb1a8c7-744b-466c-b7d3-97255948db08"
+      Hint: CarouselItems
+      Type: Multilist
+      Value: |
+        {51945856-E7A3-4407-8EE9-27682040903F}
+        {E0CCFBA7-F505-4493-A9AA-9925D8BE62E5}
+    - ID: "f12c1805-d10b-41f4-a11b-3a84c5ab499a"
+      Hint: SPOCPhoneNumber
+      Value: 8907654789
+    - ID: "f7071019-5bc4-48b1-b3d6-00e7dfe2afb6"
+      Hint: PaperSubmissionLastDate
+      Value: 20210625T083000Z

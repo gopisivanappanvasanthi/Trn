@@ -1,0 +1,24 @@
+﻿---
+ID: "c93e4c9d-9dd9-4e53-a927-aa54df53dee5"
+Parent: "1c0f546c-ffd8-4f84-b269-c50b98ce1327"
+Template: "292ede91-d18b-4745-be76-e24cd8aa7543"
+Path: "/sitecore/content/anna-university/Home/Departments/ECE/ElectroVibes/ElectroVibes"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210630T175057Z
+    - ID: "44bf5f23-e500-448b-9ce6-e6d2d03c860e"
+      Hint: ImageGallerySubTitle
+      Value: An International Symposium
+    - ID: "c884e799-c4fd-482b-89f1-348611fbbd26"
+      Hint: ImageGalleryMainTitle
+      Value: ELECTRO VIBES
+    - ID: "cc3980a0-5aa7-48c0-8ab2-3db51a523cf0"
+      Hint: ImageGallery
+      Value: |
+        <image mediaid="{55EF3D6C-1D87-4F1C-955A-BAE2D4A715C0}" />

@@ -1,0 +1,27 @@
+﻿---
+ID: "ad652efa-d3d0-497d-af95-64df5e75a35d"
+Parent: "8ec8b2c1-457c-4916-acb3-e79449c4ace9"
+Template: "3810ff1a-3c2f-4698-9284-24bb23e11d46"
+Path: "/sitecore/content/anna-university/Home/Blogs/students protest/mona"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210705T131744Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "aa6fd6e1-9e79-4047-b218-2819d9e4543f"
+      Hint: username
+      Value: mona
+    - ID: "d587e8fe-657c-4200-89ff-206bb2a7b288"
+      Hint: usercomments
+      Value: comments
+    - ID: "e9180cb1-24fd-4c43-a549-6a09c840f10e"
+      Hint: useremailid
+      Value: mona@verticurl.com
