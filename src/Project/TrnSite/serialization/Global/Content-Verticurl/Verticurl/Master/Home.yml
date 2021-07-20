@@ -1,0 +1,62 @@
+﻿---
+ID: "92261dec-11fa-4475-b416-945f704a7b3d"
+Parent: "f420c80c-dcf3-4fa7-b1fe-09161309f320"
+Template: "24d88d58-e55d-488c-8ea5-2d815f16406b"
+Path: /sitecore/content/Verticurl/Master/Home
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{AF3A81A7-C117-4E1D-ABED-91C10DA05582}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{A3E1424B-49E1-4278-8204-C049997C33D6}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{755C9ECE-6EFC-488F-8BED-FD61B1704D12}"
+              p:before="*"
+              s:key="test"
+              s:md="{B3AB0B33-296D-43AE-9387-A534CB3C888E}" />
+            <p
+              uid="{B2EAF13F-08ED-47B2-92D7-A0317DE346DD}"
+              p:after="p[@uid='{755C9ECE-6EFC-488F-8BED-FD61B1704D12}']"
+              s:key="/main/container-1"
+              s:md="{B3AB0B33-296D-43AE-9387-A534CB3C888E}" />
+            <r
+              uid="{4472153F-9670-442E-829F-E0A16711152D}"
+              p:after="*[1=2]"
+              s:ds="{E6CE0DEB-ACDF-480C-926D-583E4D03C3C8}"
+              s:id="{FAE0D244-55C1-4F1B-8ED5-590C9F131CEE}"
+              s:par="RenderingIdentifier&amp;DefaultSortOrder=%7b93092F1C-1483-4AB6-A100-47F63BCD5F44%7d&amp;Styles&amp;Reset Caching Options&amp;SearchSignature&amp;PageSize=20&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7b8D07430C-3D06-47AC-85C3-597F4C63B9CD%7d&amp;DynamicPlaceholderId=1&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;Scope=%7bD28DCCD7-2713-40E9-A64E-A579A825E0EE%7d&amp;DefaultLanguageFilter=%7b04C9B082-DE71-4035-8D16-737BF024FDE6%7d"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164813Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Global
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "76c2fbc1-af55-4fce-881c-646cc005de8f"
+      Hint: Title
+      Value: Global

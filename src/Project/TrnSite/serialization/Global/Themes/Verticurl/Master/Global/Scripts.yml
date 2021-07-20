@@ -1,0 +1,18 @@
+﻿---
+ID: "a82db934-1ac2-4481-b86f-1d202b73d8a6"
+Parent: "1badfbb8-63c9-4760-a7f0-f8915a373644"
+Template: "536ef8ae-e6df-4aed-bd84-1f18de8cebf7"
+Path: /sitecore/media library/Themes/Verticurl/Master/Global/Scripts
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/folder.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180306T125740Z

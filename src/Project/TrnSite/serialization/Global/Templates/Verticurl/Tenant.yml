@@ -1,0 +1,29 @@
+﻿---
+ID: "1305f88a-5eaf-4c6b-9491-1854d312b071"
+Parent: "ce4efabc-5a75-4097-9a59-7a59134dd4ad"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Verticurl/Tenant
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/office_building2.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {215F8C54-68B3-4481-A20B-A5716F06081F}
+    {75A9D420-5F3A-4ED8-9AEA-F58DEBB74786}
+    {DCB42A80-68C9-46F9-B036-BC44A27D96FE}
+    {3BC304DB-FE8F-4AA8-B95C-8C331E823F4C}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{1DB3AAD2-AEC4-491D-841C-28F4A45EA6E4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164658Z

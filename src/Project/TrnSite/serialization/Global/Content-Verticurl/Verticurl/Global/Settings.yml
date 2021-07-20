@@ -1,0 +1,67 @@
+﻿---
+ID: "60cd62b4-10eb-482e-9a6e-96e1b5c58501"
+Parent: "35c7e4bc-57e5-4225-8da0-720d5a18c6af"
+Template: "503ca250-ddb8-47b7-b8e1-8b37dd7f235b"
+Path: /sitecore/content/Verticurl/Global/Settings
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {11F57D7B-CBB2-4647-B98C-71457564BA4F}
+    {0D792404-79AA-483D-BB0C-50785F2E295B}
+    {F86FE270-00A4-492F-BFAF-5BF27E40CE13}
+    {E1CF805E-7F49-4EC9-A25A-182DC798CB5F}
+    {DC66D5DA-3216-48E6-AE78-BAC8445B6A46}
+    {70461699-48E4-45FA-B74B-0CCE849FCA6A}
+    {20EF5E69-B366-4E9E-960B-E451B24DBD46}
+    {5C76AD53-96CD-4B96-9690-DD9AF2650171}
+    {44936C95-BCA9-4FB3-9D98-2066A5FBBB4D}
+    {5A6BF1D1-836B-425A-A6E6-32CEAA8FF3A5}
+    {B14BAB5B-8965-466B-886B-1F93175BCAB3}
+    {041C1F9F-99A4-4EE6-8308-985499F91032}
+- ID: "25482c19-9dd6-4b95-8d3e-7ca50750cef3"
+  Hint: AssociatedContent
+  Type: Treelist
+  Value: "{35C7E4BC-57E5-4225-8DA0-720D5A18C6AF}"
+- ID: "6a0971b2-7bd4-44b8-b3c4-8f76eb4b1ece"
+  Hint: DatasourceSearchScope
+  Type: Treelist
+  Value: |
+    {FB77AEC4-D82D-4C7B-A61D-D4D24E5A3B44}
+    {62ED3F97-3CD5-45E4-BA80-796E03D59D03}
+- ID: "ad84cc6b-32ef-49d8-9326-916976cb2520"
+  Hint: Grid Mapping
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257BFDFEE3CD-14DA-4485-B311-79F21BDE952D%257D"
+- ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
+  Hint: EditingTheme
+  Value: "{6D2DB25E-6F23-4817-997D-3AC38087B5E4}"
+- ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
+  Hint: Themes
+  Type: Treelist
+  Value: |
+    {C301E055-E979-44A3-9D09-FC6BA92D88F5}
+    {E99B315F-8C89-4419-A84F-BE1005EF2DDC}
+- ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
+  Hint: MediaLibrary
+  Value: "{D5D090E6-16EC-4CBA-8A94-700C9BF0C31E}"
+- ID: "e8881464-38af-4655-be4a-ee10586578a2"
+  Hint: Templates
+  Value: "{CE4EFABC-5A75-4097-9A59-7A59134DD4AD}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3E739E69-859C-4694-8D14-2BA6CA779CC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
