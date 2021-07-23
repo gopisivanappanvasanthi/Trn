@@ -4,7 +4,6 @@ Parent: "38109ace-6ad6-41bc-818d-eee15e8d0b61"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/Playlist/Default/MovieThumbnail
 DB: master
-BranchID: "fc0838e0-d628-4f4b-b97b-bd518a3ff4a9"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName

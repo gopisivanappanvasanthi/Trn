@@ -30,3 +30,5 @@ temp/
 nCrunchTemp*.*
 /publishsettings.targets
 /trn-react-app
+/src/Project/TrnSite/serialization/Renderings/Trn/ErrorPage.yml
+/src/Project/TrnSite/serialization/Renderings/Trn/View rendering.yml

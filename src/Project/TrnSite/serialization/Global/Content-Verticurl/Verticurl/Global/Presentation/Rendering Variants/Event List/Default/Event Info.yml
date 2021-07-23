@@ -4,7 +4,6 @@ Parent: "826d8562-ab0e-45e2-a69b-adb378395ce8"
 Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
 Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/Event List/Default/Event Info
 DB: master
-BranchID: "34c38ec6-d380-4bb0-93ab-52f08aecfbfa"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder

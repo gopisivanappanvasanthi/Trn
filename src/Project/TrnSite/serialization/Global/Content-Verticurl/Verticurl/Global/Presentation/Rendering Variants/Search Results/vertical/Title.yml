@@ -4,7 +4,6 @@ Parent: "41e4a361-4a3a-4210-b4e1-e189a8777d0f"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/Search Results/vertical/Title
 DB: master
-BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName

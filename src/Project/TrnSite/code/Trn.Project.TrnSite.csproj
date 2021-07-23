@@ -458,7 +458,6 @@
     <Content Include="Views\ErrorPage\Index.cshtml" />
     <Content Include="App_Config\Include\Trn\Sitecore.ContentSearch.Solr.Index.Articles.config" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.Global.config" />
-    <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.controls.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

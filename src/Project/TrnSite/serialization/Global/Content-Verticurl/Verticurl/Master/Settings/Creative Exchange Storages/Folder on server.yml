@@ -4,7 +4,6 @@ Parent: "4716f5b4-d90a-454c-b6e1-24c7e9d3cd57"
 Template: "bca27de4-a869-4282-b3fb-4fbd7ba1b87b"
 Path: /sitecore/content/Verticurl/Master/Settings/Creative Exchange Storages/Folder on server
 DB: master
-BranchID: "aab15f53-cc56-44e0-bfc6-1ed18ff81ffb"
 SharedFields:
 - ID: "15d142e5-e484-458d-8a66-317baafee28f"
   Hint: ImportType

@@ -4,7 +4,6 @@ Parent: "47e50243-b84d-485d-a1b0-9591e49c8567"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/testcomponet/Default/Promo Icon
 DB: master
-BranchID: "c34a044c-0e5d-4e6f-86e5-436f02968ac2"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName

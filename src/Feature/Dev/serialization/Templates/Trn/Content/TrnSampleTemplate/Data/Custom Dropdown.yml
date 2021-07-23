@@ -1,6 +1,6 @@
 ﻿---
-ID: "c38f4a25-6cd9-464b-8d39-7b7108dca5c6"
-Parent: "1d34e8da-ced0-40b7-9bce-ae8f0fb39f66"
+ID: "c07dae51-a448-4166-af2c-7992472de8e6"
+Parent: "56c24e08-698e-40cf-b63f-eafb4ae6f02b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Feature/Trn/Content/TrnSampleTemplate/Data/Custom Dropdown
 DB: master
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210716T105501Z
+      Value: 20210723T101210Z

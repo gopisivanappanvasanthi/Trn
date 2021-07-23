@@ -4,7 +4,6 @@ Parent: "f420c80c-dcf3-4fa7-b1fe-09161309f320"
 Template: "0a2847e6-9885-450b-b61e-f9e6528480ef"
 Path: /sitecore/content/Verticurl/Master/Global Dictionary
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

@@ -4,7 +4,6 @@ Parent: "4b002bfb-b3ef-4efd-aa49-118ac99f88a2"
 Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
 Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/testcomponet/Default
 DB: master
-BranchID: "c34a044c-0e5d-4e6f-86e5-436f02968ac2"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

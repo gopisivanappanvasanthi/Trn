@@ -4,7 +4,6 @@ Parent: "14dcc121-4054-4b4b-bbdd-b481358db46b"
 Template: "7dd9ece5-9461-498d-8721-7cbea8111b5e"
 Path: /sitecore/content/Verticurl/Global/Data/POIs/My Location POI
 DB: master
-BranchID: "58a9b55e-88b8-49a3-918b-99f3b6534c95"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

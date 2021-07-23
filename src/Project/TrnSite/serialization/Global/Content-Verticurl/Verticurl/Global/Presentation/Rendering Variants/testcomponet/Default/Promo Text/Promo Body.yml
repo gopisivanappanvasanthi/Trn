@@ -4,7 +4,6 @@ Parent: "4ebb0e3c-85f5-46cd-9d5a-2541561d02a6"
 Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
 Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/testcomponet/Default/Promo Text/Promo Body
 DB: master
-BranchID: "c34a044c-0e5d-4e6f-86e5-436f02968ac2"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder

@@ -4,7 +4,6 @@ Parent: "823c546c-1233-4471-9f1d-9d35b18d14f3"
 Template: "1c04fd61-1d87-4590-acfe-9cc186865ab3"
 Path: /sitecore/content/Verticurl/Global/Data/Search/Search Box/Default
 DB: master
-BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

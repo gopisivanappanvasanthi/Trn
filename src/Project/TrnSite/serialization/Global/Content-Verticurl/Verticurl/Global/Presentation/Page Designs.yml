@@ -4,7 +4,6 @@ Parent: "1d68c5cd-444d-451c-8f76-33c0824eb705"
 Template: "d22f023b-7032-487d-bb9f-12a7078135f5"
 Path: /sitecore/content/Verticurl/Global/Presentation/Page Designs
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "4094e091-cf77-4bb1-a004-ada2e2fcb267"
   Hint: Scripts Optimizing Enabled
