@@ -4,7 +4,6 @@ Parent: "60cd62b4-10eb-482e-9a6e-96e1b5c58501"
 Template: "b14bab5b-8965-466b-886b-1f93175bcab3"
 Path: /sitecore/content/Verticurl/Global/Settings/Social Media Groups
 DB: master
-BranchID: "4ddbdd69-8a15-4520-bed8-f7553139586b"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

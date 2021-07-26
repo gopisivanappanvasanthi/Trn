@@ -4,7 +4,6 @@ Parent: "8d50a1f2-31e3-4bf2-b3ad-0b7049f2c6c5"
 Template: "41cbdc01-c2df-4768-8add-87fb6b5a434b"
 Path: /sitecore/content/Verticurl/Global/Data/Search/Page Size/Default
 DB: master
-BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

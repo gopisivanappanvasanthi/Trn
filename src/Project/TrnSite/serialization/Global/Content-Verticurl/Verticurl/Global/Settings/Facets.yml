@@ -4,7 +4,6 @@ Parent: "60cd62b4-10eb-482e-9a6e-96e1b5c58501"
 Template: "20ef5e69-b366-4e9e-960b-e451b24dbd46"
 Path: /sitecore/content/Verticurl/Global/Settings/Facets
 DB: master
-BranchID: "110e35f3-fb41-4bec-bcb3-02b7a9cebb15"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

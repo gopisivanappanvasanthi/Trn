@@ -4,7 +4,6 @@ Parent: "60cd62b4-10eb-482e-9a6e-96e1b5c58501"
 Template: "0d792404-79aa-483d-bb0c-50785f2e295b"
 Path: /sitecore/content/Verticurl/Global/Settings/Creative Exchange Storages
 DB: master
-BranchID: "aab15f53-cc56-44e0-bfc6-1ed18ff81ffb"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

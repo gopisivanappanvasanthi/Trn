@@ -4,7 +4,6 @@ Parent: "35c7e4bc-57e5-4225-8da0-720d5a18c6af"
 Template: "24d88d58-e55d-488c-8ea5-2d815f16406b"
 Path: /sitecore/content/Verticurl/Global/Home
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design

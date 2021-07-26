@@ -449,7 +449,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
     <Content Include="Views\_SampleTrnLayout.cshtml" />
     <Content Include="Views\Listing\Index.cshtml" />
     <Content Include="Views\BreadcrumbNav\Index.cshtml" />
@@ -483,6 +482,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,7 +4,6 @@ Parent: "51127e0e-d8d5-4ed8-a91b-9e57fe451de5"
 Template: "d4fe53d8-4816-4acc-876a-2a225b608b45"
 Path: /sitecore/content/Verticurl/Master
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules

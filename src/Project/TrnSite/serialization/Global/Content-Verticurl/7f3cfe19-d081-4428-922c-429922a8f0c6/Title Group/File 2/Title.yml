@@ -4,7 +4,6 @@ Parent: "bea8b858-e3fe-4e75-bf09-be7c2aa3e75a"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: "/sitecore/content/Verticurl/Global/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper/Title Group/File 2/Title"
 DB: master
-BranchID: "630530a2-bfbf-4538-8fc0-41f4e5a5a2b8"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName

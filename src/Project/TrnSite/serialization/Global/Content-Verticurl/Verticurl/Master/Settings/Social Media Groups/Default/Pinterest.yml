@@ -4,7 +4,6 @@ Parent: "d51adeee-524f-4ab9-b868-1b470fe59c31"
 Template: "3de7aa7e-961a-4b90-98f2-01ac2be92ec5"
 Path: /sitecore/content/Verticurl/Master/Settings/Social Media Groups/Default/Pinterest
 DB: master
-BranchID: "4ddbdd69-8a15-4520-bed8-f7553139586b"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
