@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.ModelBinding;
 using Sitecore.Links;
 using Sitecore.Mvc.Presentation;
 using Sitecore.Web;
@@ -11,6 +10,10 @@ namespace Trn.Feature.Controls
 {
     public class TrnCustomDropdown : Sitecore.Web.UI.HtmlControls.Control
     {
+        public TrnCustomDropdown()
+        {
+            
+        }
         protected override void DoRender(System.Web.UI.HtmlTextWriter output)
         {
             var keyValuePairs = new List<KeyValuePair<string, string>>
@@ -21,7 +24,7 @@ namespace Trn.Feature.Controls
                 new KeyValuePair<string, string>("Key4", "Value4"),
                 new KeyValuePair<string, string>("Key5", "Value5"),
             };
-            output.Write("<select" + new ControlAttribute() + ">");
+            output.Write("<select" + this.ControlAttributes + ">");
             foreach (var keyValuePair in keyValuePairs)
             {
                 if (keyValuePair.Value == Value)

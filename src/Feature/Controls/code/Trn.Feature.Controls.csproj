@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Trn\Trn.Feature.Controls.Serialization.config" />
+    <Content Include="App_Config\Include\Trn\Trn.Feature.Controls.config" />
     <None Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

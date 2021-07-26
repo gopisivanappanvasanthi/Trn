@@ -7,7 +7,7 @@ DB: core
 SharedFields:
 - ID: "0f0a5388-0467-4a45-95c0-729b1d6db9fd"
   Hint: Control
-  Value: TrnCustom.TrnCustomdropdown
+  Value: "TrnCustom:TrnCustomdropdown"
 - ID: "6bf5ed07-bc70-42f4-bb77-c017d340950e"
   Hint: Assembly
   Value: Trn.Feature.Controls
