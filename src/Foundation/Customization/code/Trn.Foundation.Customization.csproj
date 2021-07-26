@@ -242,6 +242,9 @@
     <Reference Include="Sitecore.Kernel, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.LayoutService">
+      <HintPath>..\..\..\..\..\..\Frontier Project\sitecore\libs\Sitecore.LayoutService.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Logging, Version=13.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Logging.9.3.0\lib\net471\Sitecore.Logging.dll</HintPath>
     </Reference>
@@ -450,9 +453,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Trn\Foundation\Trn.Foundation.Customization.404Page.config" />
+    <Content Include="App_Config\Include\Trn\Foundation\Trn.Foundation.GetCustomFieldSerializer.config" />
+    <Content Include="App_Config\Include\Trn\Foundation\CustomAppSettings.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\CustomFieldSerializer.cs" />
     <Compile Include="Pipelines\PageNotFoundResolver.cs" />
     <Compile Include="Pipelines\Set404Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
