@@ -1,0 +1,18 @@
+﻿---
+ID: "44d860d0-9eee-4c42-8012-5fd3323407ee"
+Parent: "74a41f2b-f712-4583-9df1-6b9d183dc8ae"
+Template: "a13a1b91-fd2b-494b-9086-008852175b0a"
+Path: /sitecore/content/Verticurl/Master/Data/Carousels
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164837Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

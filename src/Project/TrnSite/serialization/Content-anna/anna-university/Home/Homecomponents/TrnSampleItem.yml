@@ -1,0 +1,21 @@
+﻿---
+ID: "7c75e04d-12bd-4b74-a152-c8c5e8134d6a"
+Parent: "c83bbd51-347f-4976-87ed-49f0877f1c41"
+Template: "584f8a7f-6e59-4862-ad77-6d259918b9ce"
+Path: "/sitecore/content/anna-university/Home/Homecomponents/TrnSampleItem"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210723T101428Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c07dae51-a448-4166-af2c-7992472de8e6"
+      Hint: Custom Dropdown
+      Value: Value2

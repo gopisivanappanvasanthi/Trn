@@ -1,0 +1,18 @@
+﻿---
+ID: "e5a0ccb1-ca09-4409-a9b0-5f0d176aba95"
+Parent: "60cd62b4-10eb-482e-9a6e-96e1b5c58501"
+Template: "e1cf805e-7f49-4ec9-a25a-182dc798cb5f"
+Path: /sitecore/content/Verticurl/Global/Settings/Redirects
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164819Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

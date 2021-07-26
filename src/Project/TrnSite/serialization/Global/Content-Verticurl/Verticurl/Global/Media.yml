@@ -1,0 +1,28 @@
+﻿---
+ID: "6d409330-6402-43e5-bd0f-6144d7599571"
+Parent: "35c7e4bc-57e5-4225-8da0-720d5a18c6af"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Verticurl/Global/Media
+DB: master
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {D5D090E6-16EC-4CBA-8A94-700C9BF0C31E}
+    {E81772F1-5C09-406E-B2EE-43E67706C424}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
