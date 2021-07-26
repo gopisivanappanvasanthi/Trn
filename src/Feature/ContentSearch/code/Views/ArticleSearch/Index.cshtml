@@ -3,11 +3,14 @@
 
 @using (Html.BeginForm())
 {
+
     <div class="mb-3">
         @Html.TextBoxFor(x => x.SearchTermString, new { @class = "form-control" })
     </div>
 
     <div>
-        <button type="submit" class="btn btn-outline-primary">Search Articles</button>
+        <button type="submit" class="btn btn-lg btn-success">Search Articles</button>
     </div>
+
 }
+@*btn btn-outline-primary*@

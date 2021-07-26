@@ -11,6 +11,6 @@ namespace Trn.Feature.ContentSearch.Models
 
         public string ResultRefUrl { get; set; }
 
-        public HtmlString ResultImageCard { get; set; }
+        public string ResultDescription { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.SearchTypes;
+using Sitecore.Links;
 using Sitecore.Web.UI.WebControls;
 using System;
 using System.Collections.Generic;
@@ -29,10 +30,11 @@ namespace Trn.Feature.ContentSearch.Controllers
 
             List<ArticleResultInfo> searchResults = searchResultItems.Select(x => new ArticleResultInfo
             {
-                ResultTitle = x.Fields["Title"].ToString(),
-                ResultImageCard = (HtmlString)x.Fields["Image"],
-               // ResultImageCard = new HtmlString(FieldRenderer.Render(x, "Image")),
+                ResultTitle = x.Fields["title_t"].ToString(),
+                ResultDescription = x.Fields["description_t"].ToString(),
                 ResultRefUrl = x.Url,
+                // ResultImageCard = (HtmlString)x.Fields["Ima"],
+                // ResultImageCard = new HtmlString(FieldRenderer.Render(x, "Image")),
                 //ResultImageCard = new HtmlString(x.Fields["image_t_en"].ToString())
             }).ToList();
 

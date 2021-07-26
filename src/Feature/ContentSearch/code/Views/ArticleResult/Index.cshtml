@@ -2,6 +2,8 @@
 
 @foreach (var item in Model)
 {
-    <a href="@item.ResultRefUrl">@item.ResultTitle</a>
-    <div>@item.ResultImageCard</div>
+    <a href="@item.ResultRefUrl"> <h2>@item.ResultTitle</h2> </a>
+    <br />
+    <h3>Description</h3>
+    <div>@item.ResultDescription</div>
 }
