@@ -1,0 +1,18 @@
+﻿@model Trn.Feature.Article.Models.BlogListInfo
+
+<div>
+    @foreach (var item in Model.blogsList)
+    {
+        <div>
+            <a href="@item.blogurl">
+
+                <div>
+                    @item.blogTitle
+                </div>
+                <div>
+                    @item.blogImage
+                </div>
+            </a>
+        </div>
+    }
+</div>

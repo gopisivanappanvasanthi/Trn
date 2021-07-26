@@ -1,0 +1,9 @@
+﻿@model List<Trn.Feature.ContentSearch.Models.ArticleResultInfo>
+
+@foreach (var item in Model)
+{
+    <a href="@item.ResultRefUrl"> <h2>@item.ResultTitle</h2> </a>
+    <br />
+    <h3>Description</h3>
+    <div>@item.ResultDescription</div>
+}

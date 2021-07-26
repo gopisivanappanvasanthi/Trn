@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7929805C-AD0A-46C7-882A-D08DE2D05640}</ProjectGuid>
+    <ProjectGuid>{91EF0BE7-B885-4039-BD01-C1F25D9DBDFD}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Trn.Feature.Article</RootNamespace>
-    <AssemblyName>Trn.Feature.Article</AssemblyName>
+    <RootNamespace>Trn.Feature.ContentSearch</RootNamespace>
+    <AssemblyName>Trn.Feature.ContentSearch</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44381</IISExpressSSLPort>
+    <IISExpressSSLPort>44372</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -442,37 +442,30 @@
     </Reference>
     <Reference Include="System.Web.Mvc">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
       <HintPath>..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\TrnComments\Index.cshtml" />
-    <Content Include="Views\TrnComments\CommentsSummary.cshtml" />
-    <Content Include="Views\FeaturedArticle\Index.cshtml" />
-    <Content Include="Views\TrnCommentsList\Index.cshtml" />
-    <Content Include="Views\TrnBlogList\Index.cshtml" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Views\ArticleSearch\Index.cshtml" />
+    <Content Include="Views\ArticleResult\Index.cshtml" />
+    <Content Include="Views\TrnSearch\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\FeaturedArticleController.cs" />
-    <Compile Include="Controllers\TrnArticleController.cs" />
-    <Compile Include="Controllers\TrnBlogListController.cs" />
-    <Compile Include="Controllers\TrnCommentsListController.cs" />
-    <Compile Include="Controllers\TrnCommentsController.cs" />
-    <Compile Include="Models\ArticleInfo.cs" />
-    <Compile Include="Models\BlogCard.cs" />
-    <Compile Include="Models\BlogListInfo.cs" />
-    <Compile Include="Models\Comment.cs" />
-    <Compile Include="Models\ListOfComments.cs" />
+    <Compile Include="Controllers\ArticleResultController.cs" />
+    <Compile Include="Controllers\ArticleSearchController.cs" />
+    <Compile Include="Controllers\TrnSearchController.cs" />
+    <Compile Include="Models\ArticleResultInfo.cs" />
+    <Compile Include="Models\ArticleSearchInfo.cs" />
+    <Compile Include="Models\TrnSearchInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
     <None Include="packages.config" />
-    <Content Include="Views\TrnArticle\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -482,13 +475,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\Publishing\code\Trn.Foundation.Publishing.csproj">
-      <Project>{35538056-c229-481a-9e54-154eabca7e00}</Project>
-      <Name>Trn.Foundation.Publishing</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -503,9 +489,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56976</DevelopmentServerPort>
+          <DevelopmentServerPort>62649</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44381/</IISUrl>
+          <IISUrl>https://localhost:44372/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
