@@ -1,0 +1,38 @@
+﻿---
+ID: "6f538eeb-0a39-4d4d-8dcc-8d5f9f5e70c5"
+Parent: "21d7dea3-4334-41ed-9d6f-9698f3b0c91d"
+Template: "1cdbdac1-6dce-4fc8-b290-85a8b7157179"
+Path: /sitecore/content/Verticurl/Global/Presentation/Partial Designs/header
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8FDBD27A-DD2C-437F-A9B1-B61701609E8B}"
+              s:ds="local:/Data/testdata"
+              s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE698D326-11B7-45CE-AA47-E7BEC37681F2%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="header" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T095037Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

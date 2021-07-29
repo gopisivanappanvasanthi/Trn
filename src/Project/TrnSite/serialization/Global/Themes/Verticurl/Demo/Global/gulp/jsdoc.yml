@@ -1,0 +1,35 @@
+﻿---
+ID: "aabab7e0-1195-4f97-8226-9ce67e8c23ed"
+Parent: "b909406d-2809-4190-9a13-a75e9c8b1f34"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: /sitecore/media library/Themes/Verticurl/Demo/Global/gulp/jsdoc
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/6A14C22A977B415E83FDBEEB253E2F18.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "0479ea77-7f32-4ef2-acdb-fa0a44d86c8a"
+  Value: ew0KICAgICJwbHVnaW5zIjogW10sDQogICAgInJlY3Vyc2VEZXB0aCI6IDEwLA0KICAgICJzb3VyY2UiOiB7DQogICAgICAgICJpbmNsdWRlIjpbIi4vc2NyaXB0cyIsICJyZWFkbWUubWQiXSwNCiAgICAgICAgImluY2x1ZGVQYXR0ZXJuIjogIi4rXFwuanMoZG9jfHgpPyQiLA0KICAgICAgICAiZXhjbHVkZVBhdHRlcm4iOiAiKF58XFwvfFxcXFwpXyINCiAgICB9LA0KICAgICJzb3VyY2VUeXBlIjogIm1vZHVsZSIsDQogICAgInRhZ3MiOiB7DQogICAgICAgICJhbGxvd1Vua25vd25UYWdzIjogdHJ1ZSwNCiAgICAgICAgImRpY3Rpb25hcmllcyI6IFsianNkb2MiLCJjbG9zdXJlIl0NCiAgICB9LA0KICAgICJ0ZW1wbGF0ZXMiOiB7DQogICAgICAgICJjbGV2ZXJMaW5rcyI6IGZhbHNlLA0KICAgICAgICAibW9ub3NwYWNlTGlua3MiOiBmYWxzZQ0KICAgIH0sDQogICAgIm9wdHMiOnsNCiAgICAgICAgImRlc3RpbmF0aW9uIjoiLi9qc2RvYy8iLA0KICAgICAgICAidGVtcGxhdGUiOiAibm9kZV9tb2R1bGVzL2RvY2Rhc2giDQogICAgfSwNCiAgICAidHV0b3JpYWwiOiB7DQogICAgICAgICJ0aXRsZSI6ICJUdXRvcmlhbCBPbmUiLA0KICAgICAgICAiY2hpbGRyZW4iOiBbDQogICAgICAgICAgICAicmVhZG1lIiAgIA0KICAgICAgICBdDQogICAgfQ0KfQ==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 655
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/octet-stream"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: json
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190718T072604Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

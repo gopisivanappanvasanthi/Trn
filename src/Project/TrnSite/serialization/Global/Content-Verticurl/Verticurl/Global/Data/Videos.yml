@@ -1,0 +1,18 @@
+﻿---
+ID: "fb286b5f-4a66-414d-8bfd-a4bb63bfd470"
+Parent: "62ed3f97-3cd5-45e4-ba80-796e03d59d03"
+Template: "4c650ab1-7dab-447c-9836-bb984df71842"
+Path: /sitecore/content/Verticurl/Global/Data/Videos
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164908Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

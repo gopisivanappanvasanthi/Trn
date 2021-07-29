@@ -1,0 +1,14 @@
+﻿---
+ID: "8056f670-1be5-41a6-89c2-c6a4b8f7ac69"
+Parent: "5790cac4-e4f7-4a8a-a6ce-c26c70c7e2d9"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Verticurl/Page/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164723Z

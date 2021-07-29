@@ -1,0 +1,18 @@
+﻿---
+ID: "d728e5fa-01c3-4a46-b213-2b8ab3e54150"
+Parent: "503ca250-ddb8-47b7-b8e1-8b37dd7f235b"
+Template: "503ca250-ddb8-47b7-b8e1-8b37dd7f235b"
+Path: /sitecore/templates/Project/Verticurl/Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164658Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

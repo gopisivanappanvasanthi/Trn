@@ -1,0 +1,25 @@
+﻿---
+ID: "613806ec-c5ea-4f36-ae7e-18a68d158520"
+Parent: "d3afb364-86c8-4519-874a-6b26b4c5e776"
+Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
+Path: /sitecore/content/Verticurl/Global/Presentation/Rendering Variants/testcomponet/Default/Promo Text/Promo Body/Promo Text
+DB: master
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: PromoText
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{33E1162C-FF71-4A29-AA6F-165E09461A19}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T094058Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

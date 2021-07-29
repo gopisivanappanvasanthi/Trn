@@ -1,0 +1,22 @@
+﻿---
+ID: "8a38183f-7e6c-4549-a8d6-5c2db0b73ee3"
+Parent: "1d68c5cd-444d-451c-8f76-33c0824eb705"
+Template: "3a1dde20-0a86-492a-81ee-5f56c827fa94"
+Path: /sitecore/content/Verticurl/Global/Presentation/POI Types
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3F659530-2328-44A4-95F0-9C8C488011D4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164852Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

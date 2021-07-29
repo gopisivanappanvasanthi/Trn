@@ -1,0 +1,14 @@
+﻿---
+ID: "d6c8647b-c8b7-479c-9886-29179ef14617"
+Parent: "cea87d50-ec25-48f7-83f9-f744bd416df8"
+Template: "0339bac0-78c1-43c1-b930-f8c26a5fdf80"
+Path: /sitecore/content/Verticurl/Master/Presentation/Placeholder Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164822Z

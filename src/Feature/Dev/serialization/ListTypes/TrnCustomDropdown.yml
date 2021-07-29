@@ -1,0 +1,28 @@
+﻿---
+ID: "8d27ca54-1f88-4b09-ae6c-15e1c84ebd44"
+Parent: "72352efd-3c06-404d-93fa-737f669f41fa"
+Template: "f8a17d6a-118e-4cd7-b5f5-88ff37a4f237"
+Path: /sitecore/system/Field types/List Types/TrnCustomDropdown
+DB: core
+SharedFields:
+- ID: "0f0a5388-0467-4a45-95c0-729b1d6db9fd"
+  Hint: Control
+  Value: "TrnCustom:TrnCustomdropdown"
+- ID: "6bf5ed07-bc70-42f4-bb77-c017d340950e"
+  Hint: Assembly
+  Value: Trn.Feature.Controls
+- ID: "9fe6154a-a16e-4827-99f6-f51533c34ec8"
+  Hint: Class
+  Value: Trn.Feature.Controls.TrnCustomDropdown
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210716T104702Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

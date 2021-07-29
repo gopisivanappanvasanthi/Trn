@@ -1,0 +1,22 @@
+﻿---
+ID: "2fb86caf-c078-4116-9906-d12db2d25e65"
+Parent: "7bc58067-0cdc-46de-a527-c1f63ecc8c6c"
+Template: "9d46c5c3-aaee-46aa-b406-a1806302116e"
+Path: /sitecore/content/Verticurl/Global/Data/Search/Dropdown Filter
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AE5CC139-C6CA-4BFA-865B-445FE691DA3A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T165004Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -449,7 +449,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
     <Content Include="Views\DepartmentGallery\Index.cshtml" />
     <Content Include="Views\TrnSymposium\Index.cshtml" />
     <Content Include="Views\TrnPageDetail\Index.cshtml" />
@@ -495,6 +494,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Publishing\code\Trn.Foundation.Publishing.csproj">

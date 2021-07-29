@@ -1,0 +1,22 @@
+﻿---
+ID: "3917b9a4-8fd5-460e-b4b0-516a1a97e594"
+Parent: "7bc58067-0cdc-46de-a527-c1f63ecc8c6c"
+Template: "c24428ab-3af5-44cd-ab5f-5f7e33f9d1ac"
+Path: /sitecore/content/Verticurl/Global/Data/Search/Sort Results
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F36E70F3-122C-4847-AFD4-BD8EE08722B5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T165005Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

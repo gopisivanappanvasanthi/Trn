@@ -1,0 +1,14 @@
+﻿---
+ID: "1082ef1d-b4e9-4629-b7d4-f9e3f7a2879c"
+Parent: "52b4571d-df6b-4a67-a763-6b009040664e"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Verticurl/Demo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164813Z

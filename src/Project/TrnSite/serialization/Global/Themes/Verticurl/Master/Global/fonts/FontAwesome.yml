@@ -1,0 +1,18 @@
+﻿---
+ID: "55ca7832-82db-4312-8cad-ebe8bf483218"
+Parent: "fe5e33d6-1bb5-42a9-8f2a-dbe745d930ed"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/Verticurl/Master/Global/fonts/FontAwesome
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160708T091148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

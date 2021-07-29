@@ -1,0 +1,25 @@
+﻿---
+ID: "790685e2-58ca-40e7-8529-4f78c03b9e25"
+Parent: "01e5d1e1-2790-4c76-9869-f2f5599fd478"
+Template: "01e5d1e1-2790-4c76-9869-f2f5599fd478"
+Path: /sitecore/templates/Project/Verticurl/Page Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {01E5D1E1-2790-4C76-9869-F2F5599FD478}
+    {66406722-4F1D-4EA9-A308-F366BCDCE5BD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164659Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "5423a31e-6aaa-490d-afb4-ea8889fac8bf"
+Parent: "62918886-e6fb-4c47-9bf4-497e6da80940"
+Template: "efafbbf5-01a0-46d3-9f7b-e71763e7f221"
+Path: /sitecore/content/Verticurl/Global/Settings/Social Media Groups/Default
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E35BE623-2154-4300-A80E-F054B26B76C5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164953Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

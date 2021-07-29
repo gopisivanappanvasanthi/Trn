@@ -1,0 +1,22 @@
+﻿---
+ID: "83b1fa14-2202-403e-bde2-1dc272b97156"
+Parent: "aaf1656f-c6f8-4559-906f-3c8c0e8f8663"
+Template: "5da3844c-1111-422d-a5ad-faef2b22ef2e"
+Path: /sitecore/content/Verticurl/Global/Data/Search/Radius Filter/Radius Scheme
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{7B521330-2F24-4EE9-B8BD-97106E26F97B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T165005Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
