@@ -1,14 +1,15 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
-using Trn.Feature.UserForm.Controllers;
+using Trn.Foundation.Analytics.Services;
 
-namespace Trn.Feature.UserForm.DI
+namespace Trn.Foundation.Analytics.DI
 {
     public class RegisterDI : IServicesConfigurator
     {
         public void Configure(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddTransient<UserController>();
+            serviceCollection.AddTransient(typeof(IContactService),
+                typeof(ContactService));
         }
     }
 }

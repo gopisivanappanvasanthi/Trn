@@ -10,5 +10,9 @@ namespace Trn.Foundation.Analytics.Services
     public interface IContactService
     {
         bool CreateContact(UserModel user);
+        bool IsKnownContact(string identifier);
+        void AddPageEvent(string identifier, string pageId);
+        void AddGoal(string identifier, string goalId);
+        void AddOutcome(string identifier, string outcomeId);
     }
 }

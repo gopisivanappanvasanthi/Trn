@@ -36,43 +36,32 @@ namespace Trn.Foundation.Analytics.Services
 
                         if (contact != null)
                         {
-                            //var imageUrl = "https://toppsta.com/images/profile-pictures/4743?t=1544008711";
-                            //var webClient = new System.Net.WebClient();
-                            //// Download data from URL
-                            //byte[] imageBytes = webClient.DownloadData(imageUrl);
-                            //string myType= "image/jpeg";
-                            //client.SetFacet<Avatar>(contact, Avatar.DefaultFacetKey, new Avatar(myType, imageBytes)
-                            //{
-                            //    MimeType= myType,
-                            //    Picture=imageBytes
-                            //});
-
                             if (contact.Personal() != null)
                             {
-                                contact.Personal().FirstName = user.FirstName;
-                                contact.Personal().MiddleName = user.MiddleName;
-                                contact.Personal().LastName = user.LastName;
-                                contact.Personal().Gender = user.Gender;
-                                contact.Personal().JobTitle = user.JobTitle;
+                                contact.Personal().FirstName = user.FirstName?? string.Empty;
+                                contact.Personal().MiddleName = user.MiddleName?? string.Empty;
+                                contact.Personal().LastName = user.LastName?? string.Empty;
+                                contact.Personal().Gender = user.Gender?? string.Empty;
+                                contact.Personal().JobTitle = user.JobTitle?? string.Empty;
                             }
                             else
                             {
                                 client.SetFacet<PersonalInformation>(contact, PersonalInformation.DefaultFacetKey, new PersonalInformation()
                                 {
-                                    FirstName = user.FirstName,
-                                    MiddleName = user.MiddleName,
-                                    LastName = user.LastName,
-                                    Gender = user.Gender,
-                                    JobTitle = user.JobTitle
+                                    FirstName = user.FirstName ?? string.Empty,
+                                    MiddleName = user.MiddleName?? string.Empty,
+                                    LastName = user.LastName?? string.Empty,
+                                    Gender = user.Gender?? string.Empty,
+                                    JobTitle = user.JobTitle?? string.Empty
                                 });
                             }
                             if (contact.PhoneNumbers() != null)
                             {
-                                contact.PhoneNumbers().PreferredPhoneNumber = new Sitecore.XConnect.Collection.Model.PhoneNumber(string.Empty, user.Phone);
+                                contact.PhoneNumbers().PreferredPhoneNumber = new Sitecore.XConnect.Collection.Model.PhoneNumber(string.Empty, user.Phone?? string.Empty);
                             }
                             else
                             {
-                                client.SetFacet<PhoneNumberList>(contact, PhoneNumberList.DefaultFacetKey, new PhoneNumberList(new PhoneNumber(string.Empty,user.Phone), "mobile"));
+                                client.SetFacet<PhoneNumberList>(contact, PhoneNumberList.DefaultFacetKey, new PhoneNumberList(new PhoneNumber(string.Empty,user.Phone?? string.Empty), "mobile"));
                             }
                             if (contact.Emails() != null)
                             {
@@ -82,12 +71,15 @@ namespace Trn.Foundation.Analytics.Services
                             {
                                 client.SetFacet<EmailAddressList>(contact, EmailAddressList.DefaultFacetKey, new EmailAddressList(new EmailAddress(user.EmailAddress, true), "email"));
                             }
-                            client.AddContactIdentifier(contact, new Sitecore.XConnect.ContactIdentifier("Known-User", user.EmailAddress, Sitecore.XConnect.ContactIdentifierType.Known));
+                            client.AddContactIdentifier(contact, new Sitecore.XConnect.ContactIdentifier(Constants.Analytics.KnownUserContactIdentifier, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"), Sitecore.XConnect.ContactIdentifierType.Known));
+                            //client.AddContactIdentifier(contact, new Sitecore.XConnect.ContactIdentifier("Known-User", user.EmailAddress, Sitecore.XConnect.ContactIdentifierType.Known));
                             client.Submit();
                             // Remove contact data from shared session state - contact will be re-loaded
                             // during subsequent request with updated facets
                             manager.RemoveFromSession(Tracker.Current.Contact.ContactId);
                             Tracker.Current.Session.Contact = manager.LoadContact(Tracker.Current.Contact.ContactId);
+                            AddGoal(Constants.Analytics.KnownUserContactIdentifier, Constants.Analytics.GoalId);
+                            AddOutcome(Constants.Analytics.KnownUserContactIdentifier, Constants.Analytics.OutcomeId);
                             return true;
                         }
                     }
@@ -99,5 +91,93 @@ namespace Trn.Foundation.Analytics.Services
             }
             return false;
         }
+        public bool IsKnownContact(string identifier)
+        {
+            try
+            {
+                var manager = Sitecore.Configuration.Factory.CreateObject("tracking/contactManager", true) as Sitecore.Analytics.Tracking.ContactManager;
+
+                if (manager != null)
+                {
+                    if (Sitecore.Analytics.Tracker.Current.Contact.IsNew)
+                    {
+                        Sitecore.Analytics.Tracker.Current.Contact.ContactSaveMode = ContactSaveMode.AlwaysSave;
+                        manager.SaveContactToCollectionDb(Sitecore.Analytics.Tracker.Current.Contact);
+                    }
+
+                    var trackerIdentifier = new IdentifiedContactReference(identifier, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
+                    using (var client = Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient())
+                    {
+                        var contact = client.Get<Sitecore.XConnect.Contact>(trackerIdentifier, new Sitecore.XConnect.ContactExpandOptions());
+                        if (contact != null)
+                        {
+                            return contact.IsKnown;
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Log.Error("xProfile : Error while featching contact info", ex, this);
+            }
+            return false;
+        }
+        protected void AddInteraction(string identifier,Event eventType)
+        {
+            try
+            {
+                var manager = Sitecore.Configuration.Factory.CreateObject("tracking/contactManager", true) as Sitecore.Analytics.Tracking.ContactManager;
+
+                if (manager != null)
+                {
+                    if (Sitecore.Analytics.Tracker.Current.Contact.IsNew)
+                    {
+                        Sitecore.Analytics.Tracker.Current.Contact.ContactSaveMode = ContactSaveMode.AlwaysSave;
+                        manager.SaveContactToCollectionDb(Sitecore.Analytics.Tracker.Current.Contact);
+                    }
+
+                    var trackerIdentifier = new IdentifiedContactReference(identifier, Sitecore.Analytics.Tracker.Current.Contact.ContactId.ToString("N"));
+                    using (var client = Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient())
+                    {
+                        var contact = client.Get<Sitecore.XConnect.Contact>(trackerIdentifier, new Sitecore.XConnect.ContactExpandOptions());
+
+                        if (contact != null)
+                        {
+                            var channelId = Guid.Parse(Constants.Analytics.ChannelId);
+
+                            var interaction = new Interaction(contact, InteractionInitiator.Contact, channelId, Constants.Analytics.UserAgent);
+
+                            interaction.Events.Add(eventType);
+
+                            client.AddInteraction(interaction);
+                            client.Submit();
+                        }
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Log.Error("xProfile : Error while adding Interaction", ex, this);
+            }
+        }
+        public void AddPageEvent(string identifier, string pageId)
+        {
+            var definitionId = Guid.Parse(pageId);
+            var pageView = new PageViewEvent(DateTime.UtcNow, definitionId, 1, "en");
+            AddInteraction(identifier, pageView);
+        }
+        public void AddGoal(string identifier, string goalId)
+        {
+            var definitionId = Guid.Parse(goalId);
+            var goal = new Goal(definitionId, DateTime.UtcNow);
+            AddInteraction(identifier, goal);
+        }
+        public void AddOutcome(string identifier, string outcomeId)
+        {
+            var definitionId = Guid.Parse(outcomeId);
+            var outcome = new Outcome(definitionId, DateTime.UtcNow, "USD", 42.95m);
+            AddInteraction(identifier, outcome);
+        }
+
     }
 }
