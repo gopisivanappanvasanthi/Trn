@@ -5,32 +5,22 @@ using System.Web;
 using System.Web.Mvc;
 using Sitecore.Data;
 using Trn.Feature.Article.Models;
+using Trn.Feature.Article.Repositories;
 
 namespace Trn.Feature.Article.Controllers
 {
     public class TrnCommentsListController : Controller
     {
+        private ITrnCommentRepository trnCommentRepository;
+        public TrnCommentsListController(ITrnCommentRepository trnCommentRepository)
+        {
+            this.trnCommentRepository = trnCommentRepository;
+        }
+
         // GET: TrnArticleList
         public ActionResult Index()
         {
-            
-            var contextItem = Sitecore.Context.Item;
-
-
-            var ListOfComments = contextItem.GetChildren()
-                                      .Select(Comment => new Comment
-                                      {
-                                          UserComments = Comment.Fields["UserComments"].Value,
-                                          UserName = Comment.Fields["UserName"].Value,
-
-                                      }).ToList();
-
-            ListOfComments comment = new ListOfComments
-            {
-                comments = ListOfComments
-            };
-
-            return View(comment);
+            return View(trnCommentRepository.GetComments());
         }
        
     }
