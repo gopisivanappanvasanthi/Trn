@@ -6,25 +6,21 @@ using System.Web;
 using System.Web.Mvc;
 using Trn.Feature.Article.Models;
 using Sitecore.Web.UI.WebControls;
-
+using Trn.Feature.Article.Repositories;
 
 namespace Trn.Feature.Article.Controllers
 {
     public class TrnArticleController : Controller
     {
+        private ITrnArticleRepository trnArticleRepository;
+        public TrnArticleController(ITrnArticleRepository trnArticleRepository)
+        {
+            this.trnArticleRepository = trnArticleRepository;
+        }
         // GET: article
         public ActionResult Index()
         {
-            var contextItem = Sitecore.Context.Item;
-
-            ArticleInfo article = new ArticleInfo
-            {
-                Title = new HtmlString(FieldRenderer.Render(contextItem, "Title")),
-                Description = new HtmlString(FieldRenderer.Render(contextItem, "Description")),
-                Image = new HtmlString(FieldRenderer.Render(contextItem, "Image"))
-            };
-
-            return View(article);
+            return View(trnArticleRepository.GetArticleInfo());
         }
     }
 }
