@@ -452,12 +452,14 @@
     <Content Include="Views\ArticleSearch\Index.cshtml" />
     <Content Include="Views\ArticleResult\Index.cshtml" />
     <Content Include="Views\TrnSearch\Index.cshtml" />
+    <None Include="App_Config\Include\Trn\Feature\Trn.Feature.ContentSearch.ImageCustomIndex.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ArticleResultController.cs" />
     <Compile Include="Controllers\ArticleSearchController.cs" />
     <Compile Include="Controllers\TrnSearchController.cs" />
+    <Compile Include="CustomIndex\ImageCustomIndex.cs" />
     <Compile Include="Models\ArticleResultInfo.cs" />
     <Compile Include="Models\ArticleSearchInfo.cs" />
     <Compile Include="Models\TrnSearchInfo.cs" />
