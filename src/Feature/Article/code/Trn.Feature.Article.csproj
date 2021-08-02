@@ -454,6 +454,7 @@
     <Content Include="Views\FeaturedArticle\Index.cshtml" />
     <Content Include="Views\TrnCommentsList\Index.cshtml" />
     <Content Include="Views\TrnBlogList\Index.cshtml" />
+    <Content Include="App_Config\Include\Trn\Trn.Feature.Article.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -467,7 +468,14 @@
     <Compile Include="Models\BlogListInfo.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\ListOfComments.cs" />
+    <Compile Include="Pipeline\RegisterDependencies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ITrnCommentRepository.cs" />
+    <Compile Include="Repositories\ITrnBlogRepository.cs" />
+    <Compile Include="Repositories\ITrnArticleRepository.cs" />
+    <Compile Include="Repositories\TrnCommentRepository.cs" />
+    <Compile Include="Repositories\TrnBlogRepository.cs" />
+    <Compile Include="Repositories\TrnArticleRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />

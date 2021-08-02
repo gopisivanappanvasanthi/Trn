@@ -7,24 +7,22 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Trn.Feature.Article.Models;
+using Trn.Feature.Article.Repositories;
 
 namespace Trn.Feature.Article.Controllers
 {
     public class FeaturedArticleController : Controller
     {
+        private ITrnArticleRepository trnArticleRepository;
+        public FeaturedArticleController(ITrnArticleRepository trnArticleRepository)
+        {
+            this.trnArticleRepository = trnArticleRepository;
+        }
         // GET: FeaturedArticle
         public ActionResult Index()
         {
 
-            var contextItem = RenderingContext.Current.Rendering.Item;
-
-            ArticleInfo articleInfo1 = new ArticleInfo
-            {
-                Title = new HtmlString(FieldRenderer.Render(contextItem, "Title")),
-                Image = new HtmlString(FieldRenderer.Render(contextItem, "Image")),
-                Url = LinkManager.GetItemUrl(contextItem)
-            };
-            return View(articleInfo1);
+            return View(trnArticleRepository.GetArticleInfo(true));
         }
     }
 }

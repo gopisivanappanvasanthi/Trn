@@ -2,12 +2,12 @@
 ID: "cb78263b-948b-46f6-983d-f4b0de343f2b"
 Parent: "1fab9579-696e-4b16-a45b-2af32881c868"
 Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
-Path: /sitecore/layout/Layouts/Project/Trn/MVCSample Layout
+Path: /sitecore/layout/Layouts/Project/Trn/Standard Trn Layout
 DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Views/_SampleTrnLayout.cshtml
+  Value: /Views/Layouts/StandardTrnLayout.cshtml
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200

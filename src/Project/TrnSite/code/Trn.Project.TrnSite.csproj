@@ -449,7 +449,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\_SampleTrnLayout.cshtml" />
+    <Content Include="Views\Layouts\StandardTrnLayout.cshtml" />
     <Content Include="Views\Listing\Index.cshtml" />
     <Content Include="Views\BreadcrumbNav\Index.cshtml" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.base.config" />
