@@ -458,16 +458,19 @@
     <Content Include="Views\ErrorPage\Index.cshtml" />
     <Content Include="App_Config\Include\Trn\Sitecore.ContentSearch.Solr.Index.Articles.config" />
     <Content Include="App_Config\Include\Trn\Trn.Project.TrnSite.Serialization.Global.config" />
+    <Content Include="Views\StaticPage\Index.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BreadcrumbNavController.cs" />
     <Compile Include="Controllers\ErrorPageController.cs" />
     <Compile Include="Controllers\ListingController.cs" />
+    <Compile Include="Controllers\StaticPageController.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\ErrorPageInfo.cs" />
     <Compile Include="Models\Listing.cs" />
     <Compile Include="Models\NavigationItem.cs" />
+    <Compile Include="Models\StaticPageInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

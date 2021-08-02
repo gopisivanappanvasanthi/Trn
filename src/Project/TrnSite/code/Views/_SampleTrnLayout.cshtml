@@ -17,8 +17,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
 </head>
 <body>
-    <div> 
-        @Html.Sitecore().Placeholder("main")
+    <div>       
+        @*@Html.RenderAction("StaticPage", "Index");*@        
+        @{Html.RenderAction("Index", "StaticPage");
+        }
+        @*@Html.Sitecore().Placeholder("main")*@
     </div>
 </body>
 </html>

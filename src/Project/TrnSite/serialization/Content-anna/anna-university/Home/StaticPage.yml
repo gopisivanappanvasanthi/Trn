@@ -1,0 +1,24 @@
+﻿---
+ID: "00883934-b1f9-4738-962c-0a3e47e45e53"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "e8377c16-0f47-47c3-8cbc-06fa9a20da3f"
+Path: "/sitecore/content/anna-university/Home/StaticPage"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "10cdd724-3c64-4dac-8b4f-b8d01ef7e387"
+      Hint: Description
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210729T052555Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a06e82c1-953a-4b1c-88f8-47f50860e62a"
+      Hint: Title
+      Value: Static Page

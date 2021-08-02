@@ -1,0 +1,14 @@
+﻿---
+ID: "fd345b31-1974-4f5d-8b12-834c75ff2a06"
+Parent: "e8377c16-0f47-47c3-8cbc-06fa9a20da3f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Trn/Pages/StaticPage/Static Page
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210729T045658Z
