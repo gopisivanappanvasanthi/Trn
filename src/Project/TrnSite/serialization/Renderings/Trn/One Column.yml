@@ -1,0 +1,18 @@
+﻿---
+ID: "b920950d-ccc5-4ca6-8a58-0e6c70feb801"
+Parent: "7a8e3beb-6354-45b3-b7d7-e756d5f0acdb"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Project/Trn/One column
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/DynamicPlaceholder/OneColumn.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T060537Z

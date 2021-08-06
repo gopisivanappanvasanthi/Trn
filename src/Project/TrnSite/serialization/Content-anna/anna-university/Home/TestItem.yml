@@ -12,18 +12,47 @@ SharedFields:
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}">
-        <r
-          id="{F1929083-8D87-4518-92B8-846DA6E99318}"
-          ph="main"
-          uid="{B74111A0-F9D3-479B-991D-2657FC59B41A}" />
-      </d>
+        l="{E70E907A-8986-4A1D-9680-6A4FF8E03F78}" />
     </r>
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{257961FC-F9F6-477F-AC7B-B74ADC36AE7E}"
+              p:before="*"
+              s:id="{66CDA4A6-4CF2-49D3-83CD-420180EF4FB6}"
+              s:par=""
+              s:ph="/main-{00000000-0000-0000-0000-000000000000}-0/section-{E8D60025-8E8B-4288-A070-65BA0863515A}-0" />
+            <r
+              uid="{D743C598-E95F-4899-927A-E467BE4854CD}"
+              p:after="r[@uid='{257961FC-F9F6-477F-AC7B-B74ADC36AE7E}']"
+              s:id="{F1929083-8D87-4518-92B8-846DA6E99318}"
+              s:par=""
+              s:ph="/main-{00000000-0000-0000-0000-000000000000}-0/section-{84FE7B76-15F8-4605-86A7-0509C2136DDB}-0" />
+            <r
+              uid="{84FE7B76-15F8-4605-86A7-0509C2136DDB}"
+              p:after="r[@uid='{D743C598-E95F-4899-927A-E467BE4854CD}']"
+              s:id="{B920950D-CCC5-4CA6-8A58-0E6C70FEB801}"
+              s:par=""
+              s:ph="main-{00000000-0000-0000-0000-000000000000}-0" />
+            <r
+              uid="{E8D60025-8E8B-4288-A070-65BA0863515A}"
+              p:after="*[1=2]"
+              s:id="{B920950D-CCC5-4CA6-8A58-0E6C70FEB801}"
+              s:par=""
+              s:ph="main-{00000000-0000-0000-0000-000000000000}-0" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20210721T062220Z
