@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data
+@using Sitecore.Data.Items
+
+@model List<Item>
+
+<h2>The controller Rendering Starts from here</h2>
+
+@foreach (Item student in Model)
+{
+    <p>@student.Name</p>
+}

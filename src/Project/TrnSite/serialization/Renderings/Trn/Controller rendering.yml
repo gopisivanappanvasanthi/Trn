@@ -1,0 +1,21 @@
+﻿---
+ID: "f1929083-8d87-4518-92b8-846da6e99318"
+Parent: "7a8e3beb-6354-45b3-b7d7-e756d5f0acdb"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/Trn/Controller rendering
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Index
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: DynamicPlaceholder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T082916Z
