@@ -1,0 +1,18 @@
+﻿---
+ID: "44bd0744-8ebd-4a66-9e3b-32436e93af55"
+Parent: "74a41f2b-f712-4583-9df1-6b9d183dc8ae"
+Template: "c959e8ef-cd42-4967-83f6-bee092c0beae"
+Path: /sitecore/content/Verticurl/Master/Data/File Lists
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164905Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

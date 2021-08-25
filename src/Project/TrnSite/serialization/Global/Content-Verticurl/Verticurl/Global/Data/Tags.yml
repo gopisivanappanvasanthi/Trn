@@ -1,0 +1,18 @@
+﻿---
+ID: "24c482d4-27bd-46ca-911b-e1406f183628"
+Parent: "62ed3f97-3cd5-45e4-ba80-796e03d59d03"
+Template: "25a6b824-672f-4c15-9b98-0b231c80f81c"
+Path: /sitecore/content/Verticurl/Global/Data/Tags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T165000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

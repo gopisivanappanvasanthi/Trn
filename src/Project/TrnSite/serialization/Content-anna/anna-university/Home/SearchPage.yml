@@ -1,0 +1,17 @@
+﻿---
+ID: "bcb32003-1604-48c2-9715-eb5c18e1d62c"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "34220b76-0bf8-4d70-b09d-c3c4c8b7bae1"
+Path: "/sitecore/content/anna-university/Home/SearchPage"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210720T075439Z
+    - ID: "b2ece800-2574-499f-8b1c-f4318d07afbd"
+      Hint: PageTitle
+      Value: "The following matches were found ! "

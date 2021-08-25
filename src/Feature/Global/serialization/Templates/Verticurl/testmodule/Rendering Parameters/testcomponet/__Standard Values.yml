@@ -1,0 +1,18 @@
+﻿---
+ID: "13bcdd47-4988-4e0a-88c1-162c821d8bbe"
+Parent: "d67244a7-500d-4c3c-b87c-52d10a1790f4"
+Template: "d67244a7-500d-4c3c-b87c-52d10a1790f4"
+Path: /sitecore/templates/Feature/Verticurl/testmodule/Rendering Parameters/testcomponet/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120629T104300

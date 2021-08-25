@@ -1,0 +1,37 @@
+﻿---
+ID: "92839e35-6ad6-462d-8452-55d3022af064"
+Parent: "a5caef86-28a1-45cf-85d2-3f7955ff547e"
+Template: "3e2d3e69-7677-4094-8fd4-0e4aff2e0fe8"
+Path: "/sitecore/content/anna-university/Home/Register"
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{43068699-410F-46AD-BDCF-69EFE409D942}">
+          <p:d />
+        </r>
+        <r
+          uid="{74A3CDA4-0C4A-445C-995B-5423CC33A3DA}"
+          s:id="{DA7A80DE-092B-4459-A48F-45BF9AAF9430}"
+          s:ph="main" />
+        <r
+          uid="{E4215858-8173-488C-A3AB-1CAE173DFA07}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210728T054001Z

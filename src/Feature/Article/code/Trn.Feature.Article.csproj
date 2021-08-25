@@ -449,22 +449,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
     <Content Include="Views\TrnComments\Index.cshtml" />
     <Content Include="Views\TrnComments\CommentsSummary.cshtml" />
     <Content Include="Views\FeaturedArticle\Index.cshtml" />
     <Content Include="Views\TrnCommentsList\Index.cshtml" />
+    <Content Include="Views\TrnBlogList\Index.cshtml" />
+    <Content Include="App_Config\Include\Trn\Trn.Feature.Article.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\FeaturedArticleController.cs" />
     <Compile Include="Controllers\TrnArticleController.cs" />
+    <Compile Include="Controllers\TrnBlogListController.cs" />
     <Compile Include="Controllers\TrnCommentsListController.cs" />
     <Compile Include="Controllers\TrnCommentsController.cs" />
     <Compile Include="Models\ArticleInfo.cs" />
+    <Compile Include="Models\BlogCard.cs" />
+    <Compile Include="Models\BlogListInfo.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\ListOfComments.cs" />
+    <Compile Include="Pipeline\RegisterDependencies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ITrnCommentRepository.cs" />
+    <Compile Include="Repositories\ITrnBlogRepository.cs" />
+    <Compile Include="Repositories\ITrnArticleRepository.cs" />
+    <Compile Include="Repositories\TrnCommentRepository.cs" />
+    <Compile Include="Repositories\TrnBlogRepository.cs" />
+    <Compile Include="Repositories\TrnArticleRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
@@ -479,6 +490,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Publishing\code\Trn.Foundation.Publishing.csproj">

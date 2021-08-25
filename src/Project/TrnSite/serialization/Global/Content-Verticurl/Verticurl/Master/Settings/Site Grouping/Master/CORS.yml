@@ -1,0 +1,18 @@
+﻿---
+ID: "22b171e9-e09e-43cc-9128-582df3664df8"
+Parent: "927eacc9-59b0-4539-825a-ce7da02a8a5b"
+Template: "3d55c326-3353-48cd-bedc-e8ae0cb9ef4d"
+Path: /sitecore/content/Verticurl/Master/Settings/Site Grouping/Master/CORS
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B6DAB7A0-4F89-4FF1-A1F8-683C1077162A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210714T164856Z
