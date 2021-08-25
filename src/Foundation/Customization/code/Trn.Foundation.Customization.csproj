@@ -453,6 +453,13 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Personalization_Rules\BasedOnTemplateName.cs" />
+    <Compile Include="Personalization_Rules\Cookie.cs" />
+    <Compile Include="Personalization_Rules\DateCompareRule.cs" />
+    <Compile Include="Personalization_Rules\HttpRequestParameter.cs" />
+    <Compile Include="Personalization_Rules\PersonalizeModelName.cs" />
+    <Compile Include="Personalization_Rules\PreviousPages.cs" />
+    <Compile Include="Personalization_Rules\querystring.cs" />
     <Compile Include="Pipelines\PageNotFoundResolver.cs" />
     <Compile Include="Pipelines\Set404Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

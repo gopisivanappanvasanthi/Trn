@@ -38,11 +38,119 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{A058BADB-EE36-4D38-B712-9425E514F920}"
-              s:pt="{7D0187BE-4AEE-4FEB-8D89-4DFB8AF366C1}"
+              s:pt="{170C63D7-2072-4325-9FC9-2F0A0A3FEE76}"
               s:uid="{A058BADB-EE36-4D38-B712-9425E514F920}">
               <rls>
                 <ruleset
                   s:pet="true">
+                  <rule
+                    uid="{AB1134E7-964D-4BCF-9DB5-9B3BC30F9125}"
+                    s:name="Previous Pages"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="279B652122A14EEB9686FC3E6626CC57"
+                        s:id="{8F64C1D6-A85B-4473-BC34-E5D1C44FD3B0}"
+                        s:PageId="{ACDB859B-675D-40B3-99A5-A9D8669755B7}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="38BE49C7FB454B368EF1AFCF5BEFAD75"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2488D45D-C457-49E2-B4FB-1ECF580CFAF9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{C04A20B6-3C8A-47DC-B4E7-6590E8643147}"
+                    s:name="Httprequest"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="D75EC20FF4004410B3408F5CAAF0F02A"
+                        s:id="{B0E72197-6EF8-45B6-81E7-4A2CAE927F1C}"
+                        s:ParameterName="Article"
+                        s:Operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}"
+                        s:Value="student protest" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="EE7495F19ABC4ED78D41E52F48DB0EA7"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EC8B2C1-457C-4916-ACB3-E79449C4ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{1841F401-5465-42BE-9429-864275B729F1}"
+                    s:name="querystring"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="CC118235BBD44DB3BA18C025AEC9898B"
+                        s:id="{A212A73A-0B93-4B85-A616-6A1A03646914}"
+                        s:operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:querystringvalue="cases rise" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="82352B93715847F2AEFE7E892AAC2CC6"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{77F1F589-AA50-482A-B1F0-EC6690E24641}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{B7003DF1-D1EF-490F-9BE1-31096B68A276}"
+                    s:name="Compare the Date"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="9AC408165CE94D6EBC7F9B800FEB097A"
+                        s:id="{DFEF261E-D561-4296-A018-FC21A216784D}"
+                        s:DateFieldOne="20210810T163000Z"
+                        s:DateFieldTwo="20210815T163000Z"
+                        s:operatorid="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A3F6F725D95247A48D9A285C1CD3EC22"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1ECB9DD8-54BA-407A-BB26-9F110F51CC13}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{EF0F7DBB-9B17-4B2C-A89D-3B4F10F8D62B}"
+                    s:name="Cookie"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="0C2A902C806A4739B349E4FEDDAC205A"
+                        s:id="{A67B245B-5DE6-47DC-8A6B-20431861DED5}"
+                        s:CookieName="Recruitment" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="09EFB2A37B384C73ADE3F8E144A33CFD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{ACDB859B-675D-40B3-99A5-A9D8669755B7}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{69015DE4-AA19-4C33-86AD-FB7DFFA6316B}"
+                    s:name="Specific Template Name"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="FEA731654FC0402992097EF2A217A33E"
+                        s:id="{BF0E9DCD-F45B-47FE-A6B8-85E36B0B344C}"
+                        s:OperatorId="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:Value="Article" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="B60E32CE48B74632A3E4E6DE6CEFD4AA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8DBB60C8-44A6-4421-A377-CBCFF6C81436}" />
+                    </actions>
+                  </rule>
                   <rule
                     uid="{9782CEA8-8FF3-4A51-ADEF-1E10B0AF8027}"
                     s:name="if goal is triggered"
